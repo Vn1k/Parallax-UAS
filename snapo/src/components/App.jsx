@@ -4,7 +4,7 @@ function App()
 {
     return (
         <div>
-            <h1 className="besok">Besok siang hari</h1>
+            <h1>Besok siang hari</h1>
         </div>
     );
 }
