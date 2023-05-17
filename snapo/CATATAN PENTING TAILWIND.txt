@@ -1,0 +1,6 @@
+Masuk dulu ke folder snapo 
+cd snapo
+
+lalu ke terminal 
+
+npm install -D tailwindcss
