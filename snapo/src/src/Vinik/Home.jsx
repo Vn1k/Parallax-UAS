@@ -1,5 +1,5 @@
 import React from "react";
-import Home from './Home-data.js';
+import Home from './Home.js';
 
 function Home() {
     return (
