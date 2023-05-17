@@ -1,24 +1,34 @@
-const about_us = [{
-        name: "Amanda Citra Dewanti",
-        img_path: "../../ASET/Individuals/ACD.jpg",
-        link: "#"
-    },{
-        name: "Calista Belva",
-        img_path: "../../ASET/Individuals/CB.jpg",
-        link: "#"
-    },{
-        name: "Kevin Ken",
-        img_path: "../../ASET/Individuals/KK.jpg",
-        link: "#"
-    },{
-        name: "Nathan Angelo Stenlie",
-        img_path: "../../ASET/Individuals/NAS.jpg",
-        link: "#"
-    },{
-        name: "Robertus Ravin Woenarso",
-        img_path: "../../ASET/Individuals/ACD.jpg",
-        link: "#"
-    }
+const about_us = [
+    {
+      id: 1,
+      name: "Amanda Citra Dewanti",
+      img_path: require("../../ASET/Individuals/ACD.jpg"),
+      link: "#",
+    },
+    {
+      id: 2,
+      name: "Calista Belva",
+      img_path: require("../../ASET/Individuals/CB.jpg"),
+      link: "#",
+    },
+    {
+      id: 3,
+      name: "Kevin Ken",
+      img_path: require("../../ASET/Individuals/KK.jpg"),
+      link: "#",
+    },
+    {
+      id: 4,
+      name: "Nathan Angelo Stenlie",
+      img_path: require("../../ASET/Individuals/NAS.jpg"),
+      link: "#",
+    },
+    {
+      id: 5,
+      name: "Robertus Ravin Woenarso",
+      img_path: require("../../ASET/Individuals/ACD.jpg"),
+      link: "#",
+    },
 ];
 
 export default about_us;

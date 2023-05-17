@@ -4,11 +4,11 @@ import about_us from "./about_us";
 
 function Individuals(){
     const ImgTrack = about_us.map((parameter) => (
-        <Individual src={parameter.img_path}/>
+        <Individual id={parameter.id} img_path={parameter.img_path}/>
     ));
 
     return(
-        <div id="">
+        <div id="a">
             {ImgTrack}
         </div>
     )
