@@ -1,6 +1,6 @@
 import React from "react";
 import Hal2 from "./acd/Hal2";
-import Vinik from "./Vinik/Home";                        
+import Home from "./Vinik/Home";                        
 
 function App()
 {
