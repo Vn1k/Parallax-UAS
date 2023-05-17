@@ -1,3 +1,0 @@
-# Parallax UAS
-# Nama Kelompok
-
