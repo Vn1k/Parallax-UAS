@@ -5,6 +5,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    background-color: #100C08;
 }
 
 /*About Us*/
@@ -35,4 +36,9 @@ body{
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
+}
+
+#container3
+{
+    color: #fff;
 }
