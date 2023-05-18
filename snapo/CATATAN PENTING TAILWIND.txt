@@ -4,3 +4,6 @@ cd snapo
 lalu ke terminal 
 
 npm install -D tailwindcss
+
+
+NAMAIN FILE NYA PAKE NAMA HALAMAN DI FIGMA :D
