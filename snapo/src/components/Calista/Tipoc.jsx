@@ -1,15 +1,24 @@
 import React from "react";
+import Card1 from "./Card1";
 import tipo from "./tipo";
 
-function Tipo(props){
+function createCard(tipo){
     return(
-        <div className="tipo">
-            <div id="tittle">{props.tittle}</div>
-            <div id="text">{props.text}</div>
-            <div id="img1">{props.img1}</div>
-            <div id="img2">{props.img2}</div>
+        <Card1
+        text={tipo.text}
+        img1={tipo.img1}
+        img2={tipo.img2}
+        ></Card1>
+    );
+}
+
+function Tipoc(){
+    return (
+        <div>
+            <div className="heading">Time Dimension</div>
+            <div id="cards">{tipo.map(createCard)}</div>
         </div>
     );
 }
 
-export default Tipo;
+export default Tipoc;

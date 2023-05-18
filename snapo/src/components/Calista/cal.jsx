@@ -1,16 +1,26 @@
 import React from "react";
-import cal from "../Calista/cal";
+import Card from "./Card";
+import cal from "./cal";
 
-function Cal(props){
-    return(
-        <div className="tipo">
-            <div id="tittlecal">{props.name}</div>
-            <div id="textcal">{props.text}</div>
-            <div id="img1cal">{props.img1}</div>
-            <div id="img2cal">{props.img2}</div>
-            <div id="vidcal">{props.video}</div>
+function createCard(cal){
+    return (
+        <Card
+        name={cal.name}
+        text={cal.text}
+        img1={cal.img1}
+        img2={cal.img2}
+        vidcal={cal.vidcal}
+        ></Card>
+    );
+}
+
+function Cal(){
+    return (
+        <div>
+            <div className="heading">Calista Belva</div>
+            <div id="cards">{cal.map(createCard)}</div>
         </div>
     );
 }
 
-export default Tipo;
+export default Cal;
