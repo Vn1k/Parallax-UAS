@@ -8,7 +8,7 @@ function Individuals(){
     ));
 
     return(
-        <div id="a">
+        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" className="selectDisable">
             {ImgTrack}
         </div>
     )

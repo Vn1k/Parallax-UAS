@@ -1,18 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-/*tambahin di setiap css*/
-body{
-    margin: 0;
-    overflow-x: hidden;
-}
-
-/*About Us*/
-#about-us{
-    width: 100vw;
-    height: 100vh;
-}
-
 #image-track img {
     width: 35vmin;
     height: 54vmin;
@@ -23,7 +8,7 @@ body{
 #image-track {
     display: flex;
     gap :4vmin;
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(0%, -50%);
