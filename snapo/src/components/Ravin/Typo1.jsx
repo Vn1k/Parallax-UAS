@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Tipo1(item){
+function Tipo1(item){
     return(
         <div id="container">
             <div id="hands">
@@ -12,3 +12,5 @@ export default function Tipo1(item){
         </div>
     );
 }
+
+export default Tipo1;
