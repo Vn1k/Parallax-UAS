@@ -9,12 +9,11 @@ function App()
     return (
         <div>
             <Navbar />
-                <h1 className="besok">Besok siang hari</h1>
             <AboutUs/>
             {document.addEventListener("turbolinks:load", core())}
             <Tipoc />
         </div>
-    );
+    )
 }
 
 export default App;
