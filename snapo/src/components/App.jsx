@@ -3,15 +3,17 @@ import Navbar from "../components/Vinik/Navbar";
 import AboutUs from "../components/NAS/AboutUs";
 import core from "./NAS/core";
 import Tipoc from "./Calista/Tipoc";
+import Tipo3 from "./Acd/Tipo3";
 
 function App()
 {
     return (
         <div>
             <Navbar />
+            <Tipo3 />
+            <Tipoc />
             <AboutUs/>
             {document.addEventListener("turbolinks:load", core())}
-            <Tipoc />
         </div>
     )
 }
