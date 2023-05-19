@@ -2,7 +2,7 @@ import React from "react";
 
 function Tipo1(item){
     return(
-        <div id="container">
+        <div id="ravin">
             <div id="hands">
                 <img src="../../ASET/Images/hands.jpg"/>
             </div>
