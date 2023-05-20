@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanuman:wght@100;400&family=Satisfy&display=swap');
 /*tambahin di setiap css*/
 body{
     margin: 0;
@@ -48,7 +49,6 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
 }
 
 #image3
@@ -66,28 +66,96 @@ body{
 #title
 {
     position: relative;
-    left: 25%;
-    top: 30%;
-    font-size: 60px;
+    left: 22%;
+    top: 9%;
+    font-size: 70px;
     z-index: 1;
+    font-family: 'Hanuman', serif;
 }
 
 #text
 {
     position: relative;
     align-items: end;
-    left: 50%;
-    top: 18%;
-    font-size: 30px;
+    left: 40%;
+    top: -11%;
+    font-size: 20px;
+    font-family: 'Hanuman', serif;
 }
 
 #author
 {
     position: relative;
-    left: 70%;
-    top: 3%;
+    left: 71%;
+    top: -25%;
     z-index: 1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
 }
+
+#kutip
+{
+    position: relative;
+    left: 69%;
+    top: 22%;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#rectangle
+{
+    background-color: #fff;
+    width: 150px;
+    height: 450px;
+    position: relative;
+    left: 19%;
+    top: -50%;
+    opacity: 40%;
+}
+
+#rectangle1
+{
+    background-color: #BA9616;
+    width: 100px;
+    height: 350px;
+    position: relative;
+    left: 25%;
+    top: -75%;
+    opacity: 40%;
+}
+
+#rectangle2
+{
+    background-color: #fff;
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 70%;
+    top: -119%;
+    opacity: 40%;
+}
+
+#line
+{
+    background-color: #fff;
+    width: 500px;
+    height: 4px;
+    position: relative;
+    left: 58%;
+    top: -101%;
+}
+
+#dot
+{
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    left: 57.5%;
+    top: -101.8%;
+}
+
+
 
 /* ravin */
 #ravin{
