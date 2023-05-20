@@ -164,31 +164,26 @@ body{
     background-color:black;
     color: white;
 }
-
 #judul{
+    position: relative;
     font-family: 'Qwigley', serif;
     font-size: 70px;
 }
-
 #tulisan{
+    position: relative;
     font-family: 'Hanuman', cursive;
     font-size: 20px;
 }
-
 #tahun{
+    position: relative;
     font-family: 'Hanuman' , cursive;
     font-size: 20px;
 }
-
 #hands{
-    width: 10px;
-    height: 10px;
-    scale: 50%;
-    left: 50%;
-    justify-content: center;
     position: relative;
+    scale: 45%;
+    top: -185%;
 }
-
 #gariskotak{
     background-color: white;
     border-color: white;
@@ -196,8 +191,8 @@ body{
     height: 873px;
     position: relative;
 }
-
 #lingkaran{
+    position: relative;
     background-color: white;
     width: 300px;
     height: 300px;
@@ -205,21 +200,18 @@ body{
     opacity: 40%;
     border-radius: 50%;
 }
-
 #garisatas{
     background-color: white;
     width: 495px;
     height: 5px;
     position: relative;
 }
-
 #gariskecil{
     background-color: white;
     width: 495px;
     height: 5px;
     position: relative;
 }
-
 #kotak1{
     background-color: white;
     width: 68px;
