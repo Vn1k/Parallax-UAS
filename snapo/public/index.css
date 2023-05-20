@@ -179,3 +179,51 @@ body{
     font-family: 'Hanuman' , cursive;
     font-size: 20px;
 }
+
+#hands{
+    width: 10px;
+    height: 10px;
+    scale: 50%;
+    left: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+#gariskotak{
+    background-color: white;
+    border-color: white;
+    width: 165px;
+    height: 873px;
+    position: relative;
+}
+
+#lingkaran{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    opacity: 40%;
+    border-radius: 50%;
+}
+
+#garisatas{
+    background-color: white;
+    width: 495px;
+    height: 5px;
+    position: relative;
+}
+
+#gariskecil{
+    background-color: white;
+    width: 495px;
+    height: 5px;
+    position: relative;
+}
+
+#kotak1{
+    background-color: white;
+    width: 68px;
+    height: 350px;
+    position: relative;
+    opacity: 40%;
+}
