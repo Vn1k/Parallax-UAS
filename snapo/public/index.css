@@ -165,3 +165,17 @@ body{
     color: white;
 }
 
+#judul{
+    font-family: 'Qwigley', serif;
+    font-size: 70px;
+}
+
+#tulisan{
+    font-family: 'Hanuman', cursive;
+    font-size: 20px;
+}
+
+#tahun{
+    font-family: 'Hanuman' , cursive;
+    font-size: 20px;
+}
