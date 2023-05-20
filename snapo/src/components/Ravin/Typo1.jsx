@@ -1,10 +1,12 @@
 import React from "react";
 
 function Tipo1(){
+    const IMGURL = require("../../ASET/Images/hands.jpg");
+
     return(
         <div id="ravin">
             <div id="hands">
-                <img src="../../ASET/Images/hands.jpg" alt="hands"/>
+                <img src={IMGURL} alt="hands"/>
             </div>
             <div id="garis"></div>
             {/* garis judul */}
