@@ -8,11 +8,11 @@ function Navbar () {
                 <img src="/snapo/src/ASET/SVG/SNAPO WHITE.png" className="Navbar-logo" alt="logo" />
             </div>
             <div id="nav-link">
-                <a href="#top">Home</a>
-                <a href="">Work</a>
-                <a href="/about">About</a>
-                <a href="/contact">Credits</a>
-                <a href="/">Gallery</a>
+                <ul>
+                    <li>
+                        
+                    </li>
+                </ul>
             </div>
         </div>
     );

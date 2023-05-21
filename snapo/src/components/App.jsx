@@ -14,6 +14,7 @@ function App()
 {
     return (
         <div>
+            <Navbar/>
             <Home/>
             <Tipo3 />
             <Typo1/>
