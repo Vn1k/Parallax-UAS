@@ -372,12 +372,50 @@ position: relative;
 #Credit{
     width: 100vw;
     height: 120vh;
-    background-color: rgba(16,12,8,255);
+    background-color: red;
     color: white;
+    font-family: 'Hanuman', cursive;
 }
 #gm{
     position: relative;
     scale: 50%;
-    left: -25%;
-    top: -32%;
+    left: -30%;
+    top: -63%;
+}
+#jfoot{
+    position: relative;
+    font-size: 96px;
+    z-index: 1;
+    top: 50%;
+    left: 35%;
+}
+#dfoot{
+    position: relative;
+    font-size: 24px;
+    top: 48%;
+    left: 26%;
+}
+#Ref1{
+    position: relative;
+    top: 60%;
+    left: 15%;
+    font-size: 24px;
+}
+#Ref2{
+    position: relative;
+    top: 55.2%;
+    left: 37%;
+    font-size: 24px;
+}
+#Ref3{
+    position: relative;
+    top: 50.4%;
+    left: 59%;
+    font-size: 24px;
+}
+#Ref4{
+    position: relative;
+    top: 45.6%;
+    left: 81%;
+    font-size: 24px;
 }
