@@ -372,7 +372,7 @@ position: relative;
 #Credit{
     width: 100vw;
     height: 120vh;
-    background-color: red;
+    background-color: rgba(16,12,8,255);
     color: white;
     font-family: 'Hanuman', cursive;
 }
