@@ -18,7 +18,7 @@ function App()
             <Typo1/>
             <Tipo2 />
             <Gallery/>
-            <AboutUs/
+            <AboutUs/>
             {document.addEventListener("turbolinks:load", core())}
         </div>
     )
