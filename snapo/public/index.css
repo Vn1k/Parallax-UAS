@@ -316,4 +316,27 @@ position: relative;
     left: 25%;
 }
 
-    
+/* Gallery */
+#gallery{
+    background-color: rgba(16,12,8,255);
+    width: 100vw;
+    height: 100vh;
+}
+#gambar1{
+    position: relative;
+    scale: 11%;
+    top: -151%;
+    left: -33%;
+}
+#gambar2{
+    position: relative;
+    scale: 9.6%;
+    top: -580%;
+    left: -3.8%;
+}
+#gambar3{
+    position: relative;
+    scale: 9.6%;
+    top: -1039.5%;
+    left: 26%;
+}
