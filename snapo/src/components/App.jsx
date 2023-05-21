@@ -17,7 +17,7 @@ function App()
             <Home/>
             <Tipo3 />
             <Typo1/>
-            <Tipo2 />
+            {/* <Tipo2 /> */}
             <Gallery/>
             <AboutUs/>
             <Credit/>
