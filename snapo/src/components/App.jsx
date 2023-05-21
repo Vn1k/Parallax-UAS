@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/Vinik/Navbar";    
 import AboutUs from "../components/NAS/AboutUs";
-import core from "./NAS/core";
 import Tipoc from "./Calista/Tipoc";
 import Tipo3 from "./Acd/Tipo3";
 import Typo1 from "./Ravin/Typo1";
@@ -13,16 +12,20 @@ import Credit from "./Ravin/Credit";
 function App()
 {
     return (
-        <div>
+        <>
             <Home/>
             <Tipo3 />
             <Typo1/>
             <Tipo2 />
             <Gallery/>
             <AboutUs/>
+<<<<<<< Updated upstream
             <Credit/>
             {document.addEventListener("turbolinks:load", core())}
         </div>
+=======
+        </>
+>>>>>>> Stashed changes
     )
 }
 

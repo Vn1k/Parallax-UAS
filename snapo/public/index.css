@@ -1,20 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanuman:wght@100;400&family=Satisfy&display=swap');
-/*tambahin di setiap css*/
+
 body{
     margin: 0;
+    padding: 0;
+}
+
+#root{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#root > div{
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
-    background-color: #100C08;
 }
 
 /*About Us*/
 #about-us{
-    width: 100vw;
-    height: 100vh;
     background-color: black;
 }
 
