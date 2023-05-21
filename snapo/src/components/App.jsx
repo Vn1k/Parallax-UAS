@@ -19,13 +19,8 @@ function App()
             <Tipo2 />
             <Gallery/>
             <AboutUs/>
-<<<<<<< Updated upstream
             <Credit/>
-            {document.addEventListener("turbolinks:load", core())}
         </div>
-=======
-        </>
->>>>>>> Stashed changes
     )
 }
 
