@@ -1,0 +1,32 @@
+/*TIPO3*/
+#container3
+{
+    color: #fff;
+}
+
+#image3
+{
+    width: 10px;
+    height: 10px;
+    scale: 34%;
+    justify-content: center;
+    position: relative;
+    left: 15%;
+    top: 50%;
+    z-index: -1;
+}
+
+#title
+{
+    z-index: 1;
+}
+
+#text
+{
+    align-items: end;
+}
+
+#author
+{
+    z-index: 1;
+}

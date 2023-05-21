@@ -1,14 +1,25 @@
 import React from "react";
 
-function Tipo1(item){
+function Tipo1(){
+    const IMGURL = require("../../ASET/Images/hands1.jpg");
+    // reaksi jujur gw pas tau harus dikasih require: oalahh 😅😅
     return(
-        <div id="container">
+        <div id="ravin">
+            <div id="garisatas"></div>
+            <h1 id="judul">THREADS</h1>
+            <h2 id="tulisan">Threads become tangled, intertwined, broken off, unraveld. They constanly reflect a part of my mental state, as if they were expressing the state of human relationships.</h2>
+            <h2 id="tahun">2019</h2>
+            <div id="kotak1"></div>
+            {/* persegi panjang kebawah */}
+            <div id="gariskotak"></div>
+            {/* yang nempel di foto */}
+            <div id="lingkaran"></div>
+            {/* dibawah foto */}
+            <div id="gariskecil"></div> 
+            {/* dibawah tulisan */}
             <div id="hands">
-                <img src={item.gmbr}/>
+                <img src={IMGURL} alt="hands"/>
             </div>
-            <h1 id="judul">{item.judul}</h1>
-            <h1 id="text">{item.text}</h1>
-            <h1 id="tahun">{item.tahun}</h1>
         </div>
     );
 }

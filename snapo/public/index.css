@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanuman:wght@100;400&family=Satisfy&display=swap');
 /*tambahin di setiap css*/
 body{
     margin: 0;
@@ -47,6 +48,9 @@ body{
 #container3
 {
     color: #fff;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 #image3
@@ -57,22 +61,183 @@ body{
     justify-content: center;
     position: relative;
     left: 15%;
-    top: 50%;
+    top: 1%;
     z-index: -1;
 }
 
 #title
 {
+    position: relative;
+    left: 22%;
+    top: 11%;
+    font-size: 70px;
     z-index: 1;
+    line-height: 1.1em;
+    font-family: 'Hanuman', serif;
 }
 
 #text
 {
+    position: relative;
     align-items: end;
+    left: 40%;
+    top: -7%;
+    font-size: 20px;
+    width: 40vw;
+    font-family: 'Hanuman', serif;
 }
 
 #author
 {
+    position: relative;
+    left: 71%;
+    top: -28%;
     z-index: 1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
 }
 
+#kutip
+{
+    position: relative;
+    left: 69%;
+    top: 20%;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#rectangle
+{
+    background-color: #fff;
+    width: 150px;
+    height: 450px;
+    position: relative;
+    left: 19%;
+    top: -50%;
+    opacity: 40%;
+}
+
+#rectangle1
+{
+    background-color: #BA9616;
+    width: 100px;
+    height: 350px;
+    position: relative;
+    left: 25%;
+    top: -75%;
+    opacity: 40%;
+}
+
+#rectangle2
+{
+    background-color: #fff;
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 70%;
+    top: -119%;
+    opacity: 30%;
+}
+
+#line
+{
+    background-color: #fff;
+    width: 500px;
+    height: 4px;
+    position: relative;
+    left: 58%;
+    top: -105%;
+}
+
+#dot
+{
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    left: 57.5%;
+    top: -105.8%;
+}
+
+
+
+/* ravin */
+#ravin{
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+    color: white;
+    }
+    #judul{
+        position: relative;
+        font-family: 'Qwigley', serif;
+        font-size: 70px;
+        top: 16%;
+        left: 38%;
+    }
+    #tulisan{
+        position: relative;
+        font-family: 'Hanuman', cursive;
+        font-size: 25px;
+        z-index: 1;
+        text-align: justify;
+        top: 20%;
+        left: -3%;
+    }
+    #tahun{
+        position: relative;
+        font-family: 'Hanuman' , cursive;
+        font-size: 20px;
+        top: 45%;
+        left: 22.5%;
+    }
+    #hands{
+        position: relative;
+        scale: 50%;
+        top: -213%;
+        left: 35%;
+    }
+    #gariskotak{
+        background-color: red;
+        border: 2px, solid white;
+        width: 200px;
+        height: 850px;
+        position: relative;
+        top: -59%;
+        left: 58%;
+    }
+    #lingkaran{
+        position: relative;
+        background-color: white;
+        width: 400px;
+        height: 400px;
+        opacity: 40%;
+        border-radius: 50%;
+        top: -95%;
+        left: 53%;
+    }
+    #garisatas{
+        background-color: white;
+        width: 700px;
+        height: 5px;
+        position: relative;
+        top: 25%;
+        left: 0%;
+    }
+    #gariskecil{
+        background-color: white;
+        width: 475px;
+        height: 5px;
+        position: relative;
+        top: -125%;
+        left: 27%;
+    }
+    #kotak1{
+        background-color: white;
+        width: 68px;
+        height: 344px;
+        position: relative;
+        opacity: 40%;
+        top: 31%;
+        left: 25%;
+    }
