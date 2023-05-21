@@ -20,7 +20,7 @@ function App()
             <Gallery/>
             <AboutUs/>
             <Credit/>
-        </div>
+        </>
     )
 }
 
