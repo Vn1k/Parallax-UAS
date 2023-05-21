@@ -321,6 +321,7 @@ position: relative;
     background-color: rgba(16,12,8,255);
     width: 100vw;
     height: 100vh;
+    color: white;
 }
 #gambar1{
     position: relative;
@@ -331,12 +332,30 @@ position: relative;
 #gambar2{
     position: relative;
     scale: 9.6%;
-    top: -580%;
+    top: -587.4%;
     left: -3.8%;
 }
 #gambar3{
     position: relative;
     scale: 9.6%;
-    top: -1039.5%;
+    top: -1053.5%;
     left: 26%;
+}
+#g0{
+    position: relative;
+    top: -327%;
+    left: 17%;
+    font-family:'Hanuman', cursive;
+}
+#g1{
+    position: relative;
+    top: -794%;
+    left: 48%;
+    font-family:'Hanuman', cursive;
+}
+#g2{
+    position: relative;
+    top: -1260%;
+    left: 78.5%;
+    font-family:'Hanuman', cursive;
 }
