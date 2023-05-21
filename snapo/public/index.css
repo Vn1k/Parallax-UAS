@@ -380,7 +380,7 @@ position: relative;
     position: relative;
     scale: 50%;
     left: -30%;
-    top: -63%;
+    top: -70%;
 }
 #jfoot{
     position: relative;
@@ -418,4 +418,14 @@ position: relative;
     top: 45.6%;
     left: 81%;
     font-size: 24px;
+}
+#hor{
+    background-color: white;
+    position: relative;
+    opacity: 40%;
+    width: 344px;
+    height: 80px;
+    top: 8%;
+    left: 62%;
+    z-index: 1;
 }
