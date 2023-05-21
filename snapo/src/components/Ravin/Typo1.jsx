@@ -2,7 +2,7 @@ import React from "react";
 
 function Tipo1(){
     const IMGURL = require("../../ASET/Images/hands1.jpg");
-    // reaksi jujur gw pas tau harus dikasih require: oalahh 😅😅
+    // reaksi jujur gw pas tau harus dikasih require: oalahh 😅😅 zizizizi hebat vin
     return(
         <div id="ravin">
             <div id="garisatas"></div>
