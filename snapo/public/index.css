@@ -67,9 +67,10 @@ body{
 {
     position: relative;
     left: 22%;
-    top: 9%;
+    top: 11%;
     font-size: 70px;
     z-index: 1;
+    line-height: 1.1em;
     font-family: 'Hanuman', serif;
 }
 
@@ -78,8 +79,9 @@ body{
     position: relative;
     align-items: end;
     left: 40%;
-    top: -11%;
+    top: -7%;
     font-size: 20px;
+    width: 40vw;
     font-family: 'Hanuman', serif;
 }
 
@@ -87,7 +89,7 @@ body{
 {
     position: relative;
     left: 71%;
-    top: -25%;
+    top: -28%;
     z-index: 1;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
@@ -97,7 +99,7 @@ body{
 {
     position: relative;
     left: 69%;
-    top: 22%;
+    top: 20%;
     font-size: 70px;
     font-family: 'Dancing Script', cursive;
 }
@@ -132,7 +134,7 @@ body{
     position: relative;
     left: 70%;
     top: -119%;
-    opacity: 40%;
+    opacity: 30%;
 }
 
 #line
@@ -142,7 +144,7 @@ body{
     height: 4px;
     position: relative;
     left: 58%;
-    top: -101%;
+    top: -105%;
 }
 
 #dot
@@ -152,7 +154,7 @@ body{
     height: 12px;
     position: relative;
     left: 57.5%;
-    top: -101.8%;
+    top: -105.8%;
 }
 
 
