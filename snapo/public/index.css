@@ -10,8 +10,6 @@ body{
     overflow-x: hidden;
     background-color: #100C08;
 }
-/*NAVBAR!!!!
-
 
 /*About Us*/
 #about-us{
@@ -44,7 +42,7 @@ body{
     user-select: none;
 }
 
-/*TIPO3*/
+/*TIPO3 ACD PUNYA!!!!!!!*/
 #container3
 {
     color: #fff;
@@ -159,7 +157,22 @@ body{
     top: -105.8%;
 }
 
+#container2
+{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
 
+#image2
+{
+    scale: 25%;
+    position: relative;
+    top: -80%;
+    left: 80%;
+    width: 50px;
+}
 
 /* ravin */
 #ravin{
