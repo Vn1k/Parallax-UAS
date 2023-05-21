@@ -49,6 +49,7 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
+    margin-top: 8vh;
 }
 
 #image3
@@ -169,12 +170,62 @@ body{
 {
     scale: 25%;
     position: relative;
-    top: -80%;
-    left: 80%;
+    top: -75%;
+    left: 15%;
     width: 50px;
 }
 
-/* Typo1 */
+#title2
+{
+    position: relative;
+    top: -222%;
+    left: 48%;
+    font-size: 40px;
+    font-family: 'Hanuman', serif;
+}
+
+#text2
+{
+    position: relative;
+    top: -240%;
+    left: 55%;
+    font-size: 23px;
+    font-weight: 100;
+    width: 35vw;
+    font-family: 'Hanuman', serif;
+}
+
+#year2
+{
+    position: relative;
+    top: -275%;
+    left: 90%;
+    font-size: 30px;
+    font-family: 'Hanuman', serif;
+}
+
+#rectangle22
+{
+    background-color: #fff;
+    width: 800px;
+    height: 4px;
+    position: relative;
+    top: -275%;
+    left: 60%;
+}
+
+#rectangle32
+{
+    background-color: #fff;
+    width: 850px;
+    height: 90px;
+    opacity: 30%;
+    position: relative;
+    top: -297%;
+    left: 35%;
+}
+
+/* ravin */
 #ravin{
     width: 100vw;
     height: 100vh;
