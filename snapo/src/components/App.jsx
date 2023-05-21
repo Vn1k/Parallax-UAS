@@ -5,6 +5,7 @@ import core from "./NAS/core";
 import Tipoc from "./Calista/Tipoc";
 import Tipo3 from "./Acd/Tipo3";
 import Typo1 from "./Ravin/Typo1";
+import Tipo2 from "./Acd/Tipo2";
 
 function App()
 {
@@ -12,8 +13,9 @@ function App()
         <div>
             <Navbar />
             <Tipo3 />
-            <Tipoc />
             <Typo1/>
+            <Tipoc />
+            <Tipo2 />
             <AboutUs/>
             {document.addEventListener("turbolinks:load", core())}
         </div>
