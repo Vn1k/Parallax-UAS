@@ -359,3 +359,16 @@ position: relative;
     left: 78.5%;
     font-family:'Hanuman', cursive;
 }
+/* Credit */
+#Credit{
+    width: 100vw;
+    height: 120vh;
+    background-color: rgba(16,12,8,255);
+    color: white;
+}
+#gm{
+    position: relative;
+    scale: 50%;
+    left: -25%;
+    top: -32%;
+}

@@ -8,6 +8,7 @@ import Typo1 from "./Ravin/Typo1";
 import Home from "./Vinik/Home/Home";
 import Tipo2 from "./Acd/Tipo2";
 import Gallery from "./Ravin/Gallery"; 
+import Credit from "./Ravin/Credit";
 
 function App()
 {
@@ -19,6 +20,7 @@ function App()
             <Tipo2 />
             <Gallery/>
             <AboutUs/>
+            <Credit/>
             {document.addEventListener("turbolinks:load", core())}
         </div>
     )
