@@ -49,7 +49,7 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    margin-top: 8vh;
+    margin-top: 22vh;
 }
 
 #image3
@@ -164,6 +164,7 @@ body{
     height: 100vh;
     margin: 0;
     color: #fff;
+    margin-top: 22vh;
 }
 
 #image2
