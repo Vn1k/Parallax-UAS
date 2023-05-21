@@ -189,9 +189,9 @@ body{
     left: 38%;
 }
 #awaw{
-    position: absolute;
-    top: 135%; 
-    left: 4.5%;
+    position: relative;
+    top: 33%; 
+    left: 7.5%;
     font-size: 80px;
     font-family: 'Dancing Script', cursive;
 }
@@ -200,8 +200,8 @@ body{
     font-family: 'Hanuman', cursive;
     font-size: 25px;
     z-index: 1;
-    top: 26%;
-    left: 5%;
+    top: 25%;
+    left: 8%;
     width: 45vw;
     align-items: end;
 }
