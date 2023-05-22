@@ -64,7 +64,7 @@ body{
 }
 
 #image-container img:hover{
-    filter: grayscale(100%) blur(5px);
+    filter: sepia(75%) brightness(0.5) blur(2.5px);
 }
 
 #image-track {
@@ -85,7 +85,7 @@ body{
     user-select: none;
 }
 
-/*Tipo3*/
+/*Tipo3 ACD*/
 #container3{
     box-sizing: border-box;
     padding-top: 4.5rem !important;
@@ -204,15 +204,14 @@ body{
     top: -105.8%;
     z-index: 1;
 }
+
 /*tipoooo2*/
-#container2
-{
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    color: #fff;
-    margin-top: 22vh;
-    background-color: #100C08;
+#container2{
+    box-sizing: border-box;
+    padding-top: 2rem !important;
+    overflow: hidden;
+    background-color: black;
+    color: white;
 }
 
 #image2
