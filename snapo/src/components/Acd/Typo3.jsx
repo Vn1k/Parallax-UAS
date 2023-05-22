@@ -8,9 +8,15 @@ function Typo3(param)
             <div id="image3">
                 <img id={param.id} src={param.image3}/>
             </div>
-            <h1 id="title">{param.title}</h1>
-            <h3 id="text">{param.text}</h3>
-            <h3 id="author">{param.author}</h3>
+            <h2 id="kutip">"</h2>
+            <h1 id="title">Living <br /> Space</h1>
+            <p id="text">{param.text}</p>
+            <h5 id="author">{param.author}</h5>
+            <div id="rectangle"></div>
+            <div id="rectangle1"></div>
+            <div id="rectangle2"></div>
+            <div id="line"></div>
+            <div id="dot"></div>
         </div>
     );
 }

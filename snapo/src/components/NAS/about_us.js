@@ -26,7 +26,7 @@ const about_us = [
     {
       id: 5,
       name: "Robertus Ravin Woenarso",
-      img_path: require("../../ASET/Individuals/ACD.jpg"),
+      img_path: require("../../ASET/Individuals/RW.jpg"),
       link: "#",
     },
 ];
