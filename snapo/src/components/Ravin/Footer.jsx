@@ -1,6 +1,6 @@
 import React from "react";
 
-function Credit(){
+function Footer(){
     const gmbrf = require("../../ASET/Images/footer.jpg");
     return(
        <div id="Credit">
@@ -19,4 +19,4 @@ function Credit(){
     );
 }
 
-export default Credit;
+export default Footer;
