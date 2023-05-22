@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #100C08;
+    overflow-x: hidden;
 }
 
 #root{
@@ -13,7 +13,7 @@ body{
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #100C08;
+    background-color: rgb(255, 255, 255);
 }
 
 #root > div{
@@ -24,15 +24,47 @@ body{
 }
 
 /*About Us*/
-#about-us{
-    background-color: #100C08;
-}
-
-#image-track img {
+#image-container {
     width: 35vmin;
     height: 54vmin;
+    overflow: hidden;
+  }
+  
+#image-container img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: right;
+    transition: filter 0.5s ease-in-out;
+}  
+
+#image-container h1 {
+    font-family: 'Segoe UI';
+    font-weight: 200;
+    color: white;
+    position: relative;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+    text-align: center;
+    padding: 1em;
+}
+
+#image-container #fade-in{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#image-container #fade-out{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#image-container img:hover{
+    filter: grayscale(100%) blur(5px);
 }
 
 #image-track {
@@ -42,6 +74,7 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(0%, -50%);
+    max-width: fit-content;
 }
 
 .selectDisable {
@@ -52,15 +85,11 @@ body{
     user-select: none;
 }
 
-/*TIPO3 ACD PUNYA!!!!!!!*/
-#container3
-{
-    color: #fff;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    margin-top: 22vh;
-    background-color: #100C08;
+/*Tipo3*/
+#container3{
+    box-sizing: border-box;
+    padding-top: 4.5rem !important;
+    overflow: hidden;
 }
 
 #image3
