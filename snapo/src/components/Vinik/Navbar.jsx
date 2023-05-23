@@ -1,19 +1,15 @@
 import React from "react";
 import './nabar.css';
+import { ReactComponent as Lognav } from '../../ASET/SVG/LOGO_SNAPO.svg';
 
 function Navbar () {
     return (
         <div id="navbar">
-            <div id="logo">
-                <img src="/snapo/src/ASET/SVG/SNAPO WHITE.png" className="Navbar-logo" alt="logo" />
-            </div>
-            <div id="nav-link">
-                <ul>
-                    <li>
-                        
-                    </li>
-                </ul>
-            </div>
+            <nav>
+                <div id="nav-title">
+                    <Lognav/>
+                </div>
+            </nav>
         </div>
     );
 }

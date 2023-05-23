@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanuman:wght@100;400&family=Satisfy&display=swap');
+
 #Home {
     width: 100vw;
     height: 100vh;
@@ -15,8 +17,13 @@
     color: white;
     position: absolute;
     z-index: 1;
-    bottom: 30%;
-    right: 20%;
+    bottom: 40%;
+    right: 0;
+    transform: translate(40%, 100%);
+    rotate: 270deg;
+    font-family: 'Hanuman', serif;
+    font-weight: 100;
+    font-size: 1.5rem;
 }
 
 #logovertical {

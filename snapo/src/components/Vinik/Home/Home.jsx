@@ -16,7 +16,7 @@ function Home () {
                 <object id="background-logo"></object>
             </div>
             <div id="credit">
-                <h2>Credit by <strong>MOYSHI</strong></h2>
+                <p>Credit by <strong>MOYSHI</strong></p>
             </div>
         </div>
     );
