@@ -18,15 +18,12 @@ function App()
             <Tipo3 /> {/* Corrected Finished */}
             <Typo1/> {/* Corrected Finished */}
             <Tipo2 /> {/* Corrected Finished */}
-<<<<<<< Updated upstream
             {/* <Gallery/>  */}
             {/* <Work/> */}
             <AboutUs/> {/* Corrected Unfinished*/}
-=======
             {/* <Gallery/> */}
             <Work/>
             {/* <AboutUs/> Corrected Unfinished */}
->>>>>>> Stashed changes
             {/* <Footer/> */}
         </>
     )
