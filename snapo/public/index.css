@@ -3,23 +3,22 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 #root{
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: auto;
     display: flex;
     flex-direction: column;
     background-color: rgb(124, 124, 124);
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 #root > div{
-    margin: 0;
-    padding: 0;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+    scroll-snap-align: start;
 }
 
 /*About Us*/
@@ -82,6 +81,21 @@ body{
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
+}
+
+#about-individual{
+    position: fixed;
+    left: 100%;
+    background-color: #100C08;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    z-index: 9999;
+    transition: left 1500ms ease-in-out;
+}
+
+.Invisible{
+    display: none;
 }
 
 /*Tipo3 ACD*/

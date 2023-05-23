@@ -13,8 +13,8 @@ function App()
 {
     return (
         <>
-            <Navbar/>{/*  */}
-            <Home/> {/*  */}
+            {/* <Navbar/> */}
+            <Home/> {/* Corrected Finished */}
             <Tipo3 /> {/* Corrected Finished */}
             <Typo1/> {/* Corrected Finished */}
             <Tipo2 /> {/* Corrected Finished */}
