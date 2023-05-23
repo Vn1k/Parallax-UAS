@@ -13,6 +13,7 @@ function Home () {
             </div>
             <div>
                 <SvgImage id='logovertical'/>
+                <object id="background-logo"></object>
             </div>
             <div id="credit">
                 <h2>Credit by <strong>MOYSHI</strong></h2>
