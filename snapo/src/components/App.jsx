@@ -16,11 +16,17 @@ function App()
             {/* <Navbar/> */}
            <Home/> {/*  */}
             <Tipo3 /> {/* Corrected Finished */}
-            {/* <Typo1/> */}
+            <Typo1/> {/* Corrected Finished */}
             <Tipo2 /> {/* Corrected Finished */}
-            {/* <Gallery/> */}
+<<<<<<< Updated upstream
+            {/* <Gallery/>  */}
             {/* <Work/> */}
             <AboutUs/> {/* Corrected Unfinished*/}
+=======
+            {/* <Gallery/> */}
+            <Work/>
+            {/* <AboutUs/> Corrected Unfinished */}
+>>>>>>> Stashed changes
             {/* <Footer/> */}
         </>
     )
