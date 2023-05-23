@@ -307,7 +307,7 @@ body{
 #ravin{
     width: 100vw;
     height: 100vh;
-    background-color: rgba(16,12,8,255);
+    /* background-color: rgba(16,12,8,255); */
     color: white;
 }
 #judul{
@@ -319,7 +319,7 @@ body{
 }
 #awaw{
     position: relative;
-    top: 33%; 
+    top: 19%; 
     left: 7.5%;
     font-size: 80px;
     font-family: 'Dancing Script', cursive;
@@ -329,7 +329,7 @@ body{
     font-family: 'Hanuman', cursive;
     font-size: 25px;
     z-index: 1;
-    top: 25%;
+    top: 10%;
     left: 8%;
     width: 45vw;
     align-items: end;
@@ -386,7 +386,7 @@ position: relative;
 #kotak1{
     background-color: white;
     width: 68px;
-    height: 344px;
+    height: 180px;
     position: relative;
     opacity: 40%;
     top: 31%;

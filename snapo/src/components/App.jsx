@@ -16,9 +16,9 @@ function App()
             {/* <Navbar/> */}
             {/* <Home/> */}
             <Tipo3 /> {/* Corrected Finished */}
-            {/* <Typo1/> */}
+            <Typo1/> {/* Corrected Finished */}
             <Tipo2 /> {/* Corrected Finished */}
-            {/* <Gallery/> */}
+            {/* <Gallery/>  */}
             {/* <Work/> */}
             <AboutUs/> {/* Corrected Unfinished*/}
             {/* <Footer/> */}
