@@ -14,7 +14,7 @@ function App()
     return (
         <>
             {/* <Navbar/> */}
-            {/* <Home/> */}
+           <Home/> {/*  */}
             <Tipo3 /> {/* Corrected Finished */}
             {/* <Typo1/> */}
             <Tipo2 /> {/* Corrected Finished */}

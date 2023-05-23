@@ -17,3 +17,13 @@
     z-index: 1;
     bottom: 30%;
 }
+
+#logovertical {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 0;
+    transform: rotate(90deg);
+}
