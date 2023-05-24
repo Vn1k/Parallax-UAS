@@ -18,10 +18,10 @@ function createCard(conCredit){
 
 function CardCredit(){
     return (
-        <div>
-            <div id="cardMuseum">{conCredit.map(createCard)}</div>
-        </div>
-    );
+        <>
+            {conCredit.map(createCard)}
+            </>
+    )
 }
 
 export default CardCredit;

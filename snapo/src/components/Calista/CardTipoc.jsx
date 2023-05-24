@@ -15,9 +15,9 @@ function createCard(tipo){
 
 function CardTipoc(){
     return (
-        <div>
-            <div id="cardTipoc">{tipo.map(createCard)}</div>
-        </div>
+        <>
+            {tipo.map(createCard)}
+        </>
     );
 }
 
