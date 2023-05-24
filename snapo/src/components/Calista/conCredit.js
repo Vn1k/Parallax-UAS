@@ -1,6 +1,6 @@
 const conCredit = [
     {
-        img3: require("../../ASET/Images/kursipiano.jpg"),
+        // img3: require("../../ASET/Images/kursipiano.jpg"),
         title1: "Museum Macan",
         text1: "Museum Macan bla",
         title2: "Museum Macan",
