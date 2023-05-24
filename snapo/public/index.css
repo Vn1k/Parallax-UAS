@@ -432,7 +432,7 @@ body{
     align-items: end;
 }
 #tahun{
-position: relative;
+    position: relative;
     font-family: 'Hanuman' , cursive;
     font-size: 20px;
     top: 45%;
@@ -441,7 +441,7 @@ position: relative;
 #hands{
     position: relative;
     scale: 50%;
-    top: -213%;
+    top: -221%;
     left: 35%;
 }
 #gariskotak{
