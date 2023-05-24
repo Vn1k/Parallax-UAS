@@ -10,13 +10,12 @@ import Gallery from "./Ravin/Gallery";
 import Work from "./Acd/Work";
 import Credita from "./Calista/Credita"; 
 import Footer from "./Ravin/Footer";
-import Gallery from "./Ravin/Gallery";
 
 function App()
 {
     return (
         <>
-            {/* <Navbar/> */}
+            <Navbar/>{/* <Navbar/> */}
             <Home/> {/* Corrected Finished */}
             <Tipo3 /> {/* Corrected Finished */}
             <Typo1/> {/* Corrected Finished */}
