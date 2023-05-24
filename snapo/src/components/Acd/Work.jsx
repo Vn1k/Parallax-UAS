@@ -1,4 +1,5 @@
 import React from "react";
+import $ from "jquery";
 import { ReactComponent as Logou } from '../../ASET/SVG/LOGO_SNAPO.svg';
 import './work.css';
 
@@ -7,7 +8,8 @@ function Work ()
     const Imgine1 = require("../../ASET/Images/piano crop.jpg");
     const Imgine2 = require("../../ASET/Images/bingkai2 crop.jpg");
     const Imgine3 = require("../../ASET/Images/lukisan4.jpg");
-
+    $('scrollbar').css('display', 'none');
+    $('-webkit-scrollbar-thumb').css('visibility', 'hidden');
     return (
         <div id="containerWork">
             <div id="logoWork">
