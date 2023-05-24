@@ -501,18 +501,30 @@ position: relative;
     scale: 11%;
     top: -160%;
     left: -33%;
+    transition: scale 1s ease-in-out;
+}
+#gambar1:hover{
+    scale: 12%;
 }
 #gambar2{
     position: relative;
     scale: 9.6%;
     top: -624.5%;
     left: -3.8%;
+    transition: scale 1s ease-in-out;
+}
+#gambar2:hover{
+    scale: 12%;
 }
 #gambar3{
     position: relative;
     scale: 9.6%;
     top: -1121%;
     left: 26%;
+    transition: scale 1s ease-in-out;
+}
+#gambar3:hover{
+    scale: 12%;
 }
 #g0{
     position: relative;
