@@ -432,7 +432,7 @@ body{
     align-items: end;
 }
 #tahun{
-position: relative;
+    position: relative;
     font-family: 'Hanuman' , cursive;
     font-size: 20px;
     top: 45%;
@@ -441,7 +441,7 @@ position: relative;
 #hands{
     position: relative;
     scale: 50%;
-    top: -213%;
+    top: -221%;
     left: 35%;
 }
 #gariskotak{
@@ -514,7 +514,7 @@ position: relative;
     transition: scale 1s ease-in-out;
 }
 #gambar2:hover{
-    scale: 12%;
+    scale: 10.5%;
 }
 #gambar3{
     position: relative;
@@ -524,7 +524,7 @@ position: relative;
     transition: scale 1s ease-in-out;
 }
 #gambar3:hover{
-    scale: 12%;
+    scale: 10.5%;
 }
 #g0{
     position: relative;

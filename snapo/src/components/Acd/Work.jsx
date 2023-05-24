@@ -7,7 +7,7 @@ function Work ()
     const Imgine1 = require("../../ASET/Images/piano crop.jpg");
     const Imgine2 = require("../../ASET/Images/bingkai2 crop.jpg");
     const Imgine3 = require("../../ASET/Images/lukisan4.jpg");
-
+    
     return (
         <div id="containerWork">
             <div id="logoWork">
