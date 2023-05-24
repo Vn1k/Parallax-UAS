@@ -9,8 +9,7 @@ body{
 #root{
     display: flex;
     flex-direction: column;
-    background: rgb(55,49,0);
-background: linear-gradient(rgba(55,49,0,1) 0%, rgba(151,156,22,1) 100%);
+    background: linear-gradient(rgba(55,49,0,1) 0%, rgba(151,156,22,1) 100%);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
@@ -493,7 +492,6 @@ position: relative;
 
 /* Gallery */
 #gallery{
-    background-color: rgba(16,12,8,255);
     width: 100vw;
     height: 100vh;
     color: white;
@@ -538,7 +536,6 @@ position: relative;
 #Credit{
     width: 100vw;
     height: 120vh;
-    background-color: rgba(16,12,8,255);
     color: white;
     font-family: 'Hanuman', cursive;
 }

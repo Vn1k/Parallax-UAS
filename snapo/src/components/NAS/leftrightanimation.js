@@ -3,6 +3,12 @@ function leftrightanimation() {
 
   window.onmousedown = e => {
           track.dataset.mouseDownAt = e.clientX;
+          if(track.dataset.prevPercentage == "NaN"){
+            track.dataset.prevPercentage = "0";
+          }
+          if(track.dataset.percentage == "NaN"){
+            track.dataset.percentage = "0";
+          }
   }
 
   window.onmouseup = () => {
@@ -11,6 +17,7 @@ function leftrightanimation() {
   }
 
   window.onmousemove = e => {
+    console.log(typeof track.dataset.mouseDownAt);
       if (track.dataset.mouseDownAt === "0") return;
 
       const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX;
