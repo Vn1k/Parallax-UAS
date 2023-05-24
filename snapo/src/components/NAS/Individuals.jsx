@@ -12,7 +12,7 @@ function Individuals({ onImageClick }) {
     />
   ));
 
-  return <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" className="selectDisable">{ImgTrack}</div>;
+  return <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" data-percentage="0" className="selectDisable">{ImgTrack}</div>;
 }
 
 export default Individuals;
