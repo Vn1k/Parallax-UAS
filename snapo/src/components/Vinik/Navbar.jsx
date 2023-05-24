@@ -1,6 +1,6 @@
 import React from "react";
 import './nabar.css';
-import { ReactComponent as Lognav } from '../../ASET/SVG/LOGO_SNAPO.svg';
+import { ReactComponent as Lognav } from '../../ASET/SVG/SNAPO.svg';
 
 function Navbar () {
     return (
