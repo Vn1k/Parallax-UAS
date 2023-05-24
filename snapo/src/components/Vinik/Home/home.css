@@ -10,7 +10,8 @@
     max-height: 100%;
     width: 100%;
     height: 100vh;
-    opacity: 70%;
+    opacity: 100%;
+    object-fit: cover;
 }
 
 #credit {
@@ -43,4 +44,57 @@
     opacity: 50%;
     top: 8.99%;
     left: 9%;
+}
+
+/* Media Queries untuk Responsif */
+
+/* Contoh pengaturan untuk lebar layar < 768px */
+@media (max-width: 767px) {
+    #credit {
+        font-size: 1rem;
+    }
+    
+    #logovertical {
+        width: 20%;
+        height: 20%;
+    }
+    
+    #background-logo {
+        width: 3%;
+        height: 50%;
+    }
+}
+
+/* Contoh pengaturan untuk lebar layar antara 768px dan 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #credit {
+        font-size: 1.25rem;
+    }
+    
+    #logovertical {
+        width: 25%;
+        height: 25%;
+    }
+    
+    #background-logo {
+        width: 4%;
+        height: 60%;
+    }
+}
+
+/* Contoh pengaturan untuk lebar layar >= 1024px */
+@media (min-width: 1024px) {
+    #credit {
+        font-size: 1.5rem;
+    }
+    
+    #logovertical {
+        width: 30%;
+        height: 30%;
+    }
+    
+    #background-logo {
+        width: 5%;
+        height: 70%;
+    }
 }

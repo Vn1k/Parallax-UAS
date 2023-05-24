@@ -1,11 +1,12 @@
 #navbar {
     height: 10vh;
     width: 100%;
-    position: fixed;
     color: white;
+    position: fixed;
     padding: 1%;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 
 #nav-title {
@@ -19,4 +20,5 @@
 #nav-link {
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
 }

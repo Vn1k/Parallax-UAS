@@ -12,7 +12,19 @@ function Navbar () {
                 <div id="nav-link">
                     <ul>
                         <li>
-                            <a>About</a>
+                            <a>About Us</a>
+                        </li>
+                        <li>
+                            <a>Home</a>
+                        </li>
+                        <li>
+                            <a>Gallery</a>
+                        </li>
+                        <li>
+                            <a>Snapo</a>
+                        </li>
+                        <li>
+                            <a>Credit</a>
                         </li>
                     </ul>
                 </div>
