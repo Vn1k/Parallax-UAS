@@ -59,7 +59,7 @@ function Navbar() {
           </li>
           <li>
             <a href="#" className="text-white">
-              Credit
+              Credits
             </a>
           </li>
         </ul>
