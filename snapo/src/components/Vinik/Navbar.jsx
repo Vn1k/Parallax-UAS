@@ -6,10 +6,9 @@ function Navbar() {
     return (
       <nav className="fixed py-4 px-8" id="navbar">
         <div className="flex items-center justify-between">
-            
             <ul className="flex space-x-4">
                 <li>
-                <a href="#" className="text-white">About Us</a>
+                <a href="#AboutUs" className="text-white">About Us</a>
                 </li>
                 <li>
                 <a href="#" className="text-white">Home</a>
