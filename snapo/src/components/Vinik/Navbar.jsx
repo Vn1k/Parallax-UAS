@@ -9,6 +9,13 @@ function Navbar () {
                 <div id="nav-title">
                     <Lognav/>
                 </div>
+                <div id="nav-link">
+                    <ul>
+                        <li>
+                            <a>About</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     );

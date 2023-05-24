@@ -98,7 +98,307 @@ body{
     display: none;
 }
 
+/*Tipo3 ACD*/
+#container3{
+    box-sizing: border-box;
+    padding-top: 4.5rem !important;
+    overflow: hidden;
+    color: white;
+}
 
+#image3
+{
+    width: 10px;
+    height: 10px;
+    scale: 34%;
+    justify-content: center;
+    position: relative;
+    left: 15%;
+    top: 1%;
+    z-index: 1;
+}
+
+#title
+{
+    position: relative;
+    left: 22%;
+    top: 11%;
+    font-size: 70px;
+    z-index: 2;
+    line-height: 1.1em;
+    font-family: 'Hanuman', serif;
+}
+
+#text
+{
+    position: relative;
+    align-items: end;
+    left: 40%;
+    top: -7%;
+    font-size: 20px;
+    width: 40vw;
+    font-family: 'Hanuman', serif;
+    z-index: 1;
+}
+
+#author
+{
+    position: relative;
+    left: 71%;
+    top: -28%;
+    z-index: 1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+#kutip
+{
+    position: relative;
+    left: 69%;
+    top: 20%;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    z-index: 1;
+}
+
+#rectangle
+{
+    background-color: #fff;
+    width: 150px;
+    height: 450px;
+    position: relative;
+    left: 19%;
+    top: -50%;
+    opacity: 40%;
+    z-index: 1;
+}
+
+#rectangle1
+{
+    background-color: #BA9616;
+    width: 100px;
+    height: 350px;
+    position: relative;
+    left: 25%;
+    top: -75%;
+    opacity: 40%;
+    z-index: 1;
+}
+
+#rectangle2
+{
+    background-color: #fff;
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 70%;
+    top: -119%;
+    opacity: 30%;
+    z-index: 1;
+}
+
+#line
+{
+    background-color: #fff;
+    width: 500px;
+    height: 4px;
+    position: relative;
+    left: 58%;
+    top: -105%;
+    z-index: 1;
+}
+
+#dot
+{
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    left: 57.5%;
+    top: -105.8%;
+    z-index: 1;
+}
+
+/*Tipo2 ACD*/
+#container2{
+    box-sizing: border-box;
+    padding-top: 2rem !important;
+    overflow: hidden;
+    color: white;
+}
+
+#image2
+{
+    scale: 25%;
+    position: relative;
+    top: -75%;
+    left: 15%;
+    width: 50px;
+}
+
+#title2
+{
+    position: relative;
+    top: -222%;
+    left: 48%;
+    font-size: 40px;
+    font-family: 'Hanuman', serif;
+}
+
+#text2
+{
+    position: relative;
+    top: -240%;
+    left: 55%;
+    font-size: 23px;
+    font-weight: 100;
+    width: 35vw;
+    font-family: 'Hanuman', serif;
+}
+
+#year2
+{
+    position: relative;
+    top: -275%;
+    left: 90%;
+    font-size: 30px;
+    font-family: 'Hanuman', serif;
+}
+
+#rectangle22
+{
+    background-color: #fff;
+    width: 800px;
+    height: 4px;
+    position: relative;
+    top: -275%;
+    left: 60%;
+}
+
+#rectangle32
+{
+    background-color: #fff;
+    width: 850px;
+    height: 90px;
+    opacity: 30%;
+    position: relative;
+    top: -297%;
+    left: 35%;
+}
+
+/*workkkkk*/
+
+#containerWork
+{
+    color: #fff;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+#imgWork
+{
+    scale: 25%;
+    width: 100px;
+    height: 0px;
+    position: relative;
+    top: 19%;
+    left: 60%;
+    z-index: 1;
+}
+
+#textWork
+{
+    font-size: 25px;
+    position: relative;
+    left: 15%;
+    top: 25%;
+    width: 39vw;
+    font-weight: 100;
+    font-family: 'Hanuman', serif;
+}
+
+#logoWork
+{
+    position: relative;
+    left: 15%;
+    top: 25%;
+    width: 30%;
+    height: 20%;
+}
+
+#creditWork
+{
+    font-size: 20px;
+    position: relative;
+    left: 35%;
+    top: 45%;
+    font-weight: 100;
+    font-family: 'Hanuman', serif;
+}
+
+#recWork1
+{
+    background-color: #fff;
+    width: 110px;
+    height: 500px;
+    opacity: 40%;
+    position: relative;
+    top: -26%;
+    left: 11%;
+}
+
+#recWork2
+{
+    background-color: #fff;
+    width: 421px;
+    height: 560px;
+    opacity: 40%;
+    position: relative;
+    top: -75.4%;
+    left: 61%;
+}
+
+#recWork3
+{
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -78%;
+    left: 40%;
+}
+
+#recWork4
+{
+    background-color: #151109;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -81.3%;
+    left: 41.55%;
+}
+
+#recWork5
+{
+    background-color: #352D0F;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -84.5%;
+    left: 43.1%;
+}
+
+#recWork6
+{
+    background-color: #473C13;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -87.66%;
+    left: 44.7%;
+}
 
 /* ravin */
 #ravin{
@@ -132,7 +432,7 @@ body{
     align-items: end;
 }
 #tahun{
-position: relative;
+    position: relative;
     font-family: 'Hanuman' , cursive;
     font-size: 20px;
     top: 45%;
@@ -141,7 +441,7 @@ position: relative;
 #hands{
     position: relative;
     scale: 50%;
-    top: -213%;
+    top: -221%;
     left: 35%;
 }
 #gariskotak{
@@ -201,18 +501,30 @@ position: relative;
     scale: 11%;
     top: -160%;
     left: -33%;
+    transition: scale 1s ease-in-out;
+}
+#gambar1:hover{
+    scale: 12%;
 }
 #gambar2{
     position: relative;
     scale: 9.6%;
     top: -624.5%;
     left: -3.8%;
+    transition: scale 1s ease-in-out;
+}
+#gambar2:hover{
+    scale: 10.5%;
 }
 #gambar3{
     position: relative;
     scale: 9.6%;
     top: -1121%;
     left: 26%;
+    transition: scale 1s ease-in-out;
+}
+#gambar3:hover{
+    scale: 10.5%;
 }
 #g0{
     position: relative;
