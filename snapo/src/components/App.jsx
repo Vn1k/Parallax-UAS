@@ -9,6 +9,7 @@ import Tipo2 from "./Acd/Tipo2";
 import Gallery from "./Ravin/Gallery";
 import Work from "./Acd/Work";
 import Credita from "./Calista/Credita"; 
+import Credit from "./Ravin/Credit";
 import Footer from "./Ravin/Footer";
 
 function App()
@@ -25,7 +26,7 @@ function App()
             {/* <Work/> */}
             <Credita />
             <AboutUs/> {/* Corrected Unfinished*/}
-            {/* <Gallery/> */}
+            {/* <Credit/> */}
             <Work/>
             {/* <AboutUs/> Corrected Unfinished */}
             {/* <Footer/> */}
