@@ -1,5 +1,5 @@
 import React from "react";
-import Tipoc from "./Tipoc";
+import Tipoc from "./CardTipoc";
 import tipo from "./tipo";
 
 function createCard(tipo){

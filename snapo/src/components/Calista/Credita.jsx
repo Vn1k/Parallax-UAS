@@ -1,8 +1,9 @@
 import React from "react";
+import './calista.css';
 
 function Credita(props){
     return (
-        <div id="card">
+        <div id="cardCredita">
                 <div id="image3"><img id="img3" src={props.img3} /></div>
                 <div id="Museum">
                     <div id="museum1">{props.title1}</div>
