@@ -5,7 +5,7 @@ function Gallery(){
     const IMGURL1 = require("../../ASET/Images/patung.jpg");
     const IMGURL2 = require("../../ASET/Images/lukisan3.jpg");
     return(
-        <div id="gallery">
+        <div id="Credit">
             <div id="gambar1">
                 <img src={IMGURL0} alt="BOROBUDUR" />
             </div>

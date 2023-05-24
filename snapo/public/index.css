@@ -9,7 +9,7 @@ body{
 #root{
     display: flex;
     flex-direction: column;
-    background-color: rgb(124, 124, 124);
+    background: linear-gradient(rgba(55,49,0,1) 0%, rgba(151,156,22,1) 100%);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
@@ -192,7 +192,6 @@ position: relative;
 
 /* Gallery */
 #gallery{
-    background-color: rgba(16,12,8,255);
     width: 100vw;
     height: 100vh;
     color: white;
@@ -200,44 +199,43 @@ position: relative;
 #gambar1{
     position: relative;
     scale: 11%;
-    top: -151%;
+    top: -160%;
     left: -33%;
 }
 #gambar2{
     position: relative;
     scale: 9.6%;
-    top: -587.4%;
+    top: -624.5%;
     left: -3.8%;
 }
 #gambar3{
     position: relative;
     scale: 9.6%;
-    top: -1053.5%;
+    top: -1121%;
     left: 26%;
 }
 #g0{
     position: relative;
-    top: -327%;
+    top: -345%;
     left: 17%;
     font-family:'Hanuman', cursive;
 }
 #g1{
     position: relative;
-    top: -794%;
+    top: -843%;
     left: 48%;
     font-family:'Hanuman', cursive;
 }
 #g2{
     position: relative;
-    top: -1260%;
+    top: -1339.5%;
     left: 78.5%;
     font-family:'Hanuman', cursive;
 }
-/* Credit */
+/* Gallery */
 #Credit{
     width: 100vw;
     height: 120vh;
-    background-color: rgba(16,12,8,255);
     color: white;
     font-family: 'Hanuman', cursive;
 }

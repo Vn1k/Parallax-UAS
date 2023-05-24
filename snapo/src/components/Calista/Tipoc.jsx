@@ -1,22 +1,28 @@
 import React from "react";
-import Card1 from "./Card1";
-import tipo from "./tipo";
+import "./calista.css";
 
-function createCard(tipo){
-    return(
-        <Card1
-        text={tipo.text}
-        img1={tipo.img1}
-        img2={tipo.img2}
-        ></Card1>
-    );
-}
-
-function Tipoc(){
+function Tipoc(props){
     return (
-        <div>
-            <div className="heading">Time Dimension</div>
-            <div id="cards">{tipo.map(createCard)}</div>
+        <div id="cardTipoc">
+                <div id="headingTipoc">{props.title}</div>
+                <div id="textTipoc">{props.text}</div>
+                <div id="image1"><img id="img1" src={props.img1} /></div>
+                <div id="image2"><img id="img2" src={props.img2} /></div>
+                <div id="line"><div class="line"></div></div>
+                <div id="line123">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <div id="line45">
+                    <div class="line4"></div>
+                    <div class="line5"></div>
+                </div>
+                <div id="allDot">
+                    <div class="dot1"></div>
+                    <div class="dot2"></div>
+                    <div class="dot3"></div>
+                </div>
         </div>
     );
 }
