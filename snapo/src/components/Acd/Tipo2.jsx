@@ -1,4 +1,5 @@
 import React from "react";
+import './tipo2.css';
 
 function Tipo2 ()
 {

@@ -19,14 +19,12 @@ function App()
             <Home/> {/* Corrected Finished */}
             <Tipo3 /> {/* Corrected Finished */}
             <Typo1/> {/* Corrected Finished */}
-            <Tipoc /> 
+            {/* <Tipoc />  */}
             <Tipo2 /> {/* Corrected Finished */}
             <Gallery/> {/* Corrected Finished */}
-            {/* <Work/> */}
-            <Credita />
-            <AboutUs/> {/* Corrected Unfinished*/}
+            {/* <Credita /> */}
             <Work/>
-            {/* <AboutUs/> Corrected Unfinished */}
+            <AboutUs/> {/* Corrected Unfinished*/}
             {/* <Footer/> */}
         </>
     )

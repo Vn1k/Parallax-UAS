@@ -1,0 +1,65 @@
+#container2{
+    box-sizing: border-box;
+    padding-top: 2rem !important;
+    overflow: hidden;
+    color: white;
+}
+
+#image2
+{
+    scale: 25%;
+    position: relative;
+    top: -75%;
+    left: 15%;
+    width: 50px;
+}
+
+#title2
+{
+    position: relative;
+    top: -222%;
+    left: 48%;
+    font-size: 40px;
+    font-family: 'Hanuman', serif;
+}
+
+#text2
+{
+    position: relative;
+    top: -240%;
+    left: 55%;
+    font-size: 23px;
+    font-weight: 100;
+    width: 35vw;
+    font-family: 'Hanuman', serif;
+}
+
+#year2
+{
+    position: relative;
+    top: -275%;
+    left: 90%;
+    font-size: 30px;
+    font-family: 'Hanuman', serif;
+}
+
+#rectangle22
+{
+    background-color: #fff;
+    width: 800px;
+    height: 4px;
+    position: relative;
+    top: -275%;
+    left: 60%;
+}
+
+#rectangle32
+{
+    background-color: #fff;
+    width: 850px;
+    height: 90px;
+    opacity: 30%;
+    position: relative;
+    top: -297%;
+    left: 35%;
+}
