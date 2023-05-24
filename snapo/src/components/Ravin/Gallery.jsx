@@ -1,6 +1,6 @@
 import React from "react";
 
-function Credit(){
+function Gallery(){
     const IMGURL0 = require("../../ASET/Images/borobudur.jpg");
     const IMGURL1 = require("../../ASET/Images/patung.jpg");
     const IMGURL2 = require("../../ASET/Images/lukisan3.jpg");
@@ -22,4 +22,4 @@ function Credit(){
     );
 }
 
-export default Credit;
+export default Gallery;
