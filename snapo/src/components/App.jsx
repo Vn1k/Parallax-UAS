@@ -10,7 +10,7 @@ import Gallery from "./Ravin/Gallery";
 import Work from "./Acd/Work";
 import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
-import Gallery1 from "./Ravin/Gallery1";
+import Gallery1 from "./Ravin/Gallery1"; //ini yang di link 
 
 function App()
 {
@@ -29,7 +29,6 @@ function App()
             <Tipo2 /> {/* Corrected Finished */}
             {/* <Credita /> */}
             <Gallery/>
-            <Gallery1/>
             <Work/>
             <AboutUs/> {/* Corrected Unfinished*/}
             {/* <Footer/> */}
