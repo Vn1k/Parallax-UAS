@@ -17,10 +17,12 @@ function Work ()
             <div id="creditWork">Created by | <strong>M O Y S H I</strong></div>
             <div id="recWork1"></div>
             <div id="recWork2"></div>
-            <div id="recWork3"></div>
-            <div id="recWork4"></div>
-            <div id="recWork5"></div>
-            <div id="recWork6"></div>
+            <div id="color3">
+                <div id="recWork3"></div>
+                <div id="recWork4"></div>
+                <div id="recWork5"></div>
+                <div id="recWork6"></div>
+            </div>
             <div id="carouselWork">
                 <div id="imgWork1">
                     <img src={Imgine1} alt="piano" />
