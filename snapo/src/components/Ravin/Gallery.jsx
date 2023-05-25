@@ -5,19 +5,16 @@ function Gallery(){
     const IMGURL1 = require("../../ASET/Images/patung.jpg");
     const IMGURL2 = require("../../ASET/Images/lukisan3.jpg");
     return(
-        <div id="Credit">
-            <div id="gambar1">
-                <img src={IMGURL0} alt="BOROBUDUR" />
+        <div id="group">
+            <div>
+                <img id="one" src={IMGURL0} alt="borobudur"/>
             </div>
-            <h2 id="g0">Borobudur</h2>
-            <div id="gambar2">
-                <img src={IMGURL1} alt="PATUNG" />
+            <div>
+                <img id="two" src={IMGURL1} alt="lukisan3"/>
             </div>
-            <h2 id="g1">Patung</h2>
-            <div id="gambar3">
-                <img src={IMGURL2} alt="LUKISAN" />
+            <div>
+                <img id="three" src={IMGURL2} alt="patung"/>
             </div>
-            <h2 id="g2">ART</h2>
         </div>
     );
 }

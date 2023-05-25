@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanuman:wght@100;400&family=Satisfy&display=swap');
 
 #logo {
     width: 20vh;
@@ -11,6 +12,8 @@
   
   #navbar {
     z-index: 3;
+    font-family: 'Hanuman', serif;
+    font-weight: 300;
   }
   
   .text-white {

@@ -4,15 +4,11 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
-    -ms-overflow-style: none;
-  scrollbar-width: none;
-
 }
 
 body::-webkit-scrollbar{
     display: none;
    }
-   
 #root{
     display: flex;
     flex-direction: column;
@@ -448,7 +444,7 @@ body::-webkit-scrollbar{
 #hands{
     position: relative;
     scale: 50%;
-    top: -221%;
+    top: -209%;
     left: 35%;
 }
 #gariskotak{
@@ -498,59 +494,37 @@ body::-webkit-scrollbar{
 }
 
 /* Gallery */
-#gallery{
-    width: 100vw;
-    height: 100vh;
-    color: white;
-}
-#gambar1{
-    position: relative;
-    scale: 11%;
-    top: -160%;
-    left: -33%;
+#group{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 15vw;
+    margin-left: 13vw;
+    gap: 200px;
+    align-items: center;
+}  
+#one{
+    height: 450px;
     transition: scale 1s ease-in-out;
 }
-#gambar1:hover{
-    scale: 12%;
+#one:hover{
+    scale: 110%;
 }
-#gambar2{
-    position: relative;
-    scale: 9.6%;
-    top: -624.5%;
-    left: -3.8%;
+#two{
+    height: 450px;
     transition: scale 1s ease-in-out;
 }
-#gambar2:hover{
-    scale: 10.5%;
+#two:hover{
+    scale: 110%;
 }
-#gambar3{
-    position: relative;
-    scale: 9.6%;
-    top: -1121%;
-    left: 26%;
+#three{
+    height: 450px;
     transition: scale 1s ease-in-out;
 }
-#gambar3:hover{
-    scale: 10.5%;
+#three:hover{
+    scale: 110%;
 }
-#g0{
-    position: relative;
-    top: -345%;
-    left: 17%;
-    font-family:'Hanuman', cursive;
-}
-#g1{
-    position: relative;
-    top: -843%;
-    left: 48%;
-    font-family:'Hanuman', cursive;
-}
-#g2{
-    position: relative;
-    top: -1339.5%;
-    left: 78.5%;
-    font-family:'Hanuman', cursive;
-}
+
 /* Gallery */
 #Credit{
     width: 100vw;

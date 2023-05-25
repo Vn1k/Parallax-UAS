@@ -18,7 +18,6 @@ function NASprofile() {
   return (
     <>
       <BackButton onClick={handleResetClick} />
-
     </>
   );
 }

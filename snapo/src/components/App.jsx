@@ -21,7 +21,7 @@ function App()
             <Typo1/> {/* Corrected Finished */}
             {/* <Tipoc />  */}
             <Tipo2 /> {/* Corrected Finished */}
-            <Gallery/> {/* Corrected Finished */}
+            <Gallery/> 
             {/* <Credita /> */}
             <Work/>
             <AboutUs/> {/* Corrected Unfinished*/}
