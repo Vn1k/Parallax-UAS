@@ -527,8 +527,37 @@ body::-webkit-scrollbar{
 #three:hover{
     scale: 110%;
 }
+/* Gallery1 */
+#gro{
+    display: flex;
+    margin: 0;
+}
+#Art1{
+    width: 45vw;
+    height: auto;
+}
+#Art2{
+    width: 55vw;
+    height: auto;
+}
+#Art3{
+    width: 55vw;
+    height: auto;
+}
+#Art4{
+    width: 45vw;
+    height: auto;
+}
+#Art5{
+    width:45vw;
+    height: auto;
+}
+#Art6{
+    width: 55vw;
+    height: auto;
+}
 
-/* Gallery */
+/* Credit */
 #Credit{
     width: 100vw;
     height: 120vh;
