@@ -127,8 +127,8 @@
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-    width: 22%;
-    height: 60%;
+    width: 22vw;
+    height: 60vh;
     position: absolute;
     bottom: 23%;
     left: 64%;
@@ -139,11 +139,9 @@
 
 #carouselWork img
 {
-    width: auto;
-    height: 100%;
+    width: 80vw;
+    height: 60vh;
     scroll-snap-align: start;
-
-
 }
 
 ::-webkit-scrollbar-track {

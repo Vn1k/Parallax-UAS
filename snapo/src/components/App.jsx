@@ -25,7 +25,6 @@ function App()
             <Tipo2 /> {/* Corrected Finished */}
             {/* <Work/> */}
             <CardCredit />
-            <AboutUs/> {/* Corrected Unfinished*/}
             {/* <Tipoc />  */}
             <Tipo2 /> {/* Corrected Finished */}
             {/* <Credita /> */}

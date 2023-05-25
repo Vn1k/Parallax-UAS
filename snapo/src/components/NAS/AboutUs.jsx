@@ -3,6 +3,7 @@ import leftrightanimation from "./leftrightanimation";
 import Individuals from "./Individuals";
 import NASprofile from "./NASprofile";
 import Vin from "../Vinik/Aboutvin/Vinprof";
+import ACDProfile from "../Acd/ACDprofile";
 
 export const NameContext = React.createContext();
 
@@ -16,6 +17,7 @@ function AboutUs() {
 
   function handleImageClick(clickedName) {
     setName(clickedName);
+    console.log(clickedName);
     aboutIndividualRef.current.classList.remove("Invisible");
     setTimeout(() => {
         aboutIndividualRef.current.style.left = "0%";
@@ -28,7 +30,7 @@ function AboutUs() {
         <Individuals onImageClick={handleImageClick} />
       </div>
       <div id="about-individual" className="Invisible" ref={aboutIndividualRef}>
-        {name === "Amanda Citra Dewanti" && <p>acd</p>}
+        {name === "Amanda Citra Dewanti" && <ACDProfile/>}
         {name === "Calista Belva" && <p>cb</p>}
         {name === "Kevin Ken" && <Vin/>}
         {name === "Nathan Angelo Stenlie" && <NASprofile />}
