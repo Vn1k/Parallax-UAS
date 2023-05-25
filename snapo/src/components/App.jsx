@@ -12,11 +12,12 @@ import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
 import Gallery1 from "./Ravin/Gallery1"; //ini yang di link 
 import Gallery2 from "./Ravin/Gallery2"; //ini yang di link
+import { ScrollProvider } from "./ScrollContext";
 
 function App()
 {
     return (
-        <>
+        <ScrollProvider>
             <Navbar/>{/* <Navbar/> */}
             <Home/> {/* Corrected Finished */}
             <Tipo3 /> {/* Corrected Finished */}
@@ -31,7 +32,7 @@ function App()
             <Work/>
             <AboutUs/> {/* Corrected Unfinished*/}
             {/* <Footer/> */}
-        </>
+        </ScrollProvider>
     )
 }
 
