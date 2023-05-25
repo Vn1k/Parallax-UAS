@@ -1,10 +1,7 @@
 /* Calista Awal */
 #cardTipoc {
-    background-color: red;
     position: relative;
-}
-
-body {
+    background-color: red;
     font-family: hanuman;
 }
 
@@ -27,37 +24,26 @@ body {
     color: white;
 }
 
-#image1 {
+#caltipocimage1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content; 
+}
+
+#caltipocimg1 {
+    width: 22vw;
+}
+
+#caltipocimage2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content; 
+}
+
+#caltipocimg2{
     width: 20vw;
-    height: 75vh;
-    overflow: hidden;
-    position: relative;
-    left: 70vw;
-    top: -10vw;
-}
-
-#img1 {
-    width: 52vw;
-    height: 66vh;
-    position: relative;
-    left: -12vw;
-    top: -2vw;
-}
-
-#image2 {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    left: -100vw;
-    top: 50vw;
-}
-
-#img2 {
-    width: 92vw;
-    height: 100vh;
-    position: relative;
-    left: -12vw;
-    top: -2vw;
 }
 
 .line {
