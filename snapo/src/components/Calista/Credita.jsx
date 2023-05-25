@@ -7,8 +7,11 @@ function Credita(props){
                 <div id="image3Credita"><img id="img3Credita" src={props.img3} /></div>
                 <div id="Museum">
                     <div id="museum1">{props.title1}</div>
+                    <div id="museum4">{props.title4}</div>
                     <div id="museum2">{props.title2}</div>
+                    <div id="museum5">{props.title5}</div>
                     <div id="museum3">{props.title3}</div>
+                    <div id="museum6">{props.title6}</div>
                 </div> 
                 <div id="TextMuseum">
                     <div id="textMuseum1">{props.text1}</div>
