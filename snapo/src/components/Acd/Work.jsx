@@ -33,17 +33,6 @@ function Work ()
                 <div id="recWork5"></div>
                 <div id="recWork6"></div>
             </div>
-            {/* <div id="carouselWork">
-                <div id="imgWork1">
-                    <img src={Imgine1} alt="piano" />
-                </div>
-                <div id="imgWork2">
-                    <img src={Imgine2} alt="bikai2" />
-                </div>
-                <div id="imgWork3">
-                    <img src={Imgine3} alt="lukisan4" />
-                </div>
-            </div> */}
         </div>
     );
 }
