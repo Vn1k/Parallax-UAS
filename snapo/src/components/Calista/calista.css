@@ -46,6 +46,17 @@
     width: 20vw;
 }
 
+.line {
+    background: white;
+    height: 10vh;
+    width: 65vw;
+    opacity: 50%;
+    z-index: 1;
+    position: relative;
+    top: -10.5vw;
+    left: -39.6vw;
+}
+
 #line123 {
     width: 3vw;
     height: 40vh;
@@ -144,7 +155,7 @@
     z-index: 9999;
 }
 
-#cardCredita {
+/* #cardCredita {
     background-color: red;
     position: relative;
 }
@@ -205,21 +216,18 @@
     position: absolute;
     top: 14vw;
     z-index: 9999;
-    width: 38vw;
 }
 
 #textMuseum2 {
     position: absolute;
     top: 22vw;
     z-index: 9999;
-    width: 38vw;
 }
 
 #textMuseum3 {
     position: absolute;
     top: 30vw;
     z-index: 9999;
-    width: 37vw;
 }
 
 #lineMuseum123 {
@@ -285,6 +293,6 @@
     width: 0.1vw;
     margin-top: -26.6vw;
     margin-left: 17.4vw;
-} 
+}  */
 
 /* Calista Akhir */
