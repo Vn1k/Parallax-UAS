@@ -4,6 +4,8 @@ import Individuals from "./Individuals";
 import NASprofile from "./NASprofile";
 import Vin from "../Vinik/Aboutvin/Vinprof";
 import ACDProfile from "../Acd/ACDprofile";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const NameContext = React.createContext();
 
@@ -26,7 +28,7 @@ function AboutUs() {
 
   return (
     <NameContext.Provider value={{ name, setName, aboutIndividualRef }}>
-      <div id="about-us">
+      <div data-aos="fade-left" data-aos-offset="600" id="about-us">
         <Individuals onImageClick={handleImageClick} />
       </div>
       <div id="about-individual" className="Invisible" ref={aboutIndividualRef}>
@@ -39,5 +41,7 @@ function AboutUs() {
     </NameContext.Provider>
   );
 }
+
+AOS.init();
 
 export default AboutUs;
