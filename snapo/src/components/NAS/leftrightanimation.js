@@ -1,3 +1,5 @@
+import { easings } from "animejs";
+
 function leftrightanimation() {
     const track = document.getElementById("image-track");
   
@@ -38,13 +40,13 @@ function leftrightanimation() {
           {
             objectPosition: `${100 + clampedPercentage}% center`
           },
-          { duration: 1200, fill: "forwards" }
+          { duration: 1200, fill: "forwards", easing: "ease-out" }
         );
       }
     };
   
     window.onkeydown = e => {
-      if (e.key === "ArrowRight") {
+      if (e.key === "ArrowLeft") {
         console.log("chekcing")
         const currentPercentage = parseFloat(track.dataset.percentage);
         const nextPercentage = Math.min(currentPercentage + 10, 0);
@@ -53,7 +55,7 @@ function leftrightanimation() {
           {
             transform: `translate(${nextPercentage}%, -50%)`
           },
-          { duration: 500, fill: "forwards" }
+          { duration: 1200, fill: "forwards", easing: "ease-out" }
         );
   
         for (const image of track.getElementsByTagName("img")) {
@@ -61,10 +63,10 @@ function leftrightanimation() {
             {
               objectPosition: `${100 + nextPercentage}% center`
             },
-            { duration: 500, fill: "forwards" }
+            { duration: 1200, fill: "forwards", easing: "ease-out" }
           );
         }
-      } else if (e.key === "ArrowLeft") {
+      } else if (e.key === "ArrowRight") {
         const currentPercentage = parseFloat(track.dataset.percentage);
         const nextPercentage = Math.max(currentPercentage - 10, -100);
         track.dataset.percentage = nextPercentage.toString();
@@ -72,7 +74,7 @@ function leftrightanimation() {
           {
             transform: `translate(${nextPercentage}%, -50%)`
           },
-          { duration: 500, fill: "forwards" }
+          { duration: 1200, fill: "forwards", easing: "ease-out" }
         );
   
         for (const image of track.getElementsByTagName("img")) {
@@ -80,13 +82,13 @@ function leftrightanimation() {
             {
               objectPosition: `${100 + nextPercentage}% center`
             },
-            { duration: 500, fill: "forwards" }
+            { duration: 1200, fill: "forwards", easing: "ease-out"}
           );
         }
     };
   
     window.onkeyup = e => {
-        if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+        if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
           track.dataset.prevPercentage = track.dataset.percentage;
         }
       };

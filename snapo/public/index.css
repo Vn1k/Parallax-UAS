@@ -52,6 +52,7 @@ body::-webkit-scrollbar{
     pointer-events: none;
     text-align: center;
     padding: 1em;
+    font-size: 35px;
 }
 
 #image-container #fade-in{
