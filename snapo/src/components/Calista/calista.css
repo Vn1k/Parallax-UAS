@@ -77,16 +77,16 @@
 .line1 {
     background: white;
     position: absolute;
-    height: 0.2vh;
+    height: 0.3vh;
     top: 5vw;
-    width: 18.1vw;
+    width: 18.2vw;
 }
 
 .line2 {
     background: white;
     position: absolute;
     height: 19vw;
-    width: 0.1vw;
+    width: 0.2vw;
     top: -14vw;
 }
 
@@ -94,7 +94,7 @@
     background: white;
     position: absolute;
     height: 19vw;
-    width: 0.1vw;
+    width: 0.2vw;
     left: 18vw;
     top: -14vw;
 }
@@ -108,7 +108,7 @@
 .line4 {
     background: #CAA930;
     position: absolute;
-    height: 0.2vh;
+    height: 0.5vh;
     width: 10vw;
 }
 
@@ -116,7 +116,7 @@
     background: #CAA930;
     position: absolute;
     height: 33vw;
-    width: 0.1vw;
+    width: 0.2vw;
     left: 10vw;
 }
 
@@ -232,19 +232,19 @@
 
 #textMuseum1 {
     position: absolute;
-    top: 14vw;
+    top: 15vw;
     z-index: 9999;
 }
 
 #textMuseum2 {
     position: absolute;
-    top: 24vw;
+    top: 25vw;
     z-index: 9999;
 }
 
 #textMuseum3 {
     position: absolute;
-    top: 33vw;
+    top: 34vw;
     z-index: 9999;
 }
 
@@ -290,7 +290,7 @@
 
 .lineMuseum4 {
     background: white;
-    width: 0.1vw;
+    width: 0.2vw;
     height: 60vh;
     position: absolute;
 }
@@ -307,14 +307,14 @@
     background: white;
     position: absolute;
     width: 21.2vw;
-    height: 0.2vh;
+    height: 0.3vh;
 }
 
 .lineMuseum7 {
     background: white;
     position: absolute;
     width: 21.2vw;
-    height: 0.2vh;
+    height: 0.3vh;
     top: 30.2vw;
 } 
 

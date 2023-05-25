@@ -23,11 +23,10 @@ function App()
             <Tipo3 /> {/* Corrected Finished */}
             <Typo1/> {/* Corrected Finished */}
             <CardTipoc /> 
-            <Tipo2 /> {/* Corrected Finished */}
+            {/* <Tipo2 /> Corrected Finished */}
             {/* <Work/> */}
             <CardCredit />
             {/* <Tipoc />  */}
-            <Tipo2 /> {/* Corrected Finished */}
             {/* <Credita /> */}
             <Gallery/>
             <Work/>
