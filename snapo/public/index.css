@@ -9,8 +9,7 @@ body{
 #root{
     display: flex;
     flex-direction: column;
-    background: rgb(55,49,0);
-background: linear-gradient(rgba(55,49,0,1) 0%, rgba(151,156,22,1) 100%);
+    background: linear-gradient(rgba(55,49,0,1) 0%, rgba(151,156,22,1) 100%);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
@@ -433,7 +432,7 @@ background: linear-gradient(rgba(55,49,0,1) 0%, rgba(151,156,22,1) 100%);
     align-items: end;
 }
 #tahun{
-position: relative;
+    position: relative;
     font-family: 'Hanuman' , cursive;
     font-size: 20px;
     top: 45%;
@@ -442,7 +441,7 @@ position: relative;
 #hands{
     position: relative;
     scale: 50%;
-    top: -213%;
+    top: -221%;
     left: 35%;
 }
 #gariskotak{
@@ -493,7 +492,6 @@ position: relative;
 
 /* Gallery */
 #gallery{
-    background-color: rgba(16,12,8,255);
     width: 100vw;
     height: 100vh;
     color: white;
@@ -503,18 +501,30 @@ position: relative;
     scale: 11%;
     top: -160%;
     left: -33%;
+    transition: scale 1s ease-in-out;
+}
+#gambar1:hover{
+    scale: 12%;
 }
 #gambar2{
     position: relative;
     scale: 9.6%;
     top: -624.5%;
     left: -3.8%;
+    transition: scale 1s ease-in-out;
+}
+#gambar2:hover{
+    scale: 10.5%;
 }
 #gambar3{
     position: relative;
     scale: 9.6%;
     top: -1121%;
     left: 26%;
+    transition: scale 1s ease-in-out;
+}
+#gambar3:hover{
+    scale: 10.5%;
 }
 #g0{
     position: relative;
@@ -534,11 +544,10 @@ position: relative;
     left: 78.5%;
     font-family:'Hanuman', cursive;
 }
-/* Credit */
+/* Gallery */
 #Credit{
     width: 100vw;
     height: 120vh;
-    background-color: rgba(16,12,8,255);
     color: white;
     font-family: 'Hanuman', cursive;
 }

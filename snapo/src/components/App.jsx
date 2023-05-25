@@ -11,24 +11,25 @@ import Tipo2 from "./Acd/Tipo2";
 import Work from "./Acd/Work";
 import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
-import Gallery from "./Ravin/Gallery";
 
 function App()
 {
     return (
         <>
-            {/* <Navbar/> */}
+            <Navbar/>{/* <Navbar/> */}
             <Home/> {/* Corrected Finished */}
             <Tipo3 /> {/* Corrected Finished */}
             <Typo1/> {/* Corrected Finished */}
             <CardTipoc /> 
             <Tipo2 /> {/* Corrected Finished */}
-            <Gallery/> {/* Corrected Finished */}
             {/* <Work/> */}
             <CardCredit />
             <AboutUs/> {/* Corrected Unfinished*/}
+            {/* <Tipoc />  */}
+            <Tipo2 /> {/* Corrected Finished */}
+            {/* <Credita /> */}
             <Work/>
-            {/* <AboutUs/> Corrected Unfinished */}
+            <AboutUs/> {/* Corrected Unfinished*/}
             {/* <Footer/> */}
         </>
     )
