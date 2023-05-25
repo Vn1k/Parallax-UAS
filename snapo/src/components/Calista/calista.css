@@ -108,7 +108,7 @@
 .line4 {
     background: #CAA930;
     position: absolute;
-    height: 0.2vh;
+    height: 0.5vh;
     width: 10vw;
 }
 
@@ -116,7 +116,7 @@
     background: #CAA930;
     position: absolute;
     height: 33vw;
-    width: 0.1vw;
+    width: 0.2vw;
     left: 10vw;
 }
 
