@@ -28,7 +28,7 @@ function AboutUs() {
 
   return (
     <NameContext.Provider value={{ name, setName, aboutIndividualRef }}>
-      <div data-aos="fade-left" data-aos-offset="600" id="about-us">
+      <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-anchor-placement="top-center" id="about-us">
         <Individuals onImageClick={handleImageClick} />
       </div>
       <div id="about-individual" className="Invisible" ref={aboutIndividualRef}>
