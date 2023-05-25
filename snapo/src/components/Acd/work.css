@@ -53,12 +53,14 @@
 #recWork2
 {
     background-color: #fff;
-    width: 421px;
-    height: 560px;
+    width: 22vw;
+    height: 52vh;
     opacity: 40%;
     position: absolute;
     top: 15%;
     left: 63%;
+    display: flex;
+    overflow: hidden;
 }
 
 #color3
@@ -120,32 +122,53 @@
 
 
 
-#carouselWork {
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    width: 22vw;
-    height: 60vh;
+/* #carouselWork {
     position: absolute;
-    bottom: 23%;
-    left: 64%;
+    top: 10vw;
+    width: 100vw;
+    height: 60vw;
+    overflow: hidden;
+} */
+
+@keyframes autoplay {
+    0% {left: 100%}
+    4% {left: 0%}
+    33.33% {left: 0%}
+    37.33% {left: -100%}
+    100% {left: -100%}
 }
 
-#carouselWork img
-{
-    display: flex;
+#imgWork1{
+    position: absolute;
+    animation: 12s autoplay infinite linear;
+    animation-delay: 0s;
     width: 100%;
-    height: 60vh;
-    scroll-snap-align: start;
+    height: 100%;
 }
 
-::-webkit-scrollbar-track {
+#imgWork2{
+    position: absolute;
+    animation: 12s autoplay infinite linear;
+    animation-delay: 4s;
+    width: 100%;
+    height: 100%;
+}
+
+#imgWork3{
+    position: absolute;
+    animation: 12s autoplay infinite linear;
+    animation-delay: 10.1615s;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* ::-webkit-scrollbar-track {
     display:none;
-  }
+  } */
    
   /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
     display:none;
-  }
+  } */

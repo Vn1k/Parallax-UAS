@@ -115,7 +115,7 @@
 .line5 {
     background: #CAA930;
     position: absolute;
-    height: 33vw;
+    height: 37vw;
     width: 0.2vw;
     left: 10vw;
 }
@@ -258,7 +258,7 @@
 
 .lineMuseum1 {
     background: white;
-    height: 0.2vh;
+    height: 0.3vh;
     width: 35vw;
     position: absolute;
     top: -0.1vw;
@@ -266,7 +266,7 @@
 
 .lineMuseum2 {
     background: white;
-    height: 0.2vh;
+    height: 0.3vh;
     width: 35vw;
     position: absolute;
     top: 8.9vw;
@@ -274,7 +274,7 @@
 
 .lineMuseum3 {
     background: white;
-    height: 0.2vh;
+    height: 0.3vh;
     width: 35vw;
     position: absolute;
     top: 18.9vw;
