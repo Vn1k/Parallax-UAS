@@ -318,4 +318,48 @@
     top: 30.2vw;
 } 
 
+
+/* #recWork2 {
+    background-color: #fff;
+    width: 22vw;
+    height: 57vh;
+    position: absolute;
+    top: 15%;
+    left: 63%;
+    display: flex;
+    overflow: hidden;
+}
+
+@keyframes autoplay {
+    0% {left: 100%}
+    4% {left: 0%}
+    33.33% {left: 0%}
+    37.33% {left: -100%}
+    100% {left: -100%}
+}
+
+#imgWork1{
+    position: absolute;
+    animation: 12s autoplay infinite linear;
+    animation-delay: 0s;
+    width: 100%;
+    height: 100%;
+}
+
+#imgWork2{
+    position: absolute;
+    animation: 12s autoplay infinite linear;
+    animation-delay: 4s;
+    width: 100%;
+    height: 100%;
+}
+
+#imgWork3{
+    position: absolute;
+    animation: 12s autoplay infinite linear;
+    animation-delay: 8s;
+    width: 100%;
+    height: 100%;
+} */
+
 /* Calista Akhir */

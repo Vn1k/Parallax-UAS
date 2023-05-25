@@ -54,8 +54,7 @@
 {
     background-color: #fff;
     width: 22vw;
-    height: 52vh;
-    opacity: 40%;
+    height: 57vh;
     position: absolute;
     top: 15%;
     left: 63%;
@@ -149,9 +148,9 @@
 #imgWork3{
     position: absolute;
     animation: 12s autoplay infinite linear;
-    animation-delay: 10.1615s;
+    animation-delay: 8s;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 
