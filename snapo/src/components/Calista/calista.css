@@ -70,7 +70,7 @@
 
 #line123 {
     position: absolute;
-    left: 60vw;
+    left: 55vw;
     top: 14vw;
 }
 
@@ -79,7 +79,7 @@
     position: absolute;
     height: 0.2vh;
     top: 5vw;
-    width: 16.1vw;
+    width: 18.1vw;
 }
 
 .line2 {
@@ -95,7 +95,7 @@
     position: absolute;
     height: 19vw;
     width: 0.1vw;
-    left: 16vw;
+    left: 18vw;
     top: -14vw;
 }
 
@@ -124,8 +124,8 @@
     position: absolute;
     width: 5vw;
     height: 15vh;
-    top: 10vw;
-    left: 58vw;
+    top: 8vw;
+    left: 53vw;
 }
 
 .dot1 {
