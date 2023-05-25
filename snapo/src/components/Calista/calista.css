@@ -74,6 +74,14 @@
     top: 14vw;
 }
 
+.line1 {
+    background: white;
+    position: absolute;
+    height: 0.2vh;
+    top: 5vw;
+    width: 16.1vw;
+}
+
 .line2 {
     background: white;
     position: absolute;
@@ -114,48 +122,59 @@
 
 #allDot {
     position: absolute;
-    background-color: white;
+    width: 5vw;
+    height: 15vh;
+    top: 10vw;
+    left: 58vw;
 }
 
 .dot1 {
-    width: 10vw;
-    /* top: 10vw; */
+    width: 1vw;
+    height: 2vh;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
 }
 
 .dot2 {
-    width: 10vw;
+    width: 1vw;
+    height: 2vh;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2vw;
 }
 
 .dot3 {
-    width: 10vw;
+    width: 1vw;
+    height: 2vh;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 4vw;
 }
 
-/* #cardCredita {
-    background-color: red;
+#cardCredita {
     position: relative;
+    background-color: red;
+    font-family: hanuman;
 }
 
 #image3Credita {
-    width: 20vw;
-    height: 70vh;
-    overflow: hidden;
     position: absolute;
-    left: 12vw;
+    width: fit-content; 
     top: 12vw;
+    left: 10vw;
 }
 
 #img3Credita {
-    width: 40vw;
+    width: 22vw;
     height: 60vh;
-    position: absolute;
-    z-index: 9999;
-    left: -8.5vw;
-    top: -3vw; 
 }
 
 #Museum {
     position: absolute;
-    font-size: 36px;
+    font-size: 3em;
     color: white;
     width: 80vw;
     left: 45vw;
@@ -164,24 +183,24 @@
 
 #museum1 {
     position: absolute;
-    top: 8vw;
+    top: 7vw;
 }
 
 #museum2 {
     position: absolute;
-    top: 16vw;
+    top: 17vw;
 }
 
 #museum3 {
     position: absolute;
-    top: 24vw;
+    top: 26vw;
 }
 
 #TextMuseum {
     position: absolute;
-    font-size: 18px;
+    font-size: 1.2em;
     color: white;
-    width: 80vw;
+    width: 37vw;
     left: 45vw;
     top: 1vw;
     z-index: 9999;
@@ -195,13 +214,13 @@
 
 #textMuseum2 {
     position: absolute;
-    top: 22vw;
+    top: 24vw;
     z-index: 9999;
 }
 
 #textMuseum3 {
     position: absolute;
-    top: 30vw;
+    top: 33vw;
     z-index: 9999;
 }
 
@@ -210,27 +229,31 @@
     height: 40vh;
     position: absolute;
     left: 45vw;
-    top: 20.5vw;
+    top: 21.8vw;
 }
 
 .lineMuseum1 {
     background: white;
     height: 0.2vh;
     width: 35vw;
+    position: absolute;
+    top: -0.1vw;
 }
 
 .lineMuseum2 {
     background: white;
     height: 0.2vh;
     width: 35vw;
-    margin-top: 8vw;
+    position: absolute;
+    top: 8.9vw;
 }
 
 .lineMuseum3 {
     background: white;
     height: 0.2vh;
     width: 35vw;
-    margin-top: 9vw;
+    position: absolute;
+    top: 18.9vw;
 }
 
 #lineMuseum4567 {
@@ -268,6 +291,6 @@
     width: 0.1vw;
     margin-top: -26.6vw;
     margin-left: 17.4vw;
-}  */
+} 
 
 /* Calista Akhir */
