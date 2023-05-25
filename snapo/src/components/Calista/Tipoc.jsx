@@ -6,8 +6,10 @@ function Tipoc(props){
         <div id="cardTipoc">
                 <div id="headingTipoc">{props.title}</div>
                 <div id="textTipoc">{props.text}</div>
-                <div id="image1"><img id="img1" src={props.img1} /></div>
-                <div id="image2"><img id="img2" src={props.img2} /></div>
+                <div id="images">
+                    <img id="img1" src={props.img1} />
+                    <img id="img2" src={props.img2} />
+                </div>
                 <div id="line"><div class="line"></div></div>
                 <div id="line123">
                     <div class="line1"></div>

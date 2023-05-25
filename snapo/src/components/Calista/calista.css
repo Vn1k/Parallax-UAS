@@ -1,16 +1,43 @@
 /* Calista Awal */
+body {
+    font-family: hanuman;
+}
+
 #cardTipoc {
     background-color: red;
     position: relative;
 }
 
-body {
-    font-family: hanuman;
+#images {
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 1;
 }
 
+#img1 {
+    max-width: 100%;
+    max-height: 100%;
+    width: 22vw;
+    height: 50vh;
+    position: absolute;
+    margin-right: 3%;
+    right: 0%;
+    top: 20%;
+}
+
+#img2 {
+    max-width: 100%;
+    max-height: 100%;
+    width: 22vw;
+    height: 50vh;
+    position: absolute;
+    margin-right: 3%;
+    left: 0%;
+    top: 20%;
+}
 #headingTipoc {
-    font-size: 82px;
-    position: relative;
+    font-size: 6rem;
+    position: absolute;
     top: 35vw;
     left: 56vw;
     z-index: 1;
@@ -20,45 +47,13 @@ body {
 #textTipoc {
     font-size: 22px;
     width: 40vw;
-    position: relative;
+    position: absolute;
     top: 20vw;
     left: 46vw;
     z-index: 1;
     color: white;
 }
 
-#image1 {
-    width: 20vw;
-    height: 75vh;
-    overflow: hidden;
-    position: relative;
-    left: 70vw;
-    top: -10vw;
-}
-
-#img1 {
-    width: 52vw;
-    height: 66vh;
-    position: relative;
-    left: -12vw;
-    top: -2vw;
-}
-
-#image2 {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    left: -100vw;
-    top: 50vw;
-}
-
-#img2 {
-    width: 92vw;
-    height: 100vh;
-    position: relative;
-    left: -12vw;
-    top: -2vw;
-}
 
 .line {
     background: white;
@@ -66,7 +61,7 @@ body {
     width: 65vw;
     opacity: 50%;
     z-index: 1;
-    position: relative;
+    position: absolute;
     top: -10.5vw;
     left: -39.6vw;
 }
@@ -74,14 +69,14 @@ body {
 #line123 {
     width: 3vw;
     height: 40vh;
-    position: relative;
+    position: absolute;
     margin-left: 62vw;
     margin-top: -90.5vw;
 }
 
 .line1 {
     background: white;
-    position: relative;
+    position: absolute;
     height: 0.2vh;
     width: 15.7vw;
     top: 8vw;
@@ -89,7 +84,7 @@ body {
 
 .line2 {
     background: white;
-    position: relative;
+    position: absolute;
     height: 19vw;
     width: 0.1vw;
     top: -11vw;
@@ -97,7 +92,7 @@ body {
 
 .line3 {
     background: white;
-    position: relative;
+    position: absolute;
     height: 19vw;
     width: 0.1vw;
     margin-left: 15.6vw;
@@ -107,13 +102,13 @@ body {
 #line45 {
     width: 120vw;
     height: 10vh;
-    position: relative;
+    position: absolute;
     margin-left: -30vw;
 }
 
 .line4 {
     background: white;
-    position: relative;
+    position: absolute;
     height: 65vh;
     width: 0.2vw;
     margin-top: -12vw;
@@ -122,7 +117,7 @@ body {
 
 .line5 {
     background: white;
-    position: relative;
+    position: absolute;
     height: 0.3vh;
     width: 200px;
     margin-left: 62.6vw;
@@ -132,7 +127,7 @@ body {
 #allDot {
     margin-top: 55vw;
     margin-left: -40vw;
-    position: relative;
+    position: absolute;
 }
 
 .dot1 {
@@ -140,7 +135,7 @@ body {
     height: 200000vh;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     top: -100vw;
     left: -200vw;
     z-index: 9999;
@@ -154,7 +149,7 @@ body {
     border-radius: 50%;
     margin-top: 1.5vw;
     margin-left: 100vw;
-    position: relative;
+    position: absolute;
     z-index: 9999;
 }
 
@@ -165,7 +160,7 @@ body {
     border-radius: 50%;
     margin-top: 1.5vw;
     margin-left: 100vw;
-    position: relative;
+    position: absolute;
     z-index: 9999;
 }
 
