@@ -5,7 +5,7 @@ import conCredit from "./conCredit";
 function createCard(conCredit){
     return(
         <Credita
-        // img3={conCredit.img3}
+        img3={conCredit.img3}
         title1={conCredit.title1}
         text1={conCredit.text1}
         title2={conCredit.title2}

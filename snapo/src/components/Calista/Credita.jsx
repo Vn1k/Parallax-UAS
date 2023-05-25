@@ -2,13 +2,9 @@ import React from "react";
 import './calista.css';
 
 function Credita(props){
-    const IMGURL = require("../../ASET/Images/kursipiano.jpg");
-    console.log(props.text1)
-    
     return (
         <div id="cardCredita">
-                <div id="image3Credita"><img id="img3Credita" src={IMGURL} /></div>
-                {/* <div id="image3Credita"><img id="img3Credita" src={props.img3} /></div> */}
+                <div id="image3Credita"><img id="img3Credita" src={props.img3} /></div>
                 <div id="Museum">
                     <div id="museum1">{props.title1}</div>
                     <div id="museum2">{props.title2}</div>
