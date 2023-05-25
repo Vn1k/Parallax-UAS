@@ -3,7 +3,6 @@ import Navbar from "../components/Vinik/Navbar";
 import AboutUs from "../components/NAS/AboutUs";
 import Tipo3 from "./Acd/Tipo3";
 import Typo1 from "./Ravin/Typo1";
-import Tipoc from "./Calista/Tipoc";
 import CardTipoc from "./Calista/CardTipoc";
 import Home from "./Vinik/Home/Home";
 import Tipo2 from "./Acd/Tipo2";
