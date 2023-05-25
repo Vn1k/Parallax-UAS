@@ -76,6 +76,11 @@
         height: 25%;
     }
     
+    #logocam {
+        z-index: 3;
+        position: absolute;
+    }
+
     #background-logo {
         width: 4%;
         height: 60%;

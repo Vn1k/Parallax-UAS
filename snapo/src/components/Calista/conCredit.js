@@ -1,6 +1,6 @@
 const conCredit = [
     {
-        img3: require("../../ASET/Images/kursipiano.JPG"),
+        img3: require("../../ASET/Images/kursipiano.jpg"),
         title1: "Museum",
         title4: "Macan",
         text1: "Museum Macan merupakan museum pertama di Indonesia yang mempunyai koleksi seni kontemporer dan modern. MACAN adalah sebuah singkatan dari Museum of Modern and Contemporary Art in Nusantara.",

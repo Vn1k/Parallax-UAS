@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./nabar.css";
-import { ReactComponent as Lognav } from "../../ASET/SVG/SNAPO.svg";
+import { ReactComponent as Lognav } from "../../ASET/SVG/SNAPANJANG.svg";
 import {
   handleScroll,
   scrollToTop
