@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
-import { NameContext } from "./AboutUs";
-import BackButton from "./BackButton";
-import '../Acd/ACD'
+import { NameContext } from "../NAS/AboutUs";
+import BackButton from "../NAS/BackButton";
 
 function ACDprofile() {
   const { name, setName, aboutIndividualRef } = useContext(NameContext);
