@@ -4,6 +4,9 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+    transition: all 100ms ease-out;
+    transform-origin: top left;
+    scale: 1.01;
 }
 
 body::-webkit-scrollbar{

@@ -93,7 +93,41 @@ function leftrightanimation() {
         }
       };
     }
+
+    let scrollTimeout;
+
+window.onwheel = e => {
+  e.preventDefault();
+  const scrollDelta = e.deltaX;
+  const maxDelta = window.innerWidth / 2;
+  const percentage = (scrollDelta / maxDelta) * -100;
+  const nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
+
+  const clampedPercentage = Math.min(Math.max(nextPercentage, -100), 0);
+  track.dataset.percentage = clampedPercentage;
+  track.animate(
+    {
+      transform: `translate(${clampedPercentage}%, -50%)`
+    },
+    { duration: 1200, fill: "forwards" }
+  );
+
+  for (const image of track.getElementsByTagName("img")) {
+    image.animate(
+      {
+        objectPosition: `${100 + clampedPercentage}% center`
+      },
+      { duration: 1200, fill: "forwards", easing: "ease-out" }
+    );
   }
-  
+
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    track.dataset.prevPercentage = clampedPercentage;
+  }, 0); // Adjust the timeout duration as needed
+};
+
+  }
+
   export default leftrightanimation;
   
