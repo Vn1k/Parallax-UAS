@@ -1,7 +1,7 @@
 /* Calista Awal */
 #cardTipoc {
     position: relative;
-    background-color: red;
+    background-color: rgb(122, 117, 7);
     font-family: hanuman;
 }
 
@@ -33,12 +33,12 @@
 
 #linecaltipoc {
     position: absolute;
-    background-color: white;
-    width: 65vw;
+    background-color: #D9D9D9;
+    width: 61.5vw;
     height: 10vh;
     opacity: 50%;
     top: 15vw;
-    left: -17.5vw;
+    left: -14vw;
     z-index: 999;
 }
 
@@ -106,14 +106,14 @@
 }
 
 .line4 {
-    background: white;
+    background: #CAA930;
     position: absolute;
     height: 0.2vh;
     width: 10vw;
 }
 
 .line5 {
-    background: white;
+    background: #CAA930;
     position: absolute;
     height: 33vw;
     width: 0.1vw;
@@ -131,7 +131,7 @@
 .dot1 {
     width: 1vw;
     height: 2vh;
-    background-color: white;
+    background-color: #CAA930;
     border-radius: 50%;
     position: absolute;
 }
@@ -139,7 +139,7 @@
 .dot2 {
     width: 1vw;
     height: 2vh;
-    background-color: white;
+    background-color: #CAA930;
     border-radius: 50%;
     position: absolute;
     top: 2vw;
@@ -148,7 +148,7 @@
 .dot3 {
     width: 1vw;
     height: 2vh;
-    background-color: white;
+    background-color: #CAA930;
     border-radius: 50%;
     position: absolute;
     top: 4vw;
@@ -156,7 +156,7 @@
 
 #cardCredita {
     position: relative;
-    background-color: red;
+    background-color: rgb(122, 117, 7);
     font-family: hanuman;
 }
 
