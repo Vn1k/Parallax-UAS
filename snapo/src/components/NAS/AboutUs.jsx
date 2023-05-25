@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import leftrightanimation from "./leftrightanimation";
 import Individuals from "./Individuals";
 import NASprofile from "./NASprofile";
+import Vin from "../Vinik/Aboutvin/Vinprof";
 
 export const NameContext = React.createContext();
 
@@ -29,7 +30,7 @@ function AboutUs() {
       <div id="about-individual" className="Invisible" ref={aboutIndividualRef}>
         {name === "Amanda Citra Dewanti" && <p>acd</p>}
         {name === "Calista Belva" && <p>cb</p>}
-        {name === "Kevin Ken" && <p>kk</p>}
+        {name === "Kevin Ken" && <Vin/>}
         {name === "Nathan Angelo Stenlie" && <NASprofile />}
         {name === "Robertus Ravin Woenarso" && <p>rrw</p>}
       </div>
