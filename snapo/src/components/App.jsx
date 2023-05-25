@@ -7,7 +7,7 @@ import Tipoc from "./Calista/Tipoc";
 import CardTipoc from "./Calista/CardTipoc";
 import Home from "./Vinik/Home/Home";
 import Tipo2 from "./Acd/Tipo2";
-// import Gallery from "./Ravin/Gallery";
+import Gallery from "./Ravin/Gallery";
 import Work from "./Acd/Work";
 import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
@@ -28,6 +28,7 @@ function App()
             {/* <Tipoc />  */}
             <Tipo2 /> {/* Corrected Finished */}
             {/* <Credita /> */}
+            <Gallery/>
             <Work/>
             <AboutUs/> {/* Corrected Unfinished*/}
             {/* <Footer/> */}
