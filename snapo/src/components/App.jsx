@@ -12,6 +12,7 @@ import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
 import Gallery1 from "./Ravin/Gallery1"; //ini yang di link 
 import Gallery2 from "./Ravin/Gallery2"; //ini yang di link
+import Gallery3 from "./Ravin/Gallery3"; //ini yang di link
 
 function App()
 {
@@ -22,11 +23,10 @@ function App()
             <Tipo3 /> {/* Corrected Finished */}
             <Typo1/> {/* Corrected Finished */}
             <CardTipoc /> 
-            <Tipo2 /> {/* Corrected Finished */}
+            {/* <Tipo2 /> Corrected Finished */}
             {/* <Work/> */}
             <CardCredit />
             {/* <Tipoc />  */}
-            <Tipo2 /> {/* Corrected Finished */}
             {/* <Credita /> */}
             <Gallery/>
             <Work/>

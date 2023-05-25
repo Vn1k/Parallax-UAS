@@ -6,7 +6,7 @@ function Gallery2(){
     const gambar3 = require("../../ASET/Images/piano.jpg");
     const gambar4 = require("../../ASET/Images/kaincal.JPG");
     const gambar5 = require("../../ASET/Images/salib.jpg");
-    const gambar6 = require("../../ASET/Images/jubah.jpg")
+    const gambar6 = require("../../ASET/Images/jubah.jpg");
 
     return(
         <div id="con">
