@@ -17,6 +17,7 @@ function AboutUs() {
 
   function handleImageClick(clickedName) {
     setName(clickedName);
+    console.log(clickedName);
     aboutIndividualRef.current.classList.remove("Invisible");
     setTimeout(() => {
         aboutIndividualRef.current.style.left = "0%";

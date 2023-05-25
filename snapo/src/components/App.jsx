@@ -11,6 +11,7 @@ import Work from "./Acd/Work";
 import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
 import Gallery1 from "./Ravin/Gallery1"; //ini yang di link 
+import Gallery2 from "./Ravin/Gallery2"; //ini yang di link
 
 function App()
 {

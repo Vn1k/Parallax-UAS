@@ -45,7 +45,7 @@ function Navbar() {
           </li>
         </ul>
         <div className={`flex items-start mr-4`}>
-          <a href="#top" onClick={scrollToTop}>
+          <a href="#top">
             <Lognav className="h-8 w-8" id="logo" />
           </a>
         </div>
