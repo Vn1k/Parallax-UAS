@@ -256,10 +256,7 @@ body::-webkit-scrollbar{
 /* Gallery1 */
 body{
     margin: 0;
-    overflow: unset;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    height: 200vh;
+    overflow: scroll !important;
 }
 #gro{
     display: flex;
@@ -324,63 +321,34 @@ body{
     filter: none;
 }
 
-/* Credit */
-#Credit{
+/* Footer */
+#Footer{
     width: 100vw;
-    height: 120vh;
-    color: white;
     font-family: 'Hanuman', cursive;
+    color: white;
+    /* background-color: red; */
 }
 #gm{
-    position: relative;
-    scale: 50%;
-    left: -30%;
-    top: -70%;
+   width: 100vw;
+   height: 35vh;
 }
 #jfoot{
+    margin-top: 10%;
     position: relative;
     font-size: 96px;
-    z-index: 1;
-    top: 50%;
-    left: 35%;
+    text-align: center;
 }
 #dfoot{
     position: relative;
     font-size: 24px;
-    top: 48%;
-    left: 26%;
+    text-align: center;
 }
-#Ref1{
-    position: relative;
-    top: 60%;
-    left: 15%;
-    font-size: 24px;
+#footerw{
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+    /* margin-top: 5%; */
 }
-#Ref2{
-    position: relative;
-    top: 55.2%;
-    left: 37%;
-    font-size: 24px;
-}
-#Ref3{
-    position: relative;
-    top: 50.4%;
-    left: 59%;
-    font-size: 24px;
-}
-#Ref4{
-    position: relative;
-    top: 45.6%;
-    left: 81%;
-    font-size: 24px;
-}
-#hor{
-    background-color: white;
-    position: relative;
-    opacity: 40%;
-    width: 344px;
-    height: 80px;
-    top: 8%;
-    left: 62%;
-    z-index: 1;
+#desc{
+    height: 40vh;
 }
