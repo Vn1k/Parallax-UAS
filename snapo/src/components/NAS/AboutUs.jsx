@@ -35,7 +35,7 @@ function AboutUs() {
       targets: "#bg-image-about-us img",
       translateX: -cursorPosition.x,
       translateY: -cursorPosition.y,
-      duration: 1000,
+      duration: 500,
       easing: 'easeOutQuad',
     });
   }, [cursorPosition]);
