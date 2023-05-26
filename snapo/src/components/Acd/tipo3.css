@@ -2,6 +2,7 @@
     overflow: hidden;
     color: white;
     position: relative;
+    display: flex;
 }
 
 #image3
@@ -35,11 +36,11 @@
 
 #text
 {
-    position: absolute;
-    align-items: end;
-    left: 50%;
+    position: fixed;
     top: 50%;
-    transform: translate(-25%, -50%);
+    left: 50%;
+    transform: translate(-20%, -50%);
+    align-items: end;
     font-size: 1.3rem;
     width: 40vw;
     font-family: 'Hanuman', serif;
