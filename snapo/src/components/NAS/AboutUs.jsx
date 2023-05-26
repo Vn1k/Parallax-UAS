@@ -35,7 +35,7 @@ function AboutUs() {
       targets: "#bg-image-about-us img",
       translateX: -cursorPosition.x,
       translateY: -cursorPosition.y,
-      duration: 500,
+      duration: 1000,
       easing: 'easeOutQuad',
     });
   }, [cursorPosition]);
@@ -49,7 +49,7 @@ function AboutUs() {
           setCursorPosition({x: movement_x, y: movement_y})
         }} data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-anchor-placement="top-center" id="about-us">
         <div id="bg-image-about-us">
-          <img class="selectDisable" draggable="false" style={{position: "absolute", top: -cursorPosition.y, left: -cursorPosition.x}} src={GMBRUS}/>
+          <img className="selectDisable" draggable="false" style={{position: "absolute", top: -cursorPosition.y, left: -cursorPosition.x}} src={GMBRUS}/>
         </div>
         <Individuals onImageClick={handleImageClick} />
       </div>
