@@ -6,7 +6,7 @@ import Vin from "../Vinik/Aboutvin/Vinprof";
 import ACDProfile from "../Acd/ACDprofile";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Rprofile from "../Ravin/Rprofile";
+import ProfileRavin from "../Ravin/ProfileRavin";
 import anime from "animejs";
 
 export const NameContext = React.createContext();
@@ -58,7 +58,7 @@ function AboutUs() {
         {name === "Calista Belva" && <p>cb</p>}
         {name === "Kevin Ken" && <Vin/>}
         {name === "Nathan Angelo Stenlie" && <NASprofile />}
-        {name === "Robertus Ravin Woenarso" && <Rprofile/>}
+        {name === "Robertus Ravin Woenarso" && <ProfileRavin />}
       </div>
     </NameContext.Provider>
   );

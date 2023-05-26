@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './calista.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Credita(props){
     // const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
@@ -42,35 +44,37 @@ function Credita(props){
                     <img id="imgkatedral4" src={props.imgkatedral4}/>
                 </div>
                 <div id="Museum">
-                    <div id="museum1">{props.title1}</div>
-                    <div id="museum4" onClick={() => changeBackground("Museum4")}>{props.title4}</div>
-                    <div id="museum2">{props.title2}</div>
-                    <div id="museum5" onClick={() => changeBackground("Museum5")}>{props.title5}</div>
-                    <div id="museum3">{props.title3}</div>
-                    <div id="museum6" onClick={() => changeBackground("Museum6")} 
+                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="200" id="museum1">{props.title1}</div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" onClick={() => changeBackground("Museum4")}>{props.title4}</div>
+                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum2">{props.title2}</div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="180" id="museum5" onClick={() => changeBackground("Museum5")}>{props.title5}</div>
+                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" id="museum3">{props.title3}</div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum6" onClick={() => changeBackground("Museum6")} 
                     // onClick={handleMuseumKatedralClick}
                     >{props.title6}</div>
                 </div> 
 
                 <div id="TextMuseum">
-                    <div id="textMuseum1">{props.text1}</div>
-                    <div id="textMuseum2">{props.text2}</div>
-                    <div id="textMuseum3">{props.text3}</div> 
+                    <div data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="230" id="textMuseum1">{props.text1}</div>
+                    <div data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="100" id="textMuseum2">{props.text2}</div>
+                    <div data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="80" id="textMuseum3">{props.text3}</div> 
                 </div>
                 {/* <div id="lineMuseum123"> */}
-                    <div class="lineMuseum1"></div>
-                    <div class="lineMuseum2"></div>
-                    <div class="lineMuseum3"></div>
+                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="100" class="lineMuseum1"></div>
+                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-10" class="lineMuseum2"></div>
+                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-50" class="lineMuseum3"></div>
                 {/* </div>      */}
                 <div id="lineMuseum4567">
-                    <div class="lineMuseum4"></div>
-                    <div class="lineMuseum5"></div>
-                    <div class="lineMuseum6"></div>
-                    <div class="lineMuseum7"></div>
+                    <div data-aos="fade-down" data-aos-easing="ease-out-sine" data-aos-offset="0" class="lineMuseum4"></div>
+                    <div data-aos="fade-down" data-aos-easing="ease-out-sine" data-aos-offset="100" class="lineMuseum5"></div>
+                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" class="lineMuseum6"></div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="10" class="lineMuseum7"></div>
                 </div>          
         </div>
     );
 }
+
+AOS.init();
 
 export default Credita;
 
