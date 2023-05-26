@@ -33,6 +33,8 @@
   animation-delay: 0s;
   width: 100%;
   height: 100%;
+  top: 2%;
+  scale: 110%;
 }
 
 #Ime2 {
@@ -41,6 +43,7 @@
   animation-delay: -4s;
   width: 100%;
   height: 100%;
+  top: -25%;
 }
 
 #Ime3 {
@@ -49,6 +52,7 @@
   animation-delay: -8s;
   width: 100%;
   height: 100%;
+  top: -20%;
 }
 
 BackButton
