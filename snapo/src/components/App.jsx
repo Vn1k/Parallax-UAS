@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Vinik/Navbar";
 import AboutUs from "../components/NAS/AboutUs";
+
 import Tipo3 from "./Acd/Tipo3";
 import Typo1 from "./Ravin/Typo1";
 import CardTipoc from "./Calista/CardTipoc";
@@ -10,15 +11,13 @@ import Gallery from "./Ravin/Gallery";
 import Work from "./Acd/Work";
 import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
-import Gallery1 from "./Ravin/Gallery1"; //ini yang di link
-import Gallery2 from "./Ravin/Gallery2"; //ini yang di link
 import { ScrollProvider } from "./ScrollContext";
-import LoadingScreen from './LoadingScreen';
+// import LoadingScreen from './LoadingScreen';
 
 function App() {
   return (
     <>
-      <LoadingScreen/>
+      {/* <LoadingScreen/> */}
       <ScrollProvider>
         <Navbar />
         <Home />
