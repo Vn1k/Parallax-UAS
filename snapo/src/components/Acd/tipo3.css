@@ -28,7 +28,7 @@
     transform: translate(-250%, -50%);
     align-items: start;
     font-weight: 600;
-    font-size: 6rem;
+    font-size: 3rem;
     z-index: 2;
     line-height: 1.1em;
     font-family: 'Hanuman', serif;
@@ -41,7 +41,7 @@
     left: 50%;
     transform: translate(-20%, -50%);
     align-items: end;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 40vw;
     font-family: 'Hanuman', serif;
     z-index: 1;
@@ -55,7 +55,7 @@
     transform: translate(180%, -270%);
     z-index: 1;
     font-family: 'Dancing Script', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #kutip
