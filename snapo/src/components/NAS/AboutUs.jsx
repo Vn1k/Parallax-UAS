@@ -4,6 +4,9 @@ import Individuals from "./Individuals";
 import NASprofile from "./NASprofile";
 import Vin from "../Vinik/Aboutvin/Vinprof";
 import ACDProfile from "../Acd/ACDprofile";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Rprofile from "../Ravin/Rprofile";
 
 export const NameContext = React.createContext();
 
@@ -26,7 +29,7 @@ function AboutUs() {
 
   return (
     <NameContext.Provider value={{ name, setName, aboutIndividualRef }}>
-      <div id="about-us">
+      <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-anchor-placement="top-center" id="about-us">
         <Individuals onImageClick={handleImageClick} />
       </div>
       <div id="about-individual" className="Invisible" ref={aboutIndividualRef}>
@@ -34,10 +37,12 @@ function AboutUs() {
         {name === "Calista Belva" && <p>cb</p>}
         {name === "Kevin Ken" && <Vin/>}
         {name === "Nathan Angelo Stenlie" && <NASprofile />}
-        {name === "Robertus Ravin Woenarso" && <p>rrw</p>}
+        {name === "Robertus Ravin Woenarso" && <Rprofile/>}
       </div>
     </NameContext.Provider>
   );
 }
+
+AOS.init();
 
 export default AboutUs;

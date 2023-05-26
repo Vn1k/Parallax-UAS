@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Logou } from '../../ASET/SVG/LOGO_SNAPO.svg';
+import { ReactComponent as Logou } from '../../ASET/SVG/SNAPANJANG.svg';
 import './work.css';
 
 function Work ()
@@ -7,11 +7,13 @@ function Work ()
     const Imgine1 = require("../../ASET/Images/piano crop.jpg");
     const Imgine2 = require("../../ASET/Images/bingkai2 crop.jpg");
     const Imgine3 = require("../../ASET/Images/lukisan4.jpg");
+    const Snap    = require("../../ASET/SVG/SNAPO.png");
     
     return (
         <div id="containerWork">
             <div id="logoWork">
                 <Logou />
+                <img src={Snap} id="snapWok" alt="logo"/>
              </div>
             <div id="textWork">SNAPO merupakan sebuah singkatan dari SNAP yaitu foto dan PO adalah typography. Sehingga, SNAPO menampilkan sebuah website yang berisikan gallery foto 'Museum' dan diberikan sebuah typography untuk menambahkan estetika sebuah foto.</div>
             <div id="creditWork">Created by | <strong>M O Y S H I</strong></div>

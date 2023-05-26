@@ -227,33 +227,74 @@ body::-webkit-scrollbar{
     scale: 110%;
 }
 /* Gallery1 */
+body{
+    margin: 0;
+    overflow: unset;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200vh;
+}
 #gro{
     display: flex;
     margin: 0;
 }
 #Art1{
-    width: 45vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    transition: scale 1s ease-in-out;
+}
+#Art1:hover{
+    scale: 102%;
 }
 #Art2{
-    width: 55vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    transition: scale 1s ease-in-out;
+}
+#Art2:hover{
+    scale: 101%;
 }
 #Art3{
-    width: 55vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    transition: scale 1s ease-in-out;
+}
+#Art3:hover{
+    scale: 101%;
 }
 #Art4{
-    width: 45vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    transition: scale 1s ease-in-out;
+}
+#Art4:hover{
+    scale: 101%;
 }
 #Art5{
-    width:45vw;
-    height: auto;
+    width:100%;
+    height: 100%;
+    transition: scale 1s ease-in-out;
+}
+#Art5:hover{
+    scale:101%;
 }
 #Art6{
-    width: 55vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    transition: scale 1s ease-in-out;
+}
+#Art6:hover{
+    scale: 101%;
+}
+.con{
+    position: relative;
+}
+.con img.blur{
+    filter: blur(5px);
+    transition: filter 2s ease-in-out;
+}
+.con img:hover{
+    filter: none;
 }
 
 /* Credit */
