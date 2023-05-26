@@ -260,20 +260,21 @@
     z-index: 9999;
 }
 
-#lineMuseum123 {
+/* #lineMuseum123 {
     width: 80vw;
     height: 40vh;
     position: absolute;
     left: 45vw;
     top: 21.8vw;
-}
+} */
 
 .lineMuseum1 {
     background: white;
     height: 0.3vh;
     width: 35vw;
     position: absolute;
-    top: -0.1vw;
+    top: 21vw;
+    left: 45vw;
 }
 
 .lineMuseum2 {
@@ -281,7 +282,8 @@
     height: 0.3vh;
     width: 35vw;
     position: absolute;
-    top: 8.9vw;
+    top: 31vw;
+    left: 45vw;
 }
 
 .lineMuseum3 {
@@ -289,7 +291,8 @@
     height: 0.3vh;
     width: 35vw;
     position: absolute;
-    top: 18.9vw;
+    top: 41vw;
+    left: 45vw;
 }
 
 #lineMuseum4567 {

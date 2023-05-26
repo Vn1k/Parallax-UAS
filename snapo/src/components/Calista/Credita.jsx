@@ -2,24 +2,39 @@ import React, { useState } from "react";
 import './calista.css';
 
 function Credita(props){
-    const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
+    // const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
 
-    var button = document.getElementById("museum6");
-    var katedral = document.getElementById("katedral");
+    // var button = document.getElementById("museum6");
+    // var katedral = document.getElementById("katedral");
 
 
-    function handleMuseumKatedralClick(){
-        setShowMuseumKatedral(!showMuseumKatedral);
-        props.katedral(props.title6);
-    }   
+    // function handleMuseumKatedralClick(){
+    //     setShowMuseumKatedral(!showMuseumKatedral);
+    //     props.katedral(props.title6);
+    // }   
+
+    const [backgroundImage, setBackgroundImage] = useState('');
+
+    function changeBackground(content){
+        if(content == "Museum4"){
+            setBackgroundImage(require("../../ASET/Images/Macan.JPG"));
+        }
+        else if(content == "Museum5"){
+            setBackgroundImage(require("../../ASET/Images/Sarinah.JPG"));
+        }
+        else if(content == "Museum6"){
+            setBackgroundImage(require("../../ASET/Images/Katedral.JPG"));
+        }
+    }
     
     return (
-        <div id="cardCredita">
+        <div id="cardCredita" >
+            <img src={backgroundImage}/>
                 <div id="image3Credita">
                     <img id="img3Credita" src={props.img3} />
                 </div>
                 <div id="katedral" 
-                style={{ display: showMuseumKatedral ? 'block' : 'none' }}
+                // style={{ display: showMuseumKatedral ? 'block' : 'none' }}
                 >
                     <img id="imgkatedral1" src={props.imgkatedral1}/>
                     <img id="imgkatedral2" src={props.imgkatedral2}/>
@@ -28,13 +43,13 @@ function Credita(props){
                 </div>
                 <div id="Museum">
                     <div id="museum1">{props.title1}</div>
-                    <div id="museum4">{props.title4}</div>
+                    <button id="museum4" onClick={() => changeBackground("Museum4")}>{props.title4}</button>
                     <div id="museum2">{props.title2}</div>
-                    <div id="museum5">{props.title5}</div>
+                    <button id="museum5" onClick={() => changeBackground("Museum5")}>{props.title5}</button>
                     <div id="museum3">{props.title3}</div>
-                    <div id="museum6" 
-                    onClick={handleMuseumKatedralClick}
-                    >{props.title6}</div>
+                    <button id="museum6" onClick={() => changeBackground("Museum6")} 
+                    // onClick={handleMuseumKatedralClick}
+                    >{props.title6}</button>
                 </div> 
 
                 <div id="TextMuseum">
@@ -42,11 +57,11 @@ function Credita(props){
                     <div id="textMuseum2">{props.text2}</div>
                     <div id="textMuseum3">{props.text3}</div> 
                 </div>
-                <div id="lineMuseum123">
+                {/* <div id="lineMuseum123"> */}
                     <div class="lineMuseum1"></div>
                     <div class="lineMuseum2"></div>
                     <div class="lineMuseum3"></div>
-                </div>     
+                {/* </div>      */}
                 <div id="lineMuseum4567">
                     <div class="lineMuseum4"></div>
                     <div class="lineMuseum5"></div>
