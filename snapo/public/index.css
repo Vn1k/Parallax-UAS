@@ -3,9 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100%;
     overflow-x: hidden;
-    background-color: rgb(118, 118, 118);
+    background-color: #767676;
 }
 
 body::-webkit-scrollbar{
@@ -23,6 +22,37 @@ body::-webkit-scrollbar{
     overflow: hidden;
 }
 
+/*Loading Screen*/  
+  #loading{
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    position: fixed;
+    z-index: 9999;
+    background-color: #767676;
+  }
+  
+  .gradient-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(from 0deg at 50% 50%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    animation: animation 1s infinite linear;
+  }
+  
+  .inner-circle{
+    position:absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #767676;
+  }
+  
+  @keyframes animation{
+    100%{
+      transform: rotate(-360deg);
+    }
+  }
 /*About Us*/
 #image-container {
     width: 35vmin;
@@ -98,7 +128,7 @@ body::-webkit-scrollbar{
 }
 
 .Invisible{
-    display: none;
+    display: none !important;
 }
 
 

@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
-import { NameContext } from "./AboutUs";
-import BackButton from "./BackButton";
+import { NameContext } from "../NAS/AboutUs";
+import BackButton from "../NAS/BackButton";
+import './ACDprof.css';
 
 function ACDprofile ()
 {
@@ -23,13 +24,23 @@ function ACDprofile ()
     <>
       <BackButton onClick={handleResetClick} />
       <div id="containerProf">
-        <div id="name">Amanda Citra Dewanti</div>
+        <div id="name">Amanda Citraa Dewanti</div>
         <div id="nim">00000066344</div>
         <div id="conimg">
-            
+            <div id="Ime1">
+                <img src={Me1} alt="" />
+            </div>
+            <div id="Ime2">
+                <img src={Me2} alt="" />
+            </div>
+            <div id="Ime3">
+                <img src={Me3} alt="" />
+            </div>
         </div>
       </div>
     </>
 
   );
 }
+
+export default ACDprofile;

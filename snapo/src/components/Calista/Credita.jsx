@@ -4,14 +4,11 @@ import './calista.css';
 function Credita(props){
     const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
 
+    var button = document.getElementById("museum6");
+    var katedral = document.getElementById("katedral");
+
+
     function handleMuseumKatedralClick(){
-        // var div = document.getElementById("museum6");
-        // if(div.style.display !== "display"){
-        //     div.style.display = "display";
-        // } 
-        // else {
-        //     div.style.display = document.getElementById("image3Credita");
-        // }
         setShowMuseumKatedral(!showMuseumKatedral);
         props.katedral(props.title6);
     }   
