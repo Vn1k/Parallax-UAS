@@ -16,7 +16,7 @@ function Gallery2(){
             </div>
             <div id="gro">
                 <img id="Art3" src={gambar3} alt="Art" />
-                {/* <img id="Art4" src={gambar4} alt="Art" />  */}
+                <img id="Art4" src={gambar4} alt="Art" /> 
             </div>
             <div id="gro">
                 <img id="Art5" src={gambar5} alt="Art" />
