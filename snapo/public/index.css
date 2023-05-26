@@ -54,6 +54,10 @@ body::-webkit-scrollbar{
     }
   }
 /*About Us*/
+#bg-image-about-us{
+    position: absolute;
+}
+
 #image-container {
     width: 35vmin;
     height: 54vmin;

@@ -13,6 +13,7 @@ export const NameContext = React.createContext();
 function AboutUs() {
   const aboutIndividualRef = useRef(null);
   const [name, setName] = useState(null);
+  const GMBRUS = require("../../ASET/Images/cover AbtUs.jpg");
 
   useEffect(() => {
     leftrightanimation();
@@ -30,6 +31,7 @@ function AboutUs() {
   return (
     <NameContext.Provider value={{ name, setName, aboutIndividualRef }}>
       <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-anchor-placement="top-center" id="about-us">
+        <img id="bg-image-about-us" src={GMBRUS}/>
         <Individuals onImageClick={handleImageClick} />
       </div>
       <div id="about-individual" className="Invisible" ref={aboutIndividualRef}>
