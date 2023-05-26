@@ -8,21 +8,38 @@ function Footer(){
                 <img id="gm" src={gmbrf} alt="gambarfooter" />
             </div>
             <div id="desc">
-                <h1 id="jfoot">Lorem Ipsum</h1>
-                <p id="dfoot">Lorem ipsum dolor sit amet duadba jandw jsbdwb ndjwdw iqjsi ihdiq ajbabd ihsiq.</p>
+                <h1 id="jfoot">Reference</h1>
+                <p id="dfoot">These are the references that help us in the process developing the website.</p>
             </div>
-            <div id="footerw">
+            <div id="footer1">
                 <div>
-                    <p id="Ref1">References1</p>
+                    <p id="Ref1">figma.com</p>
                 </div>
                 <div>
-                    <p id="Ref2">References2</p>
+                    <p id="Ref2">sliderevolution.com</p>
                 </div>
                 <div>
-                    <p id="Ref3">References3</p>
+                    <p id="Ref3">github.com</p>  
+                </div>    
+            </div>
+            <div id="footer2">
+                <div>
+                    <p id="Ref1">AnimeJS</p>
                 </div>
                 <div>
-                    <p id="Ref4">References4</p>  
+                    <p id="Ref2">TailwindCSS</p>
+                </div>
+                <div>
+                    <p id="Ref3">Animation On Scroll</p>
+                </div>
+                <div>
+                    <p id="Ref4">Font Awesome Icon</p>  
+                </div>
+                <div>
+                    <p id="Ref5">Camille Mormal</p>  
+                </div>
+                <div>
+                    <p id="Ref6">Route</p>  
                 </div>            
             </div>
        </div> 

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { NameContext } from "../NAS/AboutUs";
 import BackButton from "../NAS/BackButton";
 import './ACDprof.css';
+import FollowACD from "./FollowACD";
 
 function ACDprofile ()
 {
@@ -9,6 +10,7 @@ function ACDprofile ()
     const Me1 = require("../../ASET/ACD/IMG-20230414-WA0019.jpg");
     const Me2 = require("../../ASET/ACD/IMG_20230524_234558.jpg");
     const Me3 = require("../../ASET/ACD/IMG_20230429_112720.jpg");
+    const Me4 = require("../../ASET/Individuals/ACD.jpg");
 
   function handleResetClick() {
     setTimeout(() => {
@@ -22,8 +24,10 @@ function ACDprofile ()
 
   return (
     <>
-      <BackButton onClick={handleResetClick} />
       <div id="containerProf">
+        <BackButton onClick={handleResetClick} id="buttonBack"/>
+        <img src={Me4} alt="" id="bgProf"/>
+        
         <div id="name">Amanda Citraa Dewanti</div>
         <div id="nim">00000066344</div>
         <div id="conimg">
@@ -36,6 +40,9 @@ function ACDprofile ()
             <div id="Ime3">
                 <img src={Me3} alt="" />
             </div>
+        </div>
+        <div id="FollowON">
+          <FollowACD />
         </div>
       </div>
     </>
