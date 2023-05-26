@@ -6,6 +6,12 @@ function createCard(conCredit){
     return(
         <Credita
         img3={conCredit.img3}
+
+        imgkatedral1={conCredit.imgkatedral1}
+        imgkatedral2={conCredit.imgkatedral2}
+        imgkatedral3={conCredit.imgkatedral3}
+        imgkatedral4={conCredit.imgkatedral4}
+        
         title1={conCredit.title1}
         title4={conCredit.title4}
         text1={conCredit.text1}
@@ -23,7 +29,7 @@ function CardCredit(){
     return (
         <>
             {conCredit.map(createCard)}
-            </>
+        </>
     )
 }
 
