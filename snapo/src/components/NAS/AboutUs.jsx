@@ -6,6 +6,7 @@ import Vin from "../Vinik/Aboutvin/Vinprof";
 import ACDProfile from "../Acd/ACDprofile";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Rprofile from "../Ravin/Rprofile";
 
 export const NameContext = React.createContext();
 
@@ -36,7 +37,7 @@ function AboutUs() {
         {name === "Calista Belva" && <p>cb</p>}
         {name === "Kevin Ken" && <Vin/>}
         {name === "Nathan Angelo Stenlie" && <NASprofile />}
-        {name === "Robertus Ravin Woenarso" && <p>rrw</p>}
+        {name === "Robertus Ravin Woenarso" && <Rprofile/>}
       </div>
     </NameContext.Provider>
   );
