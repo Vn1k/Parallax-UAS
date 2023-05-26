@@ -1,6 +1,12 @@
 const conCredit = [
     {
         img3: require("../../ASET/Images/kursipiano.jpg"),
+
+        imgkatedral1: require("../../ASET/Images/sejarahkatedral.JPG"),
+        imgkatedral2:require("../../ASET/Images/katedralus.JPG"),
+        imgkatedral3: require("../../ASET/Images/biarawati.JPG"),
+        imgkatedral4: require("../../ASET/Images/cross.JPG"),
+
         title1: "Museum",
         title4: "Macan",
         text1: "Museum Macan merupakan museum pertama di Indonesia yang mempunyai koleksi seni kontemporer dan modern. MACAN adalah sebuah singkatan dari Museum of Modern and Contemporary Art in Nusantara.",
@@ -12,5 +18,15 @@ const conCredit = [
         text3: "Museum Katedral adalah museum khusus yang berada di bagian balkon dalam Gereja Katedral Jakarta. Pendirian Museum Katedral bertujuan untuk melestarikan harta gereja yang berantakan dan nyaris hancur.",
     }
 ];
+
+// document.getElementById("museum4").addEventListener("click", function(){
+//     var katedral = document.getElementById("katedral");
+//     if (katedral.style.display === "none") {
+//         katedral.style.display = "block";
+//     }
+//     else {
+//         katedral.style.display = "none";
+//     }
+// });
 
 export default conCredit;

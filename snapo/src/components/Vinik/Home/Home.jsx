@@ -10,10 +10,10 @@ function Home () {
     const Logom = require('../../../ASET/SVG/SNAPy.png');
     return (
         <div id="Home">
-            <div data-aos="fade-up" data-aos-easing="ease-out-sine">
+            <div>
                 <img src={IMGURL} alt="" id="img-home"/>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-easing="ease-out-sine" data-aos-anchor-placement="0">
                 <SvgImage id='logovertical'/>
                 <object id="background-logo"></object>
             </div>

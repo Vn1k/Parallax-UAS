@@ -21,6 +21,17 @@
     left: 17vw;
     color: white;
     z-index: 9999;
+    animation: 3s slideRightHeadingTipoc;
+    animation-delay: 2s;
+}
+
+@keyframes slideRightHeadingTipoc {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 100%;
+    }
 }
 
 #textTipoc {
@@ -218,6 +229,7 @@
     top: 26vw;
     left: 11vw;
     color: #CAA930;
+    display: none;
 }
 
 #TextMuseum {
@@ -318,14 +330,13 @@
     top: 30.2vw;
 } 
 
-
-/* #recWork2 {
+#katedral {
     background-color: #fff;
     width: 22vw;
-    height: 57vh;
+    height: 60vh;
     position: absolute;
-    top: 15%;
-    left: 63%;
+    top: 12vw;
+    left: 10vw;
     display: flex;
     overflow: hidden;
 }
@@ -338,28 +349,36 @@
     100% {left: -100%}
 }
 
-#imgWork1{
+#imgkatedral1 {
     position: absolute;
-    animation: 12s autoplay infinite linear;
+    animation: 16s autoplay infinite linear;
     animation-delay: 0s;
     width: 100%;
     height: 100%;
 }
 
-#imgWork2{
+#imgkatedral2 {
     position: absolute;
-    animation: 12s autoplay infinite linear;
+    animation: 16s autoplay infinite linear;
     animation-delay: 4s;
     width: 100%;
     height: 100%;
 }
 
-#imgWork3{
+#imgkatedral3 {
     position: absolute;
-    animation: 12s autoplay infinite linear;
+    animation: 16s autoplay infinite linear;
     animation-delay: 8s;
     width: 100%;
     height: 100%;
-} */
+}
+
+#imgkatedral4 {
+    position: absolute;
+    animation: 16s autoplay infinite linear;
+    animation-delay: 12s;
+    width: 100%;
+    height: 100%;
+}
 
 /* Calista Akhir */

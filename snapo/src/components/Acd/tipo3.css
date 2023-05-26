@@ -2,6 +2,7 @@
     overflow: hidden;
     color: white;
     position: relative;
+    display: flex;
 }
 
 #image3
@@ -35,11 +36,11 @@
 
 #text
 {
-    position: absolute;
-    align-items: end;
-    left: 50%;
+    position: fixed;
     top: 50%;
-    transform: translate(-25%, -50%);
+    left: 50%;
+    transform: translate(-20%, -50%);
+    align-items: end;
     font-size: 1.3rem;
     width: 40vw;
     font-family: 'Hanuman', serif;
@@ -70,40 +71,37 @@
 
 #rectangle
 {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.4);
     width: 6vw;
     height: 45vh;
     position: absolute;
     left: 19%;
     top: 50%;
     transform: translate(-100%, -70%);
-    opacity: 40%;
     z-index: 1;
 }
 
 #rectangle1
 {
-    background-color: #BA9616;
+    background-color: rgba(186, 150, 22, 0.4);
     width: 5vw;
     height: 38vh;
     position: absolute;
     left: 24%;
     top: 50%;
     transform: translate(-100%, -10%);
-    opacity: 40%;
     z-index: 1;
 }
 
 #rectangle2
 {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.4);
     width: 35vw;
     height: 3vh;
     position: absolute;
     left: 50%;
     top: 42%;
     transform: translate(40%, -100%);
-    opacity: 30%;
     z-index: 1;
 }
 

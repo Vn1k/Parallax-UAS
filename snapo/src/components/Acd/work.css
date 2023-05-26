@@ -131,7 +131,7 @@
 
 #imgWork1{
     position: absolute;
-    animation: 12s autoplay infinite linear;
+    animation: 9s autoplay infinite linear;
     animation-delay: 0s;
     width: 100%;
     height: 100%;
@@ -139,16 +139,16 @@
 
 #imgWork2{
     position: absolute;
-    animation: 12s autoplay infinite linear;
-    animation-delay: 4s;
+    animation: 9s autoplay infinite linear;
+    animation-delay: 3s;
     width: 100%;
     height: 100%;
 }
 
 #imgWork3{
     position: absolute;
-    animation: 12s autoplay infinite linear;
-    animation-delay: 8s;
+    animation: 9s autoplay infinite linear;
+    animation-delay: 6s;
     width: 100%;
     height: 100%;
 }
