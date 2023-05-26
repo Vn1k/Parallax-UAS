@@ -32,9 +32,16 @@ body::-webkit-scrollbar{
     background-color: #767676;
   }
   
+  #loading img{
+    position: absolute;
+    top: 36.5vh;
+    transform-origin: center;
+    scale: 1.25;
+  }
+
   .gradient-circle {
-    width: 200px;
-    height: 200px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     background: conic-gradient(from 0deg at 50% 50%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     animation: animation 1s infinite linear;
@@ -42,8 +49,8 @@ body::-webkit-scrollbar{
   
   .inner-circle{
     position:absolute;
-    width: 180px;
-    height: 180px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background: #767676;
   }
