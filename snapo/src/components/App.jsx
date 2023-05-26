@@ -12,12 +12,12 @@ import Work from "./Acd/Work";
 import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
 import { ScrollProvider } from "./ScrollContext";
-// import LoadingScreen from './LoadingScreen';
+import LoadingScreen from './LoadingScreen';
 
 function App() {
   return (
     <>
-      {/* <LoadingScreen/> */}
+      <LoadingScreen/>
       <ScrollProvider>
         <Navbar />
         <Home />
