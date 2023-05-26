@@ -235,6 +235,7 @@ body::-webkit-scrollbar{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
 }
 
 #group{
@@ -273,74 +274,71 @@ body::-webkit-scrollbar{
     transition: scale 1s ease-in-out;
     box-shadow: 10px 10px black;
 }
-/* Gallery1 */
-body{
-    margin: 0;
-    overflow: scroll !important;
+/* Gallery1 & 2 & 3 */
+#con{
+    height: auto;
+    width: auto;
+    overflow: hidden;
 }
-#gro{
+/*  */
+#groupsatu{
     display: flex;
-    margin: 0;
 }
-#Art1{
-    width: 100%;
-    height: 100%;
+.satu img{
+    width: 50vw;
+    height: 50vh;
     transition: scale 1s ease-in-out;
 }
-#Art1:hover{
+.satu:hover img{
     scale: 102%;
 }
-#Art2{
-    width: 100%;
-    height: 100%;
+.dua img{
+    width: 50vw;
+    height: 50vh;
     transition: scale 1s ease-in-out;
 }
-#Art2:hover{
-    scale: 101%;
+.dua:hover img{
+    scale: 102%;
 }
-#Art3{
-    width: 100%;
-    height: 100%;
+#groupdua{
+    display: flex;
+}
+/**/
+.tigadua img{
+    transition: scale 1s ease-in-out;
+    width: 50vw;
+    height:26.5vw;
+}
+.tigadua:hover img{
+    scale: 102%;
+}
+.empatdua img{
+    transition: scale 1s ease-in-out;
+    width: 50vw;
+    height:26.6vw;
+}
+.empatdua:hover img{
+    scale: 102%;
+/**/
+}.tiga img{
     transition: scale 1s ease-in-out;
 }
-#Art3:hover{
-    scale: 101%;
+.tiga:hover img{
+    scale: 102%;
 }
-#Art4{
-    width: 100%;
-    height: 100%;
+.empat img{
     transition: scale 1s ease-in-out;
 }
-#Art4:hover{
-    scale: 101%;
+.empat:hover img{
+    scale: 102%;
 }
-#Art5{
-    width:100%;
-    height: 100%;
-    transition: scale 1s ease-in-out;
-}
-#Art5:hover{
-    scale:101%;
-}
-#Art6{
-    width: 100%;
-    height: 100%;
-    transition: scale 1s ease-in-out;
-}
-#Art6:hover{
-    scale: 101%;
-}
-.con{
-    position: relative;
-}
-.con img.blur{
+/* BLUR EFFECT */
+.blur-image {
+    transition: filter 0.3s ease; 
+  }
+.blur-image.blur {
     filter: blur(5px);
-    transition: filter 2s ease-in-out;
 }
-.con img:hover{
-    filter: none;
-}
-
 /* Footer */
 #Footer{
     width: 100vw;

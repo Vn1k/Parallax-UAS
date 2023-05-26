@@ -23,12 +23,12 @@ function Gallery(){
                 <button>
                     <img id="one" onClick={handleClickOne} src={IMGURL0} alt="borobudur"/>
                 </button>
-                <div>
+                <button>
                     <img id="two"  onClick={handleClickTwo} src={IMGURL1} alt="lukisan3"/>
-                </div>
-                <div>
+                </button>
+                <button>
                     <img id="three" onClick={handleClickThree} src={IMGURL2} alt="patung"/>
-                </div>
+                </button>
             </div>
         </div>
     );
