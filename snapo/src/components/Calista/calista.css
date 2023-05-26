@@ -1,7 +1,7 @@
 /* Calista Awal */
 #cardTipoc {
     position: relative;
-    background-color: rgb(122, 117, 7);
+    /* background-color: rgb(122, 117, 7); */
     font-family: hanuman;
 }
 
@@ -167,7 +167,7 @@
 
 #cardCredita {
     position: relative;
-    background-color: rgb(122, 117, 7);
+    /* background-color: rgb(122, 117, 7); */
     font-family: hanuman;
 }
 
@@ -229,7 +229,7 @@
     top: 26vw;
     left: 11vw;
     color: #CAA930;
-    display: none;
+    /* display: none; */
 }
 
 #TextMuseum {
@@ -339,6 +339,8 @@
     left: 10vw;
     display: flex;
     overflow: hidden;
+
+    /* display: none; */
 }
 
 @keyframes autoplay {

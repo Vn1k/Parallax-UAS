@@ -2,19 +2,37 @@ import React, { useState } from "react";
 import './calista.css';
 
 function Credita(props){
-    const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
+    // const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
 
-    const handleMuseumKatedralClick = () => {
-        setShowMuseumKatedral(!showMuseumKatedral);
-    };
+    // const handleMuseumKatedralClick = () => {
+    //     setShowMuseumKatedral(!showMuseumKatedral);
+    // };
 
+    // function handleMuseumKatedralClick(){
+    //     var div = document.getElementById("museum6");
+    //     if(div.style.display !== "display"){
+    //         div.style.display = "display";
+    //     } 
+    //     else {
+    //         div.style.display = document.getElementById("image3Credita");
+    //     }
+    // }
+
+    var button = document.getElementById("museum6");
+    var katedral = document.getElementById("katedral");
+
+    button.addEventListener("click", function(){
+        katedral.style.display = "block";
+    });
 
     return (
         <div id="cardCredita">
                 <div id="image3Credita">
                     <img id="img3Credita" src={props.img3} />
                 </div>
-                <div id="katedral" style={{ display: showMuseumKatedral ? 'block' : 'none' }}>
+                <div id="katedral" 
+                // style={{ display: showMuseumKatedral ? 'block' : 'none' }}
+                >
                     <img id="imgkatedral1" src={props.imgkatedral1}/>
                     <img id="imgkatedral2" src={props.imgkatedral2}/>
                     <img id="imgkatedral3" src={props.imgkatedral3}/>
@@ -26,8 +44,11 @@ function Credita(props){
                     <div id="museum2">{props.title2}</div>
                     <div id="museum5">{props.title5}</div>
                     <div id="museum3">{props.title3}</div>
-                    <div id="museum6" onClick={handleMuseumKatedralClick}>{props.title6}</div>
+                    <div id="museum6" 
+                    // onClick={handleMuseumKatedralClick}
+                    >{props.title6}</div>
                 </div> 
+
                 <div id="TextMuseum">
                     <div id="textMuseum1">{props.text1}</div>
                     <div id="textMuseum2">{props.text2}</div>

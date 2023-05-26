@@ -19,14 +19,4 @@ const conCredit = [
     }
 ];
 
-// document.getElementById("museum4").addEventListener("click", function(){
-//     var katedral = document.getElementById("katedral");
-//     if (katedral.style.display === "none") {
-//         katedral.style.display = "block";
-//     }
-//     else {
-//         katedral.style.display = "none";
-//     }
-// });
-
 export default conCredit;
