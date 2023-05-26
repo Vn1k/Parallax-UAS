@@ -21,9 +21,9 @@ function Credita(props){
     var button = document.getElementById("museum6");
     var katedral = document.getElementById("katedral");
 
-    button.addEventListener("click", function(){
-        katedral.style.display = "block";
-    });
+    // button.addEventListener("click", function(){
+    //     katedral.style.display = "block";
+    // });
 
     return (
         <div id="cardCredita">
