@@ -4,10 +4,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanuman:wght@100;400&family=Satisfy&display=swap');
 
 #logo {
-    width: 20vh;
+  width: 6vw;
     display: block;
     margin: 0 auto;
     align-items: center;
+    position: relative;
+    
+  }
+  #Losnap
+  {
+    position: relative;
+    width: 3vw;
+    top: 10%;
+    right: 27%;
+    transform: translate(-27%,-10%);
   }
   
   #navbar {

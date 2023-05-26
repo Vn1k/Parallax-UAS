@@ -7,15 +7,18 @@ import 'aos/dist/aos.css';
 
 function Home () {
     const IMGURL = require("../../../ASET/Home/home.jpg");
-    const Logo = require('../../../ASET/SVG/SNAPO.png');
+    const Logom = require('../../../ASET/SVG/SNAPy.png');
     return (
         <div id="Home">
-            <div data-aos="fade-up" data-aos-easing="ease-out-sine">
+            <div>
                 <img src={IMGURL} alt="" id="img-home"/>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-easing="ease-out-sine" data-aos-anchor-placement="0">
                 <SvgImage id='logovertical'/>
                 <object id="background-logo"></object>
+            </div>
+            <div id="logoo">
+                <img src={Logom} alt="" id="logoje" />
             </div>
             <div id="credit">
                 <p>Credit by <strong>MOYSHI</strong></p>
