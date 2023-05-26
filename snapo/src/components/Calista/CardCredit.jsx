@@ -2,7 +2,7 @@ import React from "react";
 import Credita from "./Credita";
 import conCredit from "./conCredit";
 
-function createCard(conCredit){
+function createCard(conCredit, katedral){
     return(
         <Credita
         img3={conCredit.img3}
@@ -20,7 +20,8 @@ function createCard(conCredit){
         text2={conCredit.text2}
         title3={conCredit.title3}
         title6={conCredit.title6}
-        text3={conCredit.text3}        
+        text3={conCredit.text3}   
+        katedral={katedral}     
         ></Credita>
     );
 }

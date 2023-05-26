@@ -1,9 +1,9 @@
 const conCredit = [
     {
-        img3: require("../../ASET/Images/kursipiano.jpg"),
+        img3: require("../../ASET/Images/kursipiano.JPG"),
 
         imgkatedral1: require("../../ASET/Images/sejarahkatedral.JPG"),
-        imgkatedral2:require("../../ASET/Images/katedralus.JPG"),
+        imgkatedral2: require("../../ASET/Images/katedralus.JPG"),
         imgkatedral3: require("../../ASET/Images/biarawati.JPG"),
         imgkatedral4: require("../../ASET/Images/cross.JPG"),
 

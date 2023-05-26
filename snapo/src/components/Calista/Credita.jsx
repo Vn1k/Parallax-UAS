@@ -2,36 +2,27 @@ import React, { useState } from "react";
 import './calista.css';
 
 function Credita(props){
-    // const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
+    const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
 
-    // const handleMuseumKatedralClick = () => {
-    //     setShowMuseumKatedral(!showMuseumKatedral);
-    // };
-
-    // function handleMuseumKatedralClick(){
-    //     var div = document.getElementById("museum6");
-    //     if(div.style.display !== "display"){
-    //         div.style.display = "display";
-    //     } 
-    //     else {
-    //         div.style.display = document.getElementById("image3Credita");
-    //     }
-    // }
-
-    var button = document.getElementById("museum6");
-    var katedral = document.getElementById("katedral");
-
-    button.addEventListener("click", function(){
-        katedral.style.display = "block";
-    });
-
+    function handleMuseumKatedralClick(){
+        // var div = document.getElementById("museum6");
+        // if(div.style.display !== "display"){
+        //     div.style.display = "display";
+        // } 
+        // else {
+        //     div.style.display = document.getElementById("image3Credita");
+        // }
+        setShowMuseumKatedral(!showMuseumKatedral);
+        props.katedral(props.title6);
+    }   
+    
     return (
         <div id="cardCredita">
                 <div id="image3Credita">
                     <img id="img3Credita" src={props.img3} />
                 </div>
                 <div id="katedral" 
-                // style={{ display: showMuseumKatedral ? 'block' : 'none' }}
+                style={{ display: showMuseumKatedral ? 'block' : 'none' }}
                 >
                     <img id="imgkatedral1" src={props.imgkatedral1}/>
                     <img id="imgkatedral2" src={props.imgkatedral2}/>
@@ -45,7 +36,7 @@ function Credita(props){
                     <div id="museum5">{props.title5}</div>
                     <div id="museum3">{props.title3}</div>
                     <div id="museum6" 
-                    // onClick={handleMuseumKatedralClick}
+                    onClick={handleMuseumKatedralClick}
                     >{props.title6}</div>
                 </div> 
 
@@ -70,3 +61,37 @@ function Credita(props){
 }
 
 export default Credita;
+
+// const Katedral = () => {
+    //     const [showMuseumKatedral, setShowMuseumKatedral] = useState(0);
+    //     return (
+    //     <button onClick={() => setShowMuseumKatedral(showMuseumKatedral + 1)}>
+    //       Click me {showMuseumKatedral}
+    //    </button>        
+    //    )
+    // };
+
+    // function handleMuseumKatedralClick(katedral){
+    //     return 
+    // }
+
+    // const handleMuseumKatedralClick = () => {
+    //     setShowMuseumKatedral(!showMuseumKatedral);
+    // };
+
+    // function handleMuseumKatedralClick(){
+    //     var div = document.getElementById("museum6");
+    //     if(div.style.display !== "display"){
+    //         div.style.display = "display";
+    //     } 
+    //     else {
+    //         div.style.display = document.getElementById("image3Credita");
+    //     }
+    // }
+
+    // var button = document.getElementById("museum6");
+    // var katedral = document.getElementById("katedral");
+
+    // button.addEventListener("click", function(){
+    //     katedral.style.display = "block";
+    // });
