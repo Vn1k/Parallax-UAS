@@ -43,13 +43,13 @@ function Credita(props){
                 </div>
                 <div id="Museum">
                     <div id="museum1">{props.title1}</div>
-                    <button id="museum4" onClick={() => changeBackground("Museum4")}>{props.title4}</button>
+                    <div id="museum4" onClick={() => changeBackground("Museum4")}>{props.title4}</div>
                     <div id="museum2">{props.title2}</div>
-                    <button id="museum5" onClick={() => changeBackground("Museum5")}>{props.title5}</button>
+                    <div id="museum5" onClick={() => changeBackground("Museum5")}>{props.title5}</div>
                     <div id="museum3">{props.title3}</div>
-                    <button id="museum6" onClick={() => changeBackground("Museum6")} 
+                    <div id="museum6" onClick={() => changeBackground("Museum6")} 
                     // onClick={handleMuseumKatedralClick}
-                    >{props.title6}</button>
+                    >{props.title6}</div>
                 </div> 
 
                 <div id="TextMuseum">
