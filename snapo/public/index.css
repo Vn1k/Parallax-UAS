@@ -235,23 +235,32 @@ body::-webkit-scrollbar{
 #one{
     height: 450px;
     transition: scale 1s ease-in-out;
+    box-shadow: 10px 10px black;
 }
 #one:hover{
     scale: 110%;
+    transition: scale 1s ease-in-out;
+    box-shadow: 10px 10px black;
 }
 #two{
     height: 450px;
     transition: scale 1s ease-in-out;
+    box-shadow: 10px 10px black;
 }
 #two:hover{
     scale: 110%;
+    transition: scale 1s ease-in-out;
+    box-shadow: 10px 10px black;
 }
 #three{
     height: 450px;
     transition: scale 1s ease-in-out;
+    box-shadow: 10px 10px black;
 }
 #three:hover{
     scale: 110%;
+    transition: scale 1s ease-in-out;
+    box-shadow: 10px 10px black;
 }
 /* Gallery1 */
 body{
