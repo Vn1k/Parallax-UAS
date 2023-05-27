@@ -36,7 +36,7 @@ function Credita(props) {
 
     return (
         <div id="cardCredita" >
-            <img src={backgroundImage}/>
+            <img id="backgroundImageCredita" src={backgroundImage}/>
                 <div id="image3Credita">
                 <img src={props.changeImage}/>
                     <img id="img3Credita" src={props.img3} />

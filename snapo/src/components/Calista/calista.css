@@ -171,6 +171,10 @@
     font-family: hanuman;
 }
 
+#backgroundImageCredita {
+    opacity: 30%;
+}
+
 #image3Credita {
     position: absolute;
     width: fit-content; 
