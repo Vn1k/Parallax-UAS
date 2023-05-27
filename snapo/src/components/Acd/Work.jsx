@@ -10,8 +10,9 @@ function Work ()
     const Snap    = require("../../ASET/SVG/SNAPO.png");
     
     return (
-        <section id="snapo">
+        
         <div id="containerWork">
+            <section id="snapo">
             <div id="logoWork">
                 <Logou id="SNAPje" />
                 <img src={Snap} id="snapWok" alt="logo"/>
@@ -37,8 +38,9 @@ function Work ()
                 <div id="recWork5"></div>
                 <div id="recWork6"></div>
             </div>
+            </section>
         </div>
-        </section>
+        
     );
 }
 
