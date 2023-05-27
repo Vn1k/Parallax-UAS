@@ -175,6 +175,11 @@
     opacity: 30%;
 }
 
+#slideImagezCredita {
+    z-index: 9999 !important;
+    top: 10vw !important;
+}
+
 #image3Credita {
     position: absolute;
     width: fit-content; 
@@ -190,7 +195,7 @@
 
 #Museum {
     position: absolute;
-    font-size: 3em;
+    font-size: 4.3em;
     width: 25vw;
     height: 70vh;
     left: 45vw;
@@ -239,7 +244,7 @@
 
 #TextMuseum {
     position: absolute;
-    font-size: 1.2em;
+    font-size: 1.7em;
     color: white;
     width: 37vw;
     left: 45vw;
@@ -296,7 +301,7 @@
     height: 0.3vh;
     width: 35vw;
     position: absolute;
-    top: 41.5vw;
+    top: 41.2vw;
     left: 45vw;
 }
 
