@@ -1,0 +1,203 @@
+.containergal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    box-sizing: border-box;
+    font-family: 'Hanuman' , cursive;
+    overflow: scroll !important;
+    position: relative;
+    height: fit-content !important;
+    width: fit-content !important;
+  }
+
+  #navs
+  {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+  }
+  
+  .containergal .box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  .containergal .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+  }
+  
+  .containergal .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+
+ #ones:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+
+ #twos:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+
+ #threes:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+
+ #fours:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #fives:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #sixs:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #sevens:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #eights:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #nines:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #tens:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #elevens:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twlvs:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #thrds:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #fourts:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #fifs:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #sixts:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #sevents:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #eightss:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #ninets:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twntys:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twones:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twtwos:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twtres:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twfours:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twfifs:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twsixs:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+
+ .blur-image {
+    transition: filter 0.3s ease; 
+  }
+.blur-image.blur {
+    filter: blur(2px);
+}
+
+  
+  @media only screen and (max-width: 769px){
+          .containergal .box{
+      flex-direction: column;
+      }
+  
+      .containergal .box .dream{
+      width: 100%;
+      }
+  }
+  
+  
+  @media only screen and (max-width: 643px){
+      .containergal .heading{
+      width: 100%;
+      }
+      .containergal .heading h3{
+      font-size: 1em;
+  
+      }
+  }
