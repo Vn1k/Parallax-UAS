@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 
 function Credita(props) {
   const [backgroundImage, setBackgroundImage] = useState("");
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   function changeBackground(content) {
     if (content === "Museum4") {
@@ -16,10 +17,13 @@ function Credita(props) {
     }
   }
 
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
   function buttonRightClick() {
     const imagePaths = [
+      props.imgmacan1,
+      props.imgmacan2,
+      props.imgsarinah1,
+      props.imgsarinah2,
+      props.imgsarinah3,
       props.imgkatedral1,
       props.imgkatedral2,
       props.imgkatedral3,
@@ -34,12 +38,35 @@ function Credita(props) {
     console.log("button");
   }
 
+  function buttonLeftClick() {
+    const imagePaths = [
+      props.imgmacan1,
+      props.imgmacan2,
+      props.imgsarinah1,
+      props.imgsarinah2,
+      props.imgsarinah3,
+      props.imgkatedral1,
+      props.imgkatedral2,
+      props.imgkatedral3,
+      props.imgkatedral4,
+    ];
+
+    const nextIndex = (currentImageIndex - 1) % imagePaths.length;
+    const newImage = imagePaths[nextIndex];
+    setCurrentImageIndex(nextIndex);
+    props.changeImage(newImage);
+
+    console.log("button");
+  }
+
     return (
         <div id="cardCredita" >
-            <img src={backgroundImage}/>
+          <button onClick={buttonLeftClick} id="buttonLeft">&lt;</button>
+          <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
+            <img id="backgroundImageCredita" src={backgroundImage}/>
                 <div id="image3Credita">
-                <img src={props.changeImage}/>
-                    <img id="img3Credita" src={props.img3} />
+                  <img src={currentImageIndex}/>
+                  <img id="img3Credita" src={props.img3} />
                 </div>
                 {/* <div id="katedral" 
                 // style={{ display: showMuseumKatedral ? 'block' : 'none' }}
@@ -50,8 +77,6 @@ function Credita(props) {
                     <img id="imgkatedral4" src={props.imgkatedral4}/>
                 </div> */}
                 <div id="Museum">
-                    {/* <button onClick="buttonLeft()" id="buttonLeft">&lt;</button> */}
-                    <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="200" id="museum1">{props.title1}</div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" onClick={() => changeBackground("Museum4")}>{props.title4}</div>
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum2">{props.title2}</div>

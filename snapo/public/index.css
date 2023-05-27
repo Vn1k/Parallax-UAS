@@ -243,6 +243,7 @@ body::-webkit-scrollbar{
     align-items: center;
     justify-content: center;
     overflow: scroll;
+    position: relative;
 }
 
 #group{
@@ -253,33 +254,50 @@ body::-webkit-scrollbar{
 }  
 #one{
     height: 450px;
-    transition: scale 1s ease-in-out;
-    box-shadow: 10px 10px black;
+    transition: scale 0.1s ease-in-out;
+    box-shadow: rgba(83, 77, 23, 0.3) 0 5vw 6vw -8vw, rgba(255, 255, 255, 0) 0 4.5vw 5vw -6vw, rgba(50, 50, 80, 0.5) 0px 4vw 8vw -2vw, rgba(0, 0, 0, 0.8) 0px 4vw 5vw -3vw;
 }
+
+#conta
+{
+    position: relative;
+}
+
+.titulo
+{
+    font-size: 3rem;
+    font-family: 'Hanuman' , cursive;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    z-index: 99;
+}
+
 #one:hover{
     scale: 110%;
-    transition: scale 1s ease-in-out;
-    box-shadow: 10px 10px black;
+    transition: scale 0.2s ease-in;
+
 }
 #two{
     height: 450px;
-    transition: scale 1s ease-in-out;
-    box-shadow: 10px 10px black;
+    transition: scale 0.1s ease-in-out;
+    box-shadow: rgba(83, 77, 23, 0.3) 0 5vw 6vw -8vw, rgba(255, 255, 255, 0) 0 4.5vw 5vw -6vw, rgba(50, 50, 80, 0.5) 0px 4vw 8vw -2vw, rgba(0, 0, 0, 0.8) 0px 4vw 5vw -3vw;
 }
 #two:hover{
     scale: 110%;
-    transition: scale 1s ease-in-out;
-    box-shadow: 10px 10px black;
+    transition: scale 0.2s ease-in-out;
+
 }
 #three{
     height: 450px;
-    transition: scale 1s ease-in-out;
-    box-shadow: 10px 10px black;
+    transition: scale 0.1s ease-in-out;
+    box-shadow: rgba(83, 77, 23, 0.3) 0 5vw 6vw -8vw, rgba(255, 255, 255, 0) 0 4.5vw 5vw -6vw, rgba(50, 50, 80, 0.5) 0px 4vw 8vw -2vw, rgba(0, 0, 0, 0.8) 0px 4vw 5vw -3vw;
 }
 #three:hover{
     scale: 110%;
-    transition: scale 1s ease-in-out;
-    box-shadow: 10px 10px black;
+    transition: scale 0.2s ease-in-out;
+
 }
 /* Gallery1 & 2 & 3 */
 #con{
