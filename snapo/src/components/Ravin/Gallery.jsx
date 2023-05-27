@@ -18,8 +18,9 @@ function Gallery(){
     }
 
     return(
-        <section id="gallery">
+        
         <div id="gallery">
+            <section id="gallery">
             <div id="group">
                 <div id="conta">
                     <button>
@@ -40,8 +41,9 @@ function Gallery(){
                     </button>
                 </div>
             </div>
+            </section>
         </div>
-        </section>
+        
     );
 }
 
