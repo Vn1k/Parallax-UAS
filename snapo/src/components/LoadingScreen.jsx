@@ -2,14 +2,14 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 function LoadingScreen(){
-    const [loading, setLoading] = useState('');
+    const [loading, setLoading] = useState('Visible');
     const image = require("../ASET/SVG/loadSNAP.png");
 
-    useEffect(() => {
-    setTimeout(() => {
-        setLoading("Invisible");
-    }, 4000);
-    }, []);
+    useEffect(()=>{
+        window.onload = () => {
+            setLoading("Invisible");
+          };
+    })
 
     return(
         <div id="loading" className={loading}>

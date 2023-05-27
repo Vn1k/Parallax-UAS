@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Vinik/Navbar";
+import './gallery1.css';
 
 function Gallery1(){
     const gambar1 = require("../../ASET/Images/Macan.JPG");
