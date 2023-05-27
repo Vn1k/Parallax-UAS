@@ -9,7 +9,7 @@ import {
 function Navbar() {
   const [isNavbarVisible, setIsNavbarVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
-  const LogoSnap = require("../../ASET/SVG/SNAPO.png")
+  const LogoSnap = require("../../ASET/SVG/logoposter.png")
 
   useEffect(() => {
 
@@ -42,7 +42,6 @@ function Navbar() {
         </ul>
         <div className={`flex items-start mr-4`}>
           <a href="#top">
-            <Lognav className="h-8 w-8" id="logo" />
             <img src={LogoSnap} alt="" id="Losnap"/>
           </a>
         </div>
