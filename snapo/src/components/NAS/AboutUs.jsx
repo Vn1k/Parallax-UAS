@@ -4,6 +4,7 @@ import Individuals from "./Individuals";
 import NASprofile from "./NASprofile";
 import Vin from "../Vinik/Aboutvin/Vinprof";
 import ACDProfile from "../Acd/ACDprofile";
+import CALprofile from "../Calista/CALprofile";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ProfileRavin from "../Ravin/ProfileRavin";
@@ -55,7 +56,7 @@ function AboutUs() {
       </div>
       <div id="about-individual" className="Invisible" ref={aboutIndividualRef}>
         {name === "Amanda Citra Dewanti" && <ACDProfile/>}
-        {name === "Calista Belva" && <p>cb</p>}
+        {name === "Calista Belva" && <CALprofile/>}
         {name === "Kevin Ken" && <Vin/>}
         {name === "Nathan Angelo Stenlie" && <NASprofile />}
         {name === "Robertus Ravin Woenarso" && <ProfileRavin />}
