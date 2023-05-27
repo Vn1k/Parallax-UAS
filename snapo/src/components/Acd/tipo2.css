@@ -23,9 +23,11 @@
 #title2
 {
     position: absolute;
-    top: 55%;
-    left: 45%;
-    transform: translate( 40%, -50%);
+    top: 27%;
+    left: 45.5%;
+    /* top: 55%;
+    left: 45%; */
+    /* transform: translate( 40%, -50%); */
     font-size: 4rem;
     font-family: 'Hanuman', serif;
     font-weight: 600;
