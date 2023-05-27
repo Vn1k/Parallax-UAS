@@ -60,8 +60,8 @@ function Credita(props) {
   }
 
     return (
-      <section id="credit">
         <div id="cardCredita" >
+          <section id="credit">
           <button onClick={buttonLeftClick} id="buttonLeft">&lt;</button>
           <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
             <img id="backgroundImageCredita" src={backgroundImage}/>
@@ -103,9 +103,10 @@ function Credita(props) {
                     <div data-aos="fade-down" data-aos-easing="ease-out-sine" data-aos-offset="100" class="lineMuseum5"></div>
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" class="lineMuseum6"></div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="10" class="lineMuseum7"></div>
-                </div>          
+                </div>   
+            </section>       
         </div>
-        </section>
+        
     );
 }
 
