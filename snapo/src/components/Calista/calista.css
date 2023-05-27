@@ -175,6 +175,11 @@
     opacity: 30%;
 }
 
+#slideImagezCredita {
+    z-index: 9999 !important;
+    top: 10vw !important;
+}
+
 #image3Credita {
     position: absolute;
     width: fit-content; 

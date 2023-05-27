@@ -65,7 +65,7 @@ function Credita(props) {
           <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
             <img id="backgroundImageCredita" src={backgroundImage}/>
                 <div id="image3Credita">
-                  <img src={currentImageIndex}/>
+                  <img id="slideImageCredita" src={currentImageIndex}/>
                   <img id="img3Credita" src={props.img3} />
                 </div>
                 {/* <div id="katedral" 
