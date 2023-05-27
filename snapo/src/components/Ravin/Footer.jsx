@@ -9,7 +9,7 @@ function Footer(){
             </div>
             <div id="desc">
                 <h1 id="jfoot">Reference</h1>
-                <p id="dfoot">These are the references that help us in the process developing the website.</p>
+                <p id="dfoot">These are the references in the process developing the website.</p>
             </div>
             <div id="footer1">
                 <div>
