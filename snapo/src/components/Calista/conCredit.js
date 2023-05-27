@@ -2,6 +2,10 @@ const conCredit = [
     {
         img3: require("../../ASET/Images/kursimacan.JPG"),
 
+        
+
+
+
         imgkatedral1: require("../../ASET/Images/sejarahkatedral.JPG"),
         imgkatedral2: require("../../ASET/Images/katedralus.JPG"),
         imgkatedral3: require("../../ASET/Images/biarawati.JPG"),

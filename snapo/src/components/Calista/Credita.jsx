@@ -1,49 +1,57 @@
 import React, { useState } from "react";
-import './calista.css';
+import "./calista.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Credita(props){
-    // const [showMuseumKatedral, setShowMuseumKatedral] = useState(false);
+function Credita(props) {
+  const [backgroundImage, setBackgroundImage] = useState("");
 
-    // var button = document.getElementById("museum6");
-    // var katedral = document.getElementById("katedral");
-
-
-    // function handleMuseumKatedralClick(){
-    //     setShowMuseumKatedral(!showMuseumKatedral);
-    //     props.katedral(props.title6);
-    // }   
-
-    const [backgroundImage, setBackgroundImage] = useState('');
-
-    function changeBackground(content){
-        if(content == "Museum4"){
-            setBackgroundImage(require("../../ASET/Images/Macan.JPG"));
-        }
-        else if(content == "Museum5"){
-            setBackgroundImage(require("../../ASET/Images/Sarinah.JPG"));
-        }
-        else if(content == "Museum6"){
-            setBackgroundImage(require("../../ASET/Images/Katedral.JPG"));
-        }
+  function changeBackground(content) {
+    if (content === "Museum4") {
+      setBackgroundImage(require("../../ASET/Images/Macan.JPG"));
+    } else if (content === "Museum5") {
+      setBackgroundImage(require("../../ASET/Images/Sarinah.JPG"));
+    } else if (content === "Museum6") {
+      setBackgroundImage(require("../../ASET/Images/Katedral.JPG"));
     }
-    
+  }
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  function buttonRightClick() {
+    const imagePaths = [
+      props.imgkatedral1,
+      props.imgkatedral2,
+      props.imgkatedral3,
+      props.imgkatedral4,
+    ];
+
+    const nextIndex = (currentImageIndex + 1) % imagePaths.length;
+    const newImage = imagePaths[nextIndex];
+    setCurrentImageIndex(nextIndex);
+    props.changeImage(newImage);
+
+    console.log("button");
+  }
+
     return (
         <div id="cardCredita" >
             <img src={backgroundImage}/>
+            <img src={props.changeImage}/>
                 <div id="image3Credita">
                     <img id="img3Credita" src={props.img3} />
                 </div>
-                <div id="katedral" 
+                {/* <div id="katedral" 
                 // style={{ display: showMuseumKatedral ? 'block' : 'none' }}
                 >
                     <img id="imgkatedral1" src={props.imgkatedral1}/>
                     <img id="imgkatedral2" src={props.imgkatedral2}/>
                     <img id="imgkatedral3" src={props.imgkatedral3}/>
                     <img id="imgkatedral4" src={props.imgkatedral4}/>
-                </div>
+                </div> */}
                 <div id="Museum">
+                    {/* <button onClick="buttonLeft()" id="buttonLeft">&lt;</button> */}
+                    <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="200" id="museum1">{props.title1}</div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" onClick={() => changeBackground("Museum4")}>{props.title4}</div>
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum2">{props.title2}</div>
@@ -77,37 +85,3 @@ function Credita(props){
 AOS.init();
 
 export default Credita;
-
-// const Katedral = () => {
-    //     const [showMuseumKatedral, setShowMuseumKatedral] = useState(0);
-    //     return (
-    //     <button onClick={() => setShowMuseumKatedral(showMuseumKatedral + 1)}>
-    //       Click me {showMuseumKatedral}
-    //    </button>        
-    //    )
-    // };
-
-    // function handleMuseumKatedralClick(katedral){
-    //     return 
-    // }
-
-    // const handleMuseumKatedralClick = () => {
-    //     setShowMuseumKatedral(!showMuseumKatedral);
-    // };
-
-    // function handleMuseumKatedralClick(){
-    //     var div = document.getElementById("museum6");
-    //     if(div.style.display !== "display"){
-    //         div.style.display = "display";
-    //     } 
-    //     else {
-    //         div.style.display = document.getElementById("image3Credita");
-    //     }
-    // }
-
-    // var button = document.getElementById("museum6");
-    // var katedral = document.getElementById("katedral");
-
-    // button.addEventListener("click", function(){
-    //     katedral.style.display = "block";
-    // });
