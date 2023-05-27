@@ -4,6 +4,8 @@
     overflow: hidden;
     color: white;
     position: relative;
+    width: 100vw;
+    height: 100vh;
     z-index: 99;
 }
 
