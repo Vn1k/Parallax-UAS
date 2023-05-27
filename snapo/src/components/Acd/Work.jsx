@@ -12,13 +12,14 @@ function Work ()
     return (
         <div id="containerWork">
             <div id="logoWork">
-                <Logou />
+                <Logou id="SNAPje" />
                 <img src={Snap} id="snapWok" alt="logo"/>
              </div>
             <div id="textWork">SNAPO merupakan sebuah singkatan dari SNAP yaitu foto dan PO adalah typography. SNAPO menampilkan sebuah website yang berisikan gallery foto 'Museum' dan diberikan sebuah typography untuk menambahkan estetika sebuah foto.</div>
             <div id="creditWork">Created by | <strong>M O Y S H I</strong></div>
             <div id="recWork1"></div>
-            <div id="recWork2">
+            <div id="recWork2"></div>
+            <div id="recWorkfoto">
                 <div id="imgWork1">
                     <img src={Imgine1} alt="piano" />
                 </div>
