@@ -8,8 +8,8 @@ import './followRavin.css';
 function ProfileRavin(){
     const { name, setName, aboutIndividualRef } = useContext(NameContext);
     const RMe1 = require("../../ASET/Ravin/Ravin1.jpg");
-    // const Me2 = require("");
-    // const Me3 = require("");
+    const Me2 = require("../../ASET/Ravin/Ravin2.jpg");
+    const Me3 = require("../../ASET/Ravin/Ravin3.jpg");
     const RMe4 = require("../../ASET/Individuals/RW.jpg");
 
   function handleResetClick() {
@@ -34,12 +34,12 @@ function ProfileRavin(){
             <div id="Ime1">
                 <img src={RMe1} alt="" />
             </div>
-            {/* <div id="Ime2">
+            <div id="Ime2">
                 <img src={Me2} alt="" />
             </div>
             <div id="Ime3">
                 <img src={Me3} alt="" />
-            </div> */}
+            </div>
         </div>
         <div id="FollowON">
           <FollowRavin />
