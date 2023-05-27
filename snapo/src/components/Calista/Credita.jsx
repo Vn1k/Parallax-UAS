@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 
 function Credita(props) {
   const [backgroundImage, setBackgroundImage] = useState("");
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   function changeBackground(content) {
     if (content === "Museum4") {
@@ -15,8 +16,6 @@ function Credita(props) {
       setBackgroundImage(require("../../ASET/Images/Katedral.JPG"));
     }
   }
-
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   function buttonRightClick() {
     const imagePaths = [
@@ -66,7 +65,7 @@ function Credita(props) {
           <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
             <img id="backgroundImageCredita" src={backgroundImage}/>
                 <div id="image3Credita">
-                  <img src={props.changeImage}/>
+                  <img src={currentImageIndex}/>
                   <img id="img3Credita" src={props.img3} />
                 </div>
                 {/* <div id="katedral" 
