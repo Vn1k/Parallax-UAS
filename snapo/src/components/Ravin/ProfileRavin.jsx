@@ -7,10 +7,10 @@ import './followRavin.css';
 
 function ProfileRavin(){
     const { name, setName, aboutIndividualRef } = useContext(NameContext);
-    const Me1 = require("../../ASET/Ravin/Ravin1.jpg");
+    const RMe1 = require("../../ASET/Ravin/Ravin1.jpg");
     // const Me2 = require("");
     // const Me3 = require("");
-    // const Me4 = require("");
+    const RMe4 = require("../../ASET/Individuals/RW.jpg");
 
   function handleResetClick() {
     setTimeout(() => {
@@ -26,13 +26,13 @@ function ProfileRavin(){
     <>
       <div id="containerProf">
         <BackButton onClick={handleResetClick} id="buttonBack"/>
-        {/* <img src={Me4} alt="" id="bgProf"/> */}
+        <img src={RMe4} alt="" id="bgProf"/>
         
         <div id="name">Robertus Ravin Woenarso</div>
         <div id="nim">00000066411</div>
         <div id="conimg">
             <div id="Ime1">
-                <img src={Me1} alt="" />
+                <img src={RMe1} alt="" />
             </div>
             {/* <div id="Ime2">
                 <img src={Me2} alt="" />
