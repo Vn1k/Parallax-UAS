@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./nabar.css";
-import Footer from "../Ravin/Footer";
-import AboutUs from "../NAS/AboutUs";
 import {
   handleScroll,
 } from "./navbarFunction";
