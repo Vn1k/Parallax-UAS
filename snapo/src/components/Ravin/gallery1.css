@@ -1,0 +1,36 @@
+#groupsatu{
+    display: flex;
+}
+.satu img{
+    width: 50vw;
+    height: 50vh;
+    transition: scale 0.2s ease-in-out;
+}
+.satu:hover img{
+    scale: 102%;
+}
+.dua img{
+    width: 50vw;
+    height: 50vh;
+    transition: scale 0.2s ease-in-out;
+}
+.dua:hover img{
+    scale: 102%;
+}
+.tiga img{
+    transition: scale 0.2s ease-in-out;
+}
+.tiga:hover img{
+    scale: 102%;
+}
+.empat img{
+    transition: scale 0.2s ease-in-out;
+}
+.empat:hover img{
+    scale: 102%;
+}
+
+#groupdua{
+    display: flex;
+}
+

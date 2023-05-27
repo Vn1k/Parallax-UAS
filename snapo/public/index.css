@@ -303,34 +303,10 @@ body::-webkit-scrollbar{
 #con{
     height: auto;
     width: auto;
-    overflow: hidden;
-}
-/*  */
-#groupsatu{
-    display: flex;
-}
-.satu img{
-    width: 50vw;
-    height: 50vh;
-    transition: scale 1s ease-in-out;
-}
-.satu:hover img{
-    scale: 102%;
-}
-.dua img{
-    width: 50vw;
-    height: 50vh;
-    transition: scale 1s ease-in-out;
-}
-.dua:hover img{
-    scale: 102%;
-}
-#groupdua{
-    display: flex;
 }
 /**/
 .tigadua img{
-    transition: scale 1s ease-in-out;
+    transition: scale 0.2s ease-in-out;
     width: 50vw;
     height:26.5vw;
 }
@@ -338,25 +314,14 @@ body::-webkit-scrollbar{
     scale: 102%;
 }
 .empatdua img{
-    transition: scale 1s ease-in-out;
+    transition: scale 0.2s ease-in-out;
     width: 50vw;
     height:26.6vw;
 }
 .empatdua:hover img{
-    scale: 102%;
+    scale: 102%;}
 /**/
-}.tiga img{
-    transition: scale 1s ease-in-out;
-}
-.tiga:hover img{
-    scale: 102%;
-}
-.empat img{
-    transition: scale 1s ease-in-out;
-}
-.empat:hover img{
-    scale: 102%;
-}
+
 /* BLUR EFFECT */
 .blur-image {
     transition: filter 0.3s ease; 
