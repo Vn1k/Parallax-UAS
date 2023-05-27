@@ -102,6 +102,21 @@
     scale: 110%;
     transition: scale 0.2s ease-in-out;
  }
+ #thrds:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #fourts:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #fifs:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
 
  .blur-image {
     transition: filter 0.3s ease; 
