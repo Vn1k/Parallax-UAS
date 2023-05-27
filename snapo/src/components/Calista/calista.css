@@ -171,6 +171,10 @@
     font-family: hanuman;
 }
 
+#backgroundImageCredita {
+    opacity: 30%;
+}
+
 #image3Credita {
     position: absolute;
     width: fit-content; 
@@ -348,13 +352,29 @@
 }
 
 #buttonLeft {
+    position: absolute;
+    top: 40vw;
+    left: 19vw;
+    font-weight: 800;
     background-color: #ccc;
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 3vh;
     cursor: pointer;
+    z-index: 9999;
 }
 
 #buttonRight {
+    position: absolute;
+    top: 40vw;
+    left: 22vw;
+    font-weight: 800;
     background-color: #ccc;
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 3vh;
     cursor: pointer;
+    z-index: 9999;
 }
 
 @keyframes autoplay {
