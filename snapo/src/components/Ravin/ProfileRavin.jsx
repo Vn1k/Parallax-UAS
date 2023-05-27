@@ -2,14 +2,14 @@ import React, { useContext } from "react";
 import { NameContext } from "../NAS/AboutUs";
 import BackButton from "../NAS/BackButton";
 import FollowRavin from "./FollowRavin";
-import './followRavin.css';
+import './Ravinprofile.css';
 
 
 function ProfileRavin(){
     const { name, setName, aboutIndividualRef } = useContext(NameContext);
-    const RMe1 = require("../../ASET/Ravin/Ravin1.jpg");
-    // const Me2 = require("");
-    // const Me3 = require("");
+    const RMe1 = require("../../ASET/Individuals/Ravin1.jpg");
+    const RMe2 = require("../../ASET/Individuals/Ravin2.jpg");
+    const RMe3 = require("../../ASET/Individuals/Ravin3.jpg");
     const RMe4 = require("../../ASET/Individuals/RW.jpg");
 
   function handleResetClick() {
@@ -34,12 +34,12 @@ function ProfileRavin(){
             <div id="Ime1">
                 <img src={RMe1} alt="" />
             </div>
-            {/* <div id="Ime2">
-                <img src={Me2} alt="" />
+            <div id="Ime2">
+                <img src={RMe2} alt="" />
             </div>
             <div id="Ime3">
-                <img src={Me3} alt="" />
-            </div> */}
+                <img src={RMe3} alt="" />
+            </div> 
         </div>
         <div id="FollowON">
           <FollowRavin />
