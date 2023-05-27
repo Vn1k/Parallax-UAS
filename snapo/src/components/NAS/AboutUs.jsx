@@ -43,6 +43,7 @@ function AboutUs() {
   
 
   return (
+    <section id="about">
     <NameContext.Provider value={{ name, setName, aboutIndividualRef }}>
       <div onMouseMove={(event)=>{
           let movement_x = event.clientX * 0.05;
@@ -61,7 +62,9 @@ function AboutUs() {
         {name === "Nathan Angelo Stenlie" && <NASprofile />}
         {name === "Robertus Ravin Woenarso" && <ProfileRavin />}
       </div>
+      
     </NameContext.Provider>
+    </section>
   );
 }
 

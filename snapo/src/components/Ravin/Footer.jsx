@@ -3,6 +3,7 @@ import React from "react";
 function Footer(){
     const gmbrf = require("../../ASET/Images/footer.jpg");
     return(
+        <section id="footer">
        <div id="Footer">
             <div>
                 <img id="gm" src={gmbrf} alt="gambarfooter" />
@@ -43,6 +44,7 @@ function Footer(){
                 </div>            
             </div>
        </div> 
+       </section>
     );
 }
 

@@ -60,6 +60,7 @@ function Credita(props) {
   }
 
     return (
+      <section id="credit">
         <div id="cardCredita" >
           <button onClick={buttonLeftClick} id="buttonLeft">&lt;</button>
           <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
@@ -104,6 +105,7 @@ function Credita(props) {
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="10" class="lineMuseum7"></div>
                 </div>          
         </div>
+        </section>
     );
 }
 
