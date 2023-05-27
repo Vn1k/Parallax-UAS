@@ -17,16 +17,16 @@ function FollowRavin()
                 <div class="line"></div>
                 <ul class="nav-list">
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faSteam} className="fa-steam"/></a>
+                    <a href="https://steamcommunity.com/id/iiKintoy" class="nav-link"><FontAwesomeIcon icon={faSteam} className="fa-steam"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faInstagram} className="fa-instagram"/></a>
+                    <a href="https://instagram.com/ravinwoenarsooo" class="nav-link"><FontAwesomeIcon icon={faInstagram} className="fa-instagram"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faDiscord} className="fa-discord"/></a>
+                    <a href="https://discordapp.com/users/717375595335385170" class="nav-link"><FontAwesomeIcon icon={faDiscord} className="fa-discord"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
+                    <a href="" class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
                     </li>
                 </ul>
             </nav>
