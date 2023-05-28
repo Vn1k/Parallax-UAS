@@ -2,6 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Atropos from 'atropos/react';
+import 'atropos/css';
 
 function Gallery(){
     const IMGURL0 = require("../../ASET/Images/borobudur.jpg");
@@ -25,22 +27,34 @@ function Gallery(){
             <section id="gallery">
             <div id="group">
                 <div id="conta">
-                    <button>
-                            <img id="one" onClick={handleClickOne} src={IMGURL0} alt="borobudur"/>    
-                    </button>
+                    <Atropos
+                    activeOffset={50}
+                    shadow={false}
+                    onClick={handleClickOne}
+                    >
+                            <img id="one" src={IMGURL0} alt="borobudur"/>    
+                    </Atropos>
                     <span className="titulo" >Statue</span>
                 </div>
                 <div id="conta">
-                    <button>
-                        <img id="two"  onClick={handleClickTwo} src={IMGURL1} alt="lukisan3"/>
-                        <span className="titulo" >Art</span>
-                    </button>
+                    <Atropos
+                        activeOffset={50}
+                        shadow={false}
+                        onClick={handleClickTwo}
+                        >
+                        <img id="two" src={IMGURL1} alt="lukisan3"/>
+                    </Atropos>
+                    <span className="titulo" >Art</span>
                 </div>
                 <div id="conta">
-                    <button>
-                        <img id="three" onClick={handleClickThree} src={IMGURL2} alt="patung"/>
-                        <span className="titulo" >Abstrak</span>
-                    </button>
+                    <Atropos
+                        activeOffset={50}
+                        shadow={false}
+                        onClick={handleClickThree}
+                        >
+                        <img id="three" src={IMGURL2} alt="patung"/>
+                    </Atropos>
+                    <span className="titulo" >Abstrak</span>
                 </div>
             </div>
             </section>
