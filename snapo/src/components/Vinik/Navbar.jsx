@@ -42,11 +42,13 @@ function Navbar() {
             <li className="md:px-4 md:py-2 text-white hover:text-indigo-400">
               <Link to="footer" smooth={true} duration={5000}className="ot">References</Link>
             </li>
+            <li className="md:px-4 md:py-2 text-white hover:text-indigo-400">
+              <Link to="top" smooth={true} duration={5000}className="ot">top</Link>
+            </li>
           </ul>
         </div>
       </div>
       <div>
-      <Link to="top" smooth={true} duration={5000}className="ot">top</Link>
       </div>
     </nav>
   );
