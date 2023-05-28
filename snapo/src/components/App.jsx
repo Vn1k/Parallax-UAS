@@ -18,9 +18,8 @@ function App() {
   return (
     <>
     <div id="changing-bg"></div>
-     {/* <LoadingScreen/> */}
+      <LoadingScreen/>
       <ScrollProvider>
-
         <Navbar />
         <Home />
         <Tipo3 />
