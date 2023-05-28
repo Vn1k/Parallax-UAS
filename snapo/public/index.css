@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #100C08;
+    background: linear-gradient(to right, #100C08 80%, #463B12);
 }
 
 body::-webkit-scrollbar{
