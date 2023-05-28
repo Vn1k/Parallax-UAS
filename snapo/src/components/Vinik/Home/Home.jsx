@@ -90,7 +90,7 @@ function Home () {
                     </div>
                 </div>
                 </div>
-                <div data-aos="fade-up" data-aos-easing="ease-out-sine" data-aos-anchor-placement="0">
+                <div>
                     <SvgImage id='logovertical'/>
                     <object id="background-logo"></object>
                 </div>
@@ -105,6 +105,5 @@ function Home () {
     );
 }
 
-AOS.init();
 
 export default Home;
