@@ -4,7 +4,6 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background: linear-gradient(to right, #100C08 80%, #463B12);
 }
 
 body::-webkit-scrollbar{
@@ -22,6 +21,12 @@ body::-webkit-scrollbar{
     overflow: hidden;
 }
 
+/*Changing Bg*/
+#changing-bg{
+    position:fixed;
+    z-index: 0;
+}
+
 /*Loading Screen*/  
   #loading{
     justify-content:center;
@@ -29,7 +34,7 @@ body::-webkit-scrollbar{
     align-items:center;
     position: fixed;
     z-index: 9999;
-    background-color: #767676;
+    background-color: black;
   }
   
   #loading img{
