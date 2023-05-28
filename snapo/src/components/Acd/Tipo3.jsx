@@ -10,7 +10,13 @@ function Tipo3()
     const image1 = require("../../ASET/Images/lukisan.jpg")
     return (
         <div id="container3">
-            <Atropos>
+            <Atropos
+            activeOffset={50}
+            rotateYMax={5}
+            rotateXMax={5}
+            shadow={false}
+            highlight={false}
+            >
                 <div id="image3">
                     <img data-aos="fade-up" data-aos-easing="ease-out-sine" data-aos-offset="-600" data-aos-anchor-placement="top-center" src={image1} alt=""/>
                     <h2 data-aos="fade-left" data-aos-offset="-1050" data-aos-anchor-placement="center-center" id="kutip">"</h2>
