@@ -2,13 +2,32 @@ import React, { useState } from "react";
 import "./calista.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import conCredit from "./conCredit";
 
 function Credita(props) {
   const [backgroundImage, setBackgroundImage] = useState("");
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  // const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [lokasiMuseumMacan, setLokasiMuseumMacan] = useState(null);
   const [lokasiMuseumSarinah, setLokasiMuseumSarinah] = useState(null);
   const [lokasiMuseumKatedral, setLokasiMuseumkatedral] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [showImage, setShowImage] = useState(true);
+
+  const buttonRightClick = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % 10);
+    setShowImage(false);
+  };
+
+  const buttonLeftClick = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + 10) % 10);
+    setShowImage(false);
+  };
+
+  const getImage = () => {
+    const imageKeys = Object.keys(conCredit[0]);
+    const imageKey = imageKeys[currentIndex];
+    return conCredit[0][imageKey];
+  };
 
   var defaultBackground = true;
   var defaultBackgroundColor = "";
@@ -77,52 +96,7 @@ function Credita(props) {
     } else if (content === "Default") {
       setBackgroundImage(defaultBackgroundColor);    
     }
-
     defaultBackground = content === "Default";
-  }
-
-  function buttonRightClick() {
-    const imagePaths = [
-      props.imgmacan1,
-      props.imgmacan2,
-      props.imgsarinah1,
-      props.imgsarinah2,
-      props.imgsarinah3,
-      props.imgkatedral1,
-      props.imgkatedral2,
-      props.imgkatedral3,
-      props.imgkatedral4,
-    ];
-
-    const nextIndex = (currentImageIndex + 1) % imagePaths.length;
-    const newImage = imagePaths[nextIndex];
-    setCurrentImageIndex(nextIndex);
-    props.changeImage(newImage);
-
-    console.log(newImage);
-    console.log("button");
-  }
-
-  function buttonLeftClick() {
-    const imagePaths = [
-      props.imgmacan1,
-      props.imgmacan2,
-      props.imgsarinah1,
-      props.imgsarinah2,
-      props.imgsarinah3,
-      props.imgkatedral1,
-      props.imgkatedral2,
-      props.imgkatedral3,
-      props.imgkatedral4,
-    ];
-
-    const nextIndex = (currentImageIndex - 1) % imagePaths.length;
-    const newImage = imagePaths[nextIndex];
-    setCurrentImageIndex(nextIndex);
-    props.changeImage(newImage);
-
-    // console.log("button");
-    console.log(currentImageIndex);
   }
 
     return (
@@ -132,18 +106,10 @@ function Credita(props) {
           <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
             <img id="backgroundImageCredita" src={backgroundImage}/>
                 <div id="image3Credita">
-                  <img id="slideImageCredita" src={props.newImage}/>
-                  
-                  <img id="img3Credita" src={props.img3} />
+                  {/* <img id="slideImageCredita" src={props.newImage}/> */}
+                  <img id="slideShowImageCredita" src={getImage()} />
+                  {/* <img id="img3Credita" src={props.img3} /> */}
                 </div>
-                {/* <div id="katedral" 
-                // style={{ display: showMuseumKatedral ? 'block' : 'none' }}
-                >
-                    <img id="imgkatedral1" src={props.imgkatedral1}/>
-                    <img id="imgkatedral2" src={props.imgkatedral2}/>
-                    <img id="imgkatedral3" src={props.imgkatedral3}/>
-                    <img id="imgkatedral4" src={props.imgkatedral4}/>
-                </div> */}
                 <div id="Museum">
                     <div onClick={InfoLokasiMuseumMacan} id="InfoLokasiMuseumMacan" data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="200" class="museum1">{props.title1}
                       {lokasiMuseumMacan ? (
@@ -208,3 +174,72 @@ function Credita(props) {
 AOS.init();
 
 export default Credita;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // function buttonRightClick() {
+  //   const imagePaths = [
+  //     props.imgmacan1,
+  //     props.imgmacan2,
+  //     props.imgsarinah1,
+  //     props.imgsarinah2,
+  //     props.imgsarinah3,
+  //     props.imgkatedral1,
+  //     props.imgkatedral2,
+  //     props.imgkatedral3,
+  //     props.imgkatedral4,
+  //   ];
+
+  //   const nextIndex = (currentImageIndex + 1) % imagePaths.length;
+  //   const newImage = imagePaths[nextIndex];
+  //   setCurrentImageIndex(nextIndex);
+  //   props.changeImage(newImage);
+
+  //   console.log(newImage);
+  //   console.log("button");
+  // }
+
+  // function buttonLeftClick() {
+  //   const imagePaths = [
+  //     props.imgmacan1,
+  //     props.imgmacan2,
+  //     props.imgsarinah1,
+  //     props.imgsarinah2,
+  //     props.imgsarinah3,
+  //     props.imgkatedral1,
+  //     props.imgkatedral2,
+  //     props.imgkatedral3,
+  //     props.imgkatedral4,
+  //   ];
+
+  //   const nextIndex = (currentImageIndex - 1) % imagePaths.length;
+  //   const newImage = imagePaths[nextIndex];
+  //   setCurrentImageIndex(nextIndex);
+  //   props.changeImage(newImage);
+
+  //   // console.log("button");
+  //   console.log(currentImageIndex);
+  // }
