@@ -43,47 +43,47 @@ function Home () {
             <div class="external">
                 <div class="horizontal-scroll-wrapper">
                     <div class="img-wrapper slower">
-                        <img src={Pic1} alt=""/>
+                        <img src={Pic1} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper faster">
-                        <img src={Pic2} alt=""/>
+                        <img src={Pic2} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper slower vertical">
-                        <img src={Pic3} alt=""/>
+                        <img src={Pic3} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper slower slower-down">
-                        <img src={Pic4} alt=""/>
+                        <img src={Pic4} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper">
-                        <img src={Pic5} alt=""/>
+                        <img src={Pic5} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper slower">
-                        <img src={Pic6} alt=""/>
+                        <img src={Pic6} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper faster1">
-                        <img src={Pic7} alt=""/>
+                        <img src={Pic7} alt="" className="m3"/>
                     </div>
                     
                     <div class="img-wrapper slower slower2">
-                        <img src={Pic8} alt=""/>
+                        <img src={Pic8} alt="" className="m3"/>
                     </div>
                     
                     <div class="img-wrapper">
-                        <img src={Pic9} alt=""/>
+                        <img src={Pic9} alt="" className="m3"/>
                     </div>
                     
                     <div class="img-wrapper slower">
-                        <img src={Pic10} alt=""/>
+                        <img src={Pic10} alt="" className="m3"/>
                     </div>
                     
                     <div class="img-wrapper slower last">
-                        <img src={Pic11} alt=""/>
+                        <img src={Pic11} alt="" className="m3"/>
                     </div>
                 </div>
                 </div>
