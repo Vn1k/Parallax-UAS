@@ -354,10 +354,9 @@ body::-webkit-scrollbar{
 }
 /* Footer */
 #Footer{
-    width: 100vw;
     font-family: 'Hanuman', cursive;
     color: white;
-    /* background-color: red; */
+    z-index: 888;
 }
 #gm{
    width: 100vw;
