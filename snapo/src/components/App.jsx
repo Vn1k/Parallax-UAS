@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Vinik/Navbar";
 import AboutUs from "../components/NAS/AboutUs";
-
 import Tipo3 from "./Acd/Tipo3";
 import Typo1 from "./Ravin/Typo1";
 import CardTipoc from "./Calista/CardTipoc";
