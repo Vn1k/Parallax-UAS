@@ -253,10 +253,21 @@ body::-webkit-scrollbar{
 
 #group{
     height: fit-content;
-    display: flex;
+    display: grid;
     align-items: center;
-    gap: 200px;
+    grid-gap: 200px;
 }  
+@media (min-width: 768px) {
+    #group {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #group {
+      grid-template-columns: 1fr;
+    }
+  }
 #one{
     height: 450px;
     transition: scale 0.1s ease-in-out;
