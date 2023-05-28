@@ -26,7 +26,7 @@ function FollowRavin()
                     <a href="https://discordapp.com/users/717375595335385170" class="nav-link"><FontAwesomeIcon icon={faDiscord} className="fa-discord"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="" class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
+                    <a href="https://www.linkedin.com/in/ravin-woenarso-ba125026b/" class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
                     </li>
                 </ul>
             </nav>
