@@ -44,7 +44,7 @@ function Navbar() {
               <Link to="about-us" smooth={true} duration={5000} className="ot">About Us</Link>
             </li>
             <li className="md:px-4 md:py-2">
-              <Link to="footer" smooth={true} duration={5000}className="ot animate__bounceOutDown">References</Link>
+              <Link to="Footer" smooth={true} duration={5000}className="ot animate__bounceOutDown">References</Link>
             </li>
           </ul>
         </div>
