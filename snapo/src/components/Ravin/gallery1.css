@@ -1,36 +1,133 @@
-#groupsatu{
+.containergal{
     display: flex;
-}
-.satu img{
-    width: 50vw;
-    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    box-sizing: border-box;
+    font-family: 'Hanuman' , cursive;
+    overflow: scroll !important;
+    position: relative;
+    height: fit-content !important;
+    width: fit-content !important;
+  }
+
+  #navs
+  {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+  }
+  
+  .containergal .box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  .containergal .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+  }
+  
+  .containergal .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+
+ #ones:hover
+ {
+    scale: 110%;
     transition: scale 0.2s ease-in-out;
-}
-.satu:hover img{
-    scale: 102%;
-}
-.dua img{
-    width: 50vw;
-    height: 50vh;
+ }
+
+ #twos:hover
+ {
+    scale: 110%;
     transition: scale 0.2s ease-in-out;
-}
-.dua:hover img{
-    scale: 102%;
-}
-.tiga img{
+ }
+
+ #threes:hover
+ {
+    scale: 110%;
     transition: scale 0.2s ease-in-out;
-}
-.tiga:hover img{
-    scale: 102%;
-}
-.empat img{
+ }
+
+ #fours:hover
+ {
+    scale: 110%;
     transition: scale 0.2s ease-in-out;
-}
-.empat:hover img{
-    scale: 102%;
+ }
+ #fives:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #sixs:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #sevens:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #eights:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #nines:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #tens:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #elevens:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+ #twlvs:hover
+ {
+    scale: 110%;
+    transition: scale 0.2s ease-in-out;
+ }
+
+ .blur-image {
+    transition: filter 0.3s ease; 
+  }
+.blur-image.blur {
+    filter: blur(2px);
 }
 
-#groupdua{
-    display: flex;
-}
-
+  
+  @media only screen and (max-width: 769px){
+          .containergal .box{
+      flex-direction: column;
+      }
+  
+      .containergal .box .dream{
+      width: 100%;
+      }
+  }
+  
+  
+  @media only screen and (max-width: 643px){
+      .containergal .heading{
+      width: 100%;
+      }
+      .containergal .heading h3{
+      font-size: 1em;
+  
+      }
+  }

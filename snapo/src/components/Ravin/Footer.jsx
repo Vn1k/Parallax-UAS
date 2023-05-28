@@ -3,13 +3,15 @@ import React from "react";
 function Footer(){
     const gmbrf = require("../../ASET/Images/footer.jpg");
     return(
+        
        <div id="Footer">
+        <section id="footer">
             <div>
                 <img id="gm" src={gmbrf} alt="gambarfooter" />
             </div>
             <div id="desc">
                 <h1 id="jfoot">Reference</h1>
-                <p id="dfoot">These are the references that help us in the process developing the website.</p>
+                <p id="dfoot">These are the references we use in the process developing the website.</p>
             </div>
             <div id="footer1">
                 <div>
@@ -42,7 +44,9 @@ function Footer(){
                     <p id="Ref6">Route</p>  
                 </div>            
             </div>
+            </section>
        </div> 
+       
     );
 }
 
