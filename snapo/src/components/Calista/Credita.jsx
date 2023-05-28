@@ -11,16 +11,13 @@ function Credita(props) {
   const [lokasiMuseumSarinah, setLokasiMuseumSarinah] = useState(null);
   const [lokasiMuseumKatedral, setLokasiMuseumkatedral] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showImage, setShowImage] = useState(true);
 
   const buttonRightClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % 10);
-    setShowImage(false);
   };
 
   const buttonLeftClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + 10) % 10);
-    setShowImage(false);
   };
 
   const getImage = () => {
