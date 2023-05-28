@@ -3,6 +3,7 @@
     color: white;
     position: relative;
     display: flex;
+    justify-content: center;
 }
 
 #image3
