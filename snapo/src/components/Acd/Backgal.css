@@ -1,0 +1,10 @@
+#buttonz
+{
+    width: 5vw;
+    height: 5vh;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(70%, 0%);
+}

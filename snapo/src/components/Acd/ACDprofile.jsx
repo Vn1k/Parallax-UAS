@@ -28,7 +28,7 @@ function ACDprofile ()
         
         <img src={Me4} alt="" id="bgProf"/>
         <BackButton onClick={handleResetClick} id="buttonBack"/>
-        <div id="name">Amanda Citraa Dewanti</div>
+        <div id="name">Amanda Citra Dewanti</div>
         <div id="nim">00000066344</div>
         <div id="conimg">
             <div id="Ime1">
