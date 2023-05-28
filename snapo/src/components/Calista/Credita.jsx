@@ -10,6 +10,9 @@ function Credita(props) {
   const [lokasiMuseumSarinah, setLokasiMuseumSarinah] = useState(null);
   const [lokasiMuseumKatedral, setLokasiMuseumkatedral] = useState(null);
 
+  var defaultBackground = true;
+  var defaultBackgroundColor = "";
+
   const InfoLokasiMuseumMacan = async () => {
     try {
       const response = await fetch(
@@ -49,11 +52,18 @@ function Credita(props) {
   function changeBackground(content) {
     if (content === "Museum4") {
       setBackgroundImage(require("../../ASET/Images/Macan.JPG"));
+      defaultBackground = false;
     } else if (content === "Museum5") {
       setBackgroundImage(require("../../ASET/Images/Sarinah.JPG"));
+      defaultBackground = false;
     } else if (content === "Museum6") {
       setBackgroundImage(require("../../ASET/Images/Katedral.JPG"));
+      defaultBackground = false;
+    } else if (content === "Default") {
+      setBackgroundImage(defaultBackgroundColor);    
     }
+
+    defaultBackground = content === "Default";
   }
 
   function buttonRightClick() {
@@ -131,7 +141,7 @@ function Credita(props) {
                         <div></div>
                       )}
                     </div>
-                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" onClick={() => changeBackground("Museum4")} style={{ cursor: "pointer" }}>{props.title4}</div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" onClick={() => changeBackground(defaultBackground ? "Museum4" : "Default")}>{defaultBackground ? props.title4 : "Default"}</div>
                     <div onClick={InfoLokasiMuseumSarinah} id="InfoLokasiMuseumSarinah" data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="120" class="museum2">{props.title2}
                       {lokasiMuseumSarinah ? (
                         <div id="APIMUSEUMSARINAH">
@@ -143,7 +153,7 @@ function Credita(props) {
                         <div></div>
                       )}                      
                       </div>
-                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="180" id="museum5" onClick={() => changeBackground("Museum5")} style={{ cursor: "pointer" }}>{props.title5}</div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="180" id="museum5" onClick={() => changeBackground(defaultBackground ? "Museum5" : "Default")}>{props.title5}</div>
                     <div onClick={InfoLokasiMuseumKatedral} id="InfoLokasiMuseumKatedral" data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" class="museum3">{props.title3}
                       {lokasiMuseumKatedral ? (
                         <div id="APIMUSEUMKATEDRAL">
@@ -155,9 +165,7 @@ function Credita(props) {
                         <div></div>
                       )}                    
                       </div>
-                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum6" onClick={() => changeBackground("Museum6")} style={{ cursor: "pointer" }} 
-                    // onClick={handleMuseumKatedralClick}
-                    >{props.title6}</div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum6" onClick={() => changeBackground(defaultBackground ? "Museum6" : "Default")}>{props.title6}</div>
                 </div> 
 
                 <div id="TextMuseum">
