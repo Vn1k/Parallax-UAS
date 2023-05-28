@@ -7,7 +7,7 @@ function Tipo2()
 {
     const IMAGERL = require("../../ASET/Images/benang gantung crop.jpg");
     return (
-        <div id="container2">
+        <div id="container2" class="md:max-sm:flex md:max-md:flex md:max-lg:flex">
             <div id="image2">
                 <img data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="220" src={IMAGERL} alt="benang" />
             </div>

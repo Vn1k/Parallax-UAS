@@ -20,6 +20,7 @@ function App() {
     <div id="changing-bg"></div>
      {/* <LoadingScreen/> */}
       <ScrollProvider>
+
         <Navbar />
         <Home />
         <Tipo3 />
