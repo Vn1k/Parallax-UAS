@@ -17,6 +17,7 @@ import LoadingScreen from './LoadingScreen';
 function App() {
   return (
     <>
+    <div id="changing-bg"></div>
      {/* <LoadingScreen/> */}
       <ScrollProvider>
         <Navbar />
@@ -29,7 +30,7 @@ function App() {
         <Gallery />
         <Work />
         <AboutUs />
-        {/* <Footer /> */}
+        <Footer />
       </ScrollProvider>
     </>
   );
