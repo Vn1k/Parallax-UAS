@@ -1,13 +1,14 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Footer(){
     const gmbrf = require("../../ASET/Images/footer.jpg");
     return(
         
        <div id="Footer">
-        <section id="footer">
             <div>
-                <img data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-390" data-aos-anchor-placement="top-center" id="gm" src={gmbrf} alt="gambarfooter" />
+                <img data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-390" data-aos-anchor-placement="top-center" id="gm" src={gmbrf} alt=""/>
             </div>
             <div id="desc">
                 <h1 data-aos="fade-down" data-aos-easing="ease-out-sine" data-aos-offset="-390" data-aos-anchor-placement="top-center" id="jfoot">Reference</h1>
@@ -18,7 +19,7 @@ function Footer(){
                     <p data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-390" data-aos-anchor-placement="top-center" id="Ref1">figma.com</p>
                 </div>
                 <div>
-                    <p data-aos="fade-bottom" data-aos-easing="ease-out-sine" data-aos-offset="-390" data-aos-anchor-placement="top-center" id="Ref2">sliderevolution.com</p>
+                    <p data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-390" data-aos-anchor-placement="top-center" id="Ref2">sliderevolution.com</p>
                 </div>
                 <div>
                     <p data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="-390" data-aos-anchor-placement="top-center" id="Ref3">github.com</p>  
@@ -29,28 +30,29 @@ function Footer(){
             </div>
             <div id="footer2">
                 <div>
-                    <p id="Ref1">AnimeJS</p>
+                    <p data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-100" data-aos-anchor-placement="top-center" id="Ref1">AnimeJS</p>
                 </div>
                 <div>
-                    <p id="Ref2">TailwindCSS</p>
+                    <p data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-100" data-aos-anchor-placement="top-center" id="Ref2">TailwindCSS</p>
                 </div>
                 <div>
-                    <p id="Ref3">Animation On Scroll</p>
+                    <p data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-100" data-aos-anchor-placement="top-center" id="Ref3">Animation On Scroll</p>
                 </div>
                 <div>
-                    <p id="Ref4">Font Awesome Icon</p>  
+                    <p data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="-100" data-aos-anchor-placement="top-center" id="Ref4">Font Awesome Icon</p>  
                 </div>
                 <div>
-                    <p id="Ref5">Camille Mormal</p>  
+                    <p data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="-100" data-aos-anchor-placement="top-center" id="Ref5">Camille Mormal</p>  
                 </div>
                 <div>
-                    <p id="Ref6">Route</p>  
+                    <p data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="-100" data-aos-anchor-placement="top-center" id="Ref6">Route</p>  
                 </div>            
             </div>
-            </section>
        </div> 
        
     );
 }
+
+AOS.init();
 
 export default Footer;

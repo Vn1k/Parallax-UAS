@@ -32,7 +32,7 @@ function Navbar() {
         <div className="text-gray-500 order-2 w-full md:w-auto md:order-2">
           <ul className="flex justify-between text-2xl">
             <li className="md:px-4 md:py-2">
-              <Link to="about-us" smooth={true} duration={5000} className="ot">About Us</Link>
+              <Link to="top" smooth={true} duration={5000}className="ot">Home</Link>
             </li>
             <li className="md:px-4 md:py-2">
               <Link to="gallery" smooth={true} duration={5000} className="ot">Gallery</Link>
@@ -41,10 +41,10 @@ function Navbar() {
               <Link to="c381" smooth={true} duration={5000}className="ot">Credit</Link>
             </li>
             <li className="md:px-4 md:py-2">
-              <Link to="footer" smooth={true} duration={5000}className="ot animate__bounceOutDown">References</Link>
+              <Link to="about-us" smooth={true} duration={5000} className="ot">About Us</Link>
             </li>
             <li className="md:px-4 md:py-2">
-              <Link to="top" smooth={true} duration={5000}className="ot">Home</Link>
+              <Link to="footer" smooth={true} duration={5000}className="ot animate__bounceOutDown">References</Link>
             </li>
           </ul>
         </div>
