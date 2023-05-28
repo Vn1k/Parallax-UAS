@@ -19,9 +19,14 @@ function Credita(props) {
         'https://api.goapi.id/v1/places?search=Museum+Macan&api_key=EWQM9E7G3f8p8frUlOR1hUB5qXr2Ei'
       );
       const jsonData = await response.json();
-      setLokasiMuseumMacan(jsonData.data.results);
+      if(lokasiMuseumMacan){
+        setLokasiMuseumMacan(null);
+      } else {
+        setLokasiMuseumMacan(jsonData.data.results);
+      }
     } catch (error) {
-      console.error('Error:', error);
+      alert("API Error");
+      console.log('An error occurred:', error);
     }
   };
 
@@ -31,9 +36,14 @@ function Credita(props) {
         'https://api.goapi.id/v1/places?search=Sarinah,%2011+Jakarta&api_key=EWQM9E7G3f8p8frUlOR1hUB5qXr2Ei'
       );
       const jsonData = await response.json();
-      setLokasiMuseumSarinah(jsonData.data.results);
+      if(lokasiMuseumSarinah){
+        setLokasiMuseumSarinah(null);
+      } else {
+        setLokasiMuseumSarinah(jsonData.data.results);
+      }
     } catch (error) {
-      console.error('Error:', error);
+      alert("API Error");
+      console.log('An error occurred:', error);
     }
   };
 
@@ -43,9 +53,14 @@ function Credita(props) {
         'https://api.goapi.id/v1/places?search=Katedral+Jakarta&api_key=EWQM9E7G3f8p8frUlOR1hUB5qXr2Ei'
       );
       const jsonData = await response.json();
-      setLokasiMuseumkatedral(jsonData.data.results);
+      if(lokasiMuseumKatedral){
+        setLokasiMuseumkatedral(null);
+      } else {
+        setLokasiMuseumkatedral(jsonData.data.results);
+      }
     } catch (error) {
-      console.error('Error:', error);
+      alert("API Error");
+      console.log('An error occurred:', error);
     }
   };
 
