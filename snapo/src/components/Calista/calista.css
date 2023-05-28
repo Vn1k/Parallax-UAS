@@ -197,6 +197,57 @@
     height: 60vh;
 }
 
+#InfoLokasiMuseumMacan {
+    width: 10vw;
+    height: 8vh;
+    cursor: pointer;
+}
+
+#InfoLokasiMuseumSarinah {
+    width: 10vw;
+    height: 8vh;
+    cursor: pointer;
+}
+
+#InfoLokasiMuseumKatedral {
+    width: 10vw;
+    height: 8vh;
+    cursor: pointer;
+}
+
+#APIMUSEUMMACAN {
+    width: 50vw;
+    height: 3vh;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #CAA930;
+    position: absolute;
+    top: 3vw;
+    left: 13w;
+}
+
+#APIMUSEUMSARINAH {
+    width: 50vw;
+    height: 3vh;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #CAA930;
+    position: absolute;
+    top: 3vw;
+    left: 13w;
+}
+
+#APIMUSEUMKATEDRAL {
+    width: 50vw;
+    height: 3vh;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #CAA930;
+    position: absolute;
+    top: 3vw;
+    left: 13w;
+}
+
 #Museum {
     position: absolute;
     font-size: 4.3em;
@@ -206,19 +257,19 @@
     top: 5vw;
 }
 
-#museum1 {
+.museum1 {
     position: absolute;
     top: 7vw;
     color: white;
 }
 
-#museum2 {
+.museum2 {
     position: absolute;
     top: 17vw;
     color: white;
 }
 
-#museum3 {
+.museum3 {
     position: absolute;
     top: 26vw;
     color: white;
@@ -258,19 +309,19 @@
 
 #textMuseum1 {
     position: absolute;
-    top: 15vw;
+    top: 16vw;
     z-index: 9999;
 }
 
 #textMuseum2 {
     position: absolute;
-    top: 25vw;
+    top: 26vw;
     z-index: 9999;
 }
 
 #textMuseum3 {
     position: absolute;
-    top: 34vw;
+    top: 35vw;
     z-index: 9999;
 }
 

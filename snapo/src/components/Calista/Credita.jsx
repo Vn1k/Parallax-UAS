@@ -6,6 +6,45 @@ import "aos/dist/aos.css";
 function Credita(props) {
   const [backgroundImage, setBackgroundImage] = useState("");
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [lokasiMuseumMacan, setLokasiMuseumMacan] = useState(null);
+  const [lokasiMuseumSarinah, setLokasiMuseumSarinah] = useState(null);
+  const [lokasiMuseumKatedral, setLokasiMuseumkatedral] = useState(null);
+
+  const InfoLokasiMuseumMacan = async () => {
+    try {
+      const response = await fetch(
+        'https://api.goapi.id/v1/places?search=Museum+Macan&api_key=EWQM9E7G3f8p8frUlOR1hUB5qXr2Ei'
+      );
+      const jsonData = await response.json();
+      setLokasiMuseumMacan(jsonData.data.results);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+
+  const InfoLokasiMuseumSarinah = async () => {
+    try {
+      const response = await fetch(
+        'https://api.goapi.id/v1/places?search=Sarinah,%2011+Jakarta&api_key=EWQM9E7G3f8p8frUlOR1hUB5qXr2Ei'
+      );
+      const jsonData = await response.json();
+      setLokasiMuseumSarinah(jsonData.data.results);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+
+  const InfoLokasiMuseumKatedral = async () => {
+    try {
+      const response = await fetch(
+        'https://api.goapi.id/v1/places?search=Katedral+Jakarta&api_key=EWQM9E7G3f8p8frUlOR1hUB5qXr2Ei'
+      );
+      const jsonData = await response.json();
+      setLokasiMuseumkatedral(jsonData.data.results);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
 
   function changeBackground(content) {
     if (content === "Museum4") {
@@ -81,11 +120,41 @@ function Credita(props) {
                     <img id="imgkatedral4" src={props.imgkatedral4}/>
                 </div> */}
                 <div id="Museum">
-                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="200" id="museum1">{props.title1}</div>
+                    <div onClick={InfoLokasiMuseumMacan} id="InfoLokasiMuseumMacan" data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="200" class="museum1">{props.title1}
+                      {lokasiMuseumMacan ? (
+                        <div id="APIMUSEUMMACAN">
+                          {lokasiMuseumMacan.map((item) => (
+                            <div key={item.id}>{item.displayName}</div>
+                          ))}
+                        </div>
+                      ) : (
+                        <div></div>
+                      )}
+                    </div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" onClick={() => changeBackground("Museum4")} style={{ cursor: "pointer" }}>{props.title4}</div>
-                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum2">{props.title2}</div>
+                    <div onClick={InfoLokasiMuseumSarinah} id="InfoLokasiMuseumSarinah" data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="120" class="museum2">{props.title2}
+                      {lokasiMuseumSarinah ? (
+                        <div id="APIMUSEUMSARINAH">
+                          {lokasiMuseumSarinah.map((item) => (
+                            <div key={item.id}>{item.displayName}</div>
+                          ))}
+                        </div>
+                      ) : (
+                        <div></div>
+                      )}                      
+                      </div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="180" id="museum5" onClick={() => changeBackground("Museum5")} style={{ cursor: "pointer" }}>{props.title5}</div>
-                    <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" id="museum3">{props.title3}</div>
+                    <div onClick={InfoLokasiMuseumKatedral} id="InfoLokasiMuseumKatedral" data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" class="museum3">{props.title3}
+                      {lokasiMuseumKatedral ? (
+                        <div id="APIMUSEUMKATEDRAL">
+                          {lokasiMuseumKatedral.map((item) => (
+                            <div key={item.id}>{item.displayName}</div>
+                          ))}
+                        </div>
+                      ) : (
+                        <div></div>
+                      )}                    
+                      </div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum6" onClick={() => changeBackground("Museum6")} style={{ cursor: "pointer" }} 
                     // onClick={handleMuseumKatedralClick}
                     >{props.title6}</div>
