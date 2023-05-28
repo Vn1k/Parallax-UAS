@@ -19,6 +19,7 @@ function App() {
     <>
      {/* <LoadingScreen/> */}
       <ScrollProvider>
+
         <Navbar />
         <Home />
         <Tipo3 />
