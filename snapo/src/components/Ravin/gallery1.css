@@ -11,6 +11,7 @@
     position: relative;
     height: fit-content !important;
     width: fit-content !important;
+    background-color: #100C08;
   }
 
   #navs
