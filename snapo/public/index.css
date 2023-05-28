@@ -31,6 +31,7 @@ body::-webkit-scrollbar{
 #changing-bg{
     position:fixed;
     z-index: 0;
+    background: linear-gradient(0deg, rgba(16,12,8,1) 0%, rgba(70,59,18,1) 100%);
 }
 
 /*Loading Screen*/  

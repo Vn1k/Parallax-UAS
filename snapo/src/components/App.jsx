@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navbar from "../components/Vinik/Navbar";
 import AboutUs from "../components/NAS/AboutUs";
 import Tipo3 from "./Acd/Tipo3";
@@ -10,14 +10,13 @@ import Gallery from "./Ravin/Gallery";
 import Work from "./Acd/Work";
 import CardCredit from "./Calista/CardCredit";
 import Footer from "./Ravin/Footer";
-import { ScrollProvider } from "./ScrollContext";
+import { ScrollProvider} from "./ScrollContext";
 import LoadingScreen from './LoadingScreen';
 
 function App() {
   return (
     <>
-    <div id="changing-bg"></div>
-     {/* <LoadingScreen/> */}
+      <LoadingScreen/>
       <ScrollProvider>
         <Navbar />
         <Home />
