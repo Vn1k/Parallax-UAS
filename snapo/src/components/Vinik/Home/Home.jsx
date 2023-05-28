@@ -7,8 +7,20 @@ import anime from "animejs";
 
 
 function Home () {
-    const IMGURL = require("../../../ASET/Home/home.jpg");
+    //const IMGURL = require("../../../ASET/Home/home.jpg");
     const Logom = require('../../../ASET/SVG/SNAPy.png');
+    const Pic1 = require('../../../ASET/Images/home.jpg');
+    const Pic2 = require('../../../ASET/Images/biarawati.JPG');
+    const Pic3 = require('../../../ASET/Images/words1.jpg');
+    const Pic4 = require('../../../ASET/Images/words2.jpg');
+    const Pic5 = require('../../../ASET/Images/story katedral2.jpg');
+    const Pic6 = require('../../../ASET/Images/lukisanputih.jpg');
+    const Pic7 = require('../../../ASET/Images/miniatur.jpg');
+    const Pic8 = require('../../../ASET/Images/lamp.jpg');
+    const Pic9 = require('../../../ASET/Images/patung.jpg');
+    const Pic10 = require('../../../ASET/Images/hands.jpg');
+    const Pic11 = require('../../../ASET/Images/piano.jpg');
+
 
     const [cursorPosition, setCursorPosition] = useState({x:0, y:0});
     useEffect(() => {
@@ -31,47 +43,47 @@ function Home () {
             <div class="external">
                 <div class="horizontal-scroll-wrapper">
                     <div class="img-wrapper slower">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-cafe-terrace.jpg" alt=""/>
+                        <img src={Pic1} alt=""/>
                     </div>
 
                     <div class="img-wrapper faster">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/antiquedollboy.jpg" alt=""/>
+                        <img src={Pic2} alt=""/>
                     </div>
 
                     <div class="img-wrapper slower vertical">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/windowshopclock.jpg" alt=""/>
+                        <img src={Pic3} alt=""/>
                     </div>
 
                     <div class="img-wrapper slower slower-down">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/swanduckriver.jpg" alt=""/>
+                        <img src={Pic4} alt=""/>
                     </div>
 
                     <div class="img-wrapper">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-terrace.jpg" alt=""/>
+                        <img src={Pic5} alt=""/>
                     </div>
 
                     <div class="img-wrapper slower">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-seine-boat.jpg" alt=""/>
+                        <img src={Pic6} alt=""/>
                     </div>
 
                     <div class="img-wrapper faster1">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/old-man-river.jpg" alt=""/>
+                        <img src={Pic7} alt=""/>
                     </div>
                     
                     <div class="img-wrapper slower slower2">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-table-street.jpg" alt=""/>
+                        <img src={Pic8} alt=""/>
                     </div>
                     
                     <div class="img-wrapper">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/street-scene-people.jpg" alt=""/>
+                        <img src={Pic9} alt=""/>
                     </div>
                     
                     <div class="img-wrapper slower">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/notre-dame-river-boat.jpg" alt=""/>
+                        <img src={Pic10} alt=""/>
                     </div>
                     
                     <div class="img-wrapper slower last">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/shop-window-reflection.jpg" alt=""/>
+                        <img src={Pic11} alt=""/>
                     </div>
                 </div>
                 </div>
