@@ -28,9 +28,53 @@ function Home () {
             setCursorPosition({x: movement_x, y: movement_y})
           }}>
             <section id="top">
-                    <div id="bg-home">
-                        <img className="selectDis" draggable="false" style={{position: "absolute", top: -cursorPosition.y, left: -cursorPosition.x}} src={IMGURL} alt=""/>
+            <div class="external">
+                <div class="horizontal-scroll-wrapper">
+                    <div class="img-wrapper slower">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-cafe-terrace.jpg" alt=""/>
                     </div>
+
+                    <div class="img-wrapper faster">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/antiquedollboy.jpg" alt=""/>
+                    </div>
+
+                    <div class="img-wrapper slower vertical">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/windowshopclock.jpg" alt=""/>
+                    </div>
+
+                    <div class="img-wrapper slower slower-down">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/swanduckriver.jpg" alt=""/>
+                    </div>
+
+                    <div class="img-wrapper">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-terrace.jpg" alt=""/>
+                    </div>
+
+                    <div class="img-wrapper slower">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-seine-boat.jpg" alt=""/>
+                    </div>
+
+                    <div class="img-wrapper faster1">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/old-man-river.jpg" alt=""/>
+                    </div>
+                    
+                    <div class="img-wrapper slower slower2">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-table-street.jpg" alt=""/>
+                    </div>
+                    
+                    <div class="img-wrapper">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/street-scene-people.jpg" alt=""/>
+                    </div>
+                    
+                    <div class="img-wrapper slower">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/notre-dame-river-boat.jpg" alt=""/>
+                    </div>
+                    
+                    <div class="img-wrapper slower last">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/shop-window-reflection.jpg" alt=""/>
+                    </div>
+                </div>
+                </div>
                 <div data-aos="fade-up" data-aos-easing="ease-out-sine" data-aos-anchor-placement="0">
                     <SvgImage id='logovertical'/>
                     <object id="background-logo"></object>
@@ -42,6 +86,7 @@ function Home () {
                     <p>Credit by <strong>MOYSHI</strong></p>
                 </div>
             </section>
+            
         </div>
     );
 }
