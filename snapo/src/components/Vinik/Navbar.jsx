@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-scroll';
+import 'animate.css';
 import "./nabar.css";
 import {
   handleScroll,
@@ -30,19 +31,19 @@ function Navbar() {
         </div>
         <div className="text-gray-500 order-2 w-full md:w-auto md:order-2">
           <ul className="flex justify-between text-2xl">
-            <li className="md:px-4 md:py-2 text-white hover:text-indigo-400">
+            <li className="md:px-4 md:py-2">
               <Link to="about-us" smooth={true} duration={5000} className="ot">About Us</Link>
             </li>
-            <li className="md:px-4 md:py-2 text-white hover:text-indigo-400">
+            <li className="md:px-4 md:py-2">
               <Link to="gallery" smooth={true} duration={5000} className="ot">Gallery</Link>
             </li>
-            <li className="md:px-4 md:py-2 text-white hover:text-indigo-400">
+            <li className="md:px-4 md:py-2">
               <Link to="c381" smooth={true} duration={5000}className="ot">Credit</Link>
             </li>
-            <li className="md:px-4 md:py-2 text-white hover:text-indigo-400">
-              <Link to="footer" smooth={true} duration={5000}className="ot">References</Link>
+            <li className="md:px-4 md:py-2">
+              <Link to="footer" smooth={true} duration={5000}className="ot animate__bounceOutDown">References</Link>
             </li>
-            <li className="md:px-4 md:py-2 text-white hover:text-indigo-400">
+            <li className="md:px-4 md:py-2">
               <Link to="top" smooth={true} duration={5000}className="ot">Home</Link>
             </li>
           </ul>
