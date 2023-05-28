@@ -175,12 +175,19 @@
     opacity: 30%;
 }
 
-#slideImageCredita {
+/* #slideImageCredita {
     z-index: 9999 !important;
     top: 10vw !important;
     left: 10vw !important;
     width: 100% !important;
     height: 100% !important;
+} */
+
+#slideShowImageCredita {
+    top: 12vw;
+    left: 10vw;  
+    width: 22vw;
+    height: 60vh;
 }
 
 #image3Credita {
