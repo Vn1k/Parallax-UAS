@@ -63,7 +63,7 @@ function Credita(props) {
 
     return (
         <div id="cardCredita" >
-          <section id="credit">
+          <section id="c381">
           <button onClick={buttonLeftClick} id="buttonLeft">&lt;</button>
           <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
             <img id="backgroundImageCredita" src={backgroundImage}/>
@@ -82,11 +82,11 @@ function Credita(props) {
                 </div> */}
                 <div id="Museum">
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="200" id="museum1">{props.title1}</div>
-                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" onClick={() => changeBackground("Museum4")}>{props.title4}</div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" onClick={() => changeBackground("Museum4")} style={{ cursor: "pointer" }}>{props.title4}</div>
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum2">{props.title2}</div>
-                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="180" id="museum5" onClick={() => changeBackground("Museum5")}>{props.title5}</div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="180" id="museum5" onClick={() => changeBackground("Museum5")} style={{ cursor: "pointer" }}>{props.title5}</div>
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" id="museum3">{props.title3}</div>
-                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum6" onClick={() => changeBackground("Museum6")} 
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum6" onClick={() => changeBackground("Museum6")} style={{ cursor: "pointer" }} 
                     // onClick={handleMuseumKatedralClick}
                     >{props.title6}</div>
                 </div> 
