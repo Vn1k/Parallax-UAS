@@ -28,24 +28,13 @@ function Gallery3(){
   const gambar24 = require("../../ASET/randomUs/r24.jpg");
   const gambar25 = require("../../ASET/randomUs/r25.jpg");
   const gambar26 = require("../../ASET/randomUs/r26.jpg");
+  const gambar27 = require("../../ASET/randomUs/fotoawikwok.jpg");
+  const gambar28 = require("../../ASET/randomUs/joseNPC.jpg");
+  const gambar29 = require("../../ASET/randomUs/random.jpg")
   
-  const blurImages = document.querySelectorAll('.blur-image');
+  const blurImages = document.querySelectorAll('navs');
 
-  blurImages.forEach(image => {
-    image.addEventListener('mouseover', () => {
-      blurImages.forEach(otherImage => {
-        if (otherImage !== image) {
-          otherImage.classList.add('blur');
-        }
-      });
-    });
 
-    image.addEventListener('mouseout', () => {
-      blurImages.forEach(otherImage => {
-        otherImage.classList.remove('blur');
-      });
-    });
-  });
 
   return (
     <div class="containergal">
@@ -62,6 +51,7 @@ function Gallery3(){
                 <img id="eightss" src={gambar19}/>
                 <img id="ninets" src={gambar20}/>
                 <img id="sixts" src={gambar17}/>
+                <img id="twsevents" src={gambar27}/>
             </div>
 
             <div class="dream">
@@ -74,6 +64,7 @@ function Gallery3(){
                     <img id="twones" src={gambar22}/>
                     <img id="twfifs" src={gambar23}/>
                     <img id="twsixs" src={gambar7}/>
+                    <img id="tweights" src={gambar28}/>
             </div>
 
             <div class="dream">
@@ -86,6 +77,7 @@ function Gallery3(){
                     <img id="fifs" src={gambar15}/>
                     <img id="nines" src={gambar11}/>
                     <img id="twtres" src={gambar25}/>
+                    <img id="twnines" src={gambar29}/>
              </div>
           </div>
         </div>
