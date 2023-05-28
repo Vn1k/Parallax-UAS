@@ -4,6 +4,9 @@ import { ReactComponent as SvgImage } from '../../../ASET/SVG/SNAPVER.svg'; //ca
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import anime from "animejs";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCircleArrowDown} from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-scroll';
 
 
 function Home () {
@@ -19,7 +22,7 @@ function Home () {
     const Pic8 = require('../../../ASET/Images/lamp.jpg');
     const Pic9 = require('../../../ASET/Images/patung.jpg');
     const Pic10 = require('../../../ASET/Images/hands.jpg');
-    const Pic11 = require('../../../ASET/Images/piano.jpg');
+    const Pic11 = require('../../../ASET/Images/bingkai2 crop.jpg');
 
 
     const [cursorPosition, setCursorPosition] = useState({x:0, y:0});
@@ -43,47 +46,47 @@ function Home () {
             <div class="external">
                 <div class="horizontal-scroll-wrapper">
                     <div class="img-wrapper slower">
-                        <img src={Pic1} alt=""/>
+                        <img src={Pic1} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper faster">
-                        <img src={Pic2} alt=""/>
+                        <img src={Pic2} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper slower vertical">
-                        <img src={Pic3} alt=""/>
+                        <img src={Pic3} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper slower slower-down">
-                        <img src={Pic4} alt=""/>
+                        <img src={Pic4} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper">
-                        <img src={Pic5} alt=""/>
+                        <img src={Pic5} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper slower">
-                        <img src={Pic6} alt=""/>
+                        <img src={Pic6} alt="" className="m3"/>
                     </div>
 
                     <div class="img-wrapper faster1">
-                        <img src={Pic7} alt=""/>
+                        <img src={Pic7} alt="" className="m3"/>
                     </div>
                     
                     <div class="img-wrapper slower slower2">
-                        <img src={Pic8} alt=""/>
+                        <img src={Pic8} alt="" className="m3"/>
                     </div>
                     
                     <div class="img-wrapper">
-                        <img src={Pic9} alt=""/>
+                        <img src={Pic9} alt="" className="m3"/>
                     </div>
                     
                     <div class="img-wrapper slower">
-                        <img src={Pic10} alt=""/>
+                        <img src={Pic10} alt="" className="m3"/>
                     </div>
                     
                     <div class="img-wrapper slower last">
-                        <img src={Pic11} alt=""/>
+                        <img src={Pic11} alt="" className="m3"/>
                     </div>
                 </div>
                 </div>
@@ -98,7 +101,6 @@ function Home () {
                     <p>Credit by <strong>MOYSHI</strong></p>
                 </div>
             </section>
-            
         </div>
     );
 }
