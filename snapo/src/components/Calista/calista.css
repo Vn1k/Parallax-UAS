@@ -175,9 +175,12 @@
     opacity: 30%;
 }
 
-#slideImagezCredita {
+#slideImageCredita {
     z-index: 9999 !important;
     top: 10vw !important;
+    left: 10vw !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 #image3Credita {
@@ -186,6 +189,7 @@
     top: 12vw;
     left: 10vw;
     overflow: hidden;
+    display: flex;
 }
 
 #img3Credita {
@@ -313,32 +317,41 @@
     top: 14vw;
 }
 
+/*ini garis vertikal kiri*/
 .lineMuseum4 {
     background: white;
     width: 0.2vw;
     height: 60vh;
+    /* top: 14vw;
+    left: 12vw; */
     position: absolute;
 }
-
+/*ini garis vertikal kanan*/
 .lineMuseum5 {
     background: white;
     position: absolute;
+    /* top: 14vw;
+    left: 100vw; */
     width: 0.2vw;
     height: 60vh;
-    left: 21vw;
+    left: 22vw;
 }
-
+/*ini garis horizontal atas*/
 .lineMuseum6 {
     background: white;
     position: absolute;
-    width: 21.2vw;
+    /* top: 14vw;
+    left: 12vw; */
+    width: 22vw;
     height: 0.3vh;
 }
-
+/*ini garis horizontal bawah*/
 .lineMuseum7 {
     background: white;
     position: absolute;
-    width: 21.2vw;
+    /* top: 55vw;
+    left: 12vw; */
+    width: 22.2vw;
     height: 0.3vh;
     top: 30.2vw;
 } 

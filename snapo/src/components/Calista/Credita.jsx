@@ -35,6 +35,7 @@ function Credita(props) {
     setCurrentImageIndex(nextIndex);
     props.changeImage(newImage);
 
+    console.log(newImage);
     console.log("button");
   }
 
@@ -56,7 +57,8 @@ function Credita(props) {
     setCurrentImageIndex(nextIndex);
     props.changeImage(newImage);
 
-    console.log("button");
+    // console.log("button");
+    console.log(currentImageIndex);
   }
 
     return (
@@ -65,7 +67,8 @@ function Credita(props) {
           <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
             <img id="backgroundImageCredita" src={backgroundImage}/>
                 <div id="image3Credita">
-                  <img id="slideImageCredita" src={currentImageIndex}/>
+                  <img id="slideImageCredita" src={props.newImage}/>
+                  
                   <img id="img3Credita" src={props.img3} />
                 </div>
                 {/* <div id="katedral" 
