@@ -41,7 +41,7 @@ body::-webkit-scrollbar{
     align-items:center;
     position: fixed;
     z-index: 9999;
-    background-color: black;
+    background-color: #100C08;
   }
   
   #loading img{
@@ -64,7 +64,7 @@ body::-webkit-scrollbar{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: #767676;
+    background: #100C08;
   }
   
   @keyframes animation{
@@ -297,27 +297,17 @@ body::-webkit-scrollbar{
     z-index: 99;
 }
 
-#one:hover{
-    scale: 110%;
-    transition: scale 0.2s ease-in;
-
-}
 #two{
     height: 450px;
     transition: scale 0.1s ease-in-out;
     box-shadow: rgba(83, 77, 23, 0.3) 0 5vw 6vw -8vw, rgba(255, 255, 255, 0) 0 4.5vw 5vw -6vw, rgba(50, 50, 80, 0.5) 0px 4vw 8vw -2vw, rgba(0, 0, 0, 0.8) 0px 4vw 5vw -3vw;
-}
-#two:hover{
-    scale: 110%;
-    transition: scale 0.2s ease-in-out;
-
 }
 #three{
     height: 450px;
     transition: scale 0.1s ease-in-out;
     box-shadow: rgba(83, 77, 23, 0.3) 0 5vw 6vw -8vw, rgba(255, 255, 255, 0) 0 4.5vw 5vw -6vw, rgba(50, 50, 80, 0.5) 0px 4vw 8vw -2vw, rgba(0, 0, 0, 0.8) 0px 4vw 5vw -3vw;
 }
-#three:hover{
+.atropos:hover{
     scale: 110%;
     transition: scale 0.2s ease-in-out;
 
