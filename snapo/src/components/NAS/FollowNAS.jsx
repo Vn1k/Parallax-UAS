@@ -26,7 +26,8 @@ function FollowACD()
                     <a href="#" class="nav-link"><FontAwesomeIcon icon={faDiscord} className="fa-discord"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
+                    <a href="https://www.linkedin.com/in/nathan-angelo-stenlie-0879b0278/
+discordapp.com/users/313326176657604620" target="_blank" rel="noopener noreferrer"  class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
                     </li>
                 </ul>
             </nav>

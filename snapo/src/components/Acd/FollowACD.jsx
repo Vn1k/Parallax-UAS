@@ -20,13 +20,13 @@ function FollowACD()
                     <a href="#" class="nav-link"><FontAwesomeIcon icon={faSteam} className="fa-steam"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faInstagram} className="fa-instagram"/></a>
+                    <a href="https://instagram.com/its.acd?igshid=NGExMmI2YTkyZg==" target="_blank" rel="noopener noreferrer"  class="nav-link"><FontAwesomeIcon icon={faInstagram} className="fa-instagram"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faDiscord} className="fa-discord"/></a>
+                    <a href="discordapp.com/user/428878611332857856" target="_blank" rel="noopener noreferrer" class="nav-link"><FontAwesomeIcon icon={faDiscord} className="fa-discord"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
+                    <a href="https://www.linkedin.com/in/amanda-citra-dewanti-838631245" target="_blank" rel="noopener noreferrer" class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
                     </li>
                 </ul>
             </nav>
