@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanuman:wght@100;400&family=Satisfy&display=swap');
 
-* {
-    font-family: 'Hanuman', serif;
-}
-
 #credit {
     color: white;
     position: absolute;
