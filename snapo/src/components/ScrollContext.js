@@ -23,7 +23,7 @@ export const ScrollProvider = ({ children }) => {
 
   return (
     <ScrollContext.Provider value={ scrollPosition }>
-      <div id="changing-bg" style={{background: `linear-gradient(${newDegree}deg, rgba(16,12,8,1) 0%, rgba(70,59,18,0.6) 100%)`}}></div>
+      <div id="changing-bg" style={{background: `linear-gradient(${newDegree}deg, rgba(16,12,8,1) 0%, rgba(70,59,18,1) 250%)`}}></div>
       {children}
     </ScrollContext.Provider>
   );
