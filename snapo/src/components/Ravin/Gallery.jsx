@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Gallery(){
     const IMGURL0 = require("../../ASET/Images/borobudur.jpg");
@@ -46,5 +48,7 @@ function Gallery(){
         
     );
 }
+
+AOS.init();
 
 export default Gallery;

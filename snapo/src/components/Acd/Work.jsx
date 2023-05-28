@@ -1,6 +1,8 @@
 import React from "react";
 import { ReactComponent as Logou } from '../../ASET/SVG/SNAPANJANG.svg';
 import './work.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Work ()
 {
@@ -13,15 +15,15 @@ function Work ()
         
         <div id="containerWork">
             <section id="snapo">
-            <div id="logoWork">
+            <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="100" id="logoWork">
                 <Logou id="SNAPje" />
                 <img src={Snap} id="snapWok" alt="logo"/>
              </div>
-            <div id="textWork">SNAPO merupakan sebuah singkatan dari SNAP yaitu foto dan PO adalah typography. SNAPO menampilkan sebuah website yang berisikan gallery foto 'Museum' dan diberikan sebuah typography untuk menambahkan estetika sebuah foto.</div>
-            <div id="creditWork">Created by | <strong>M O Y S H I</strong></div>
-            <div id="recWork1"></div>
-            <div id="recWork2"></div>
-            <div id="recWorkfoto">
+            <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="100" id="textWork">SNAPO merupakan sebuah singkatan dari SNAP yaitu foto dan PO adalah typography. SNAPO menampilkan sebuah website yang berisikan gallery foto 'Museum' dan diberikan sebuah typography untuk menambahkan estetika sebuah foto.</div>
+            <div data-aos="fade-bottom" data-aos-easing="ease-out-sine" data-aos-offset="60" id="creditWork">Created by | <strong>M O Y S H I</strong></div>
+            <div data-aos="fade-top" data-aos-easing="ease-out-sine" data-aos-offset="50" id="recWork1"></div>
+            <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" id="recWork2"></div>
+            <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="50" id="recWorkfoto">
                 <div id="imgWork1">
                     <img src={Imgine1} alt="piano" />
                 </div>
@@ -32,7 +34,7 @@ function Work ()
                     <img src={Imgine3} alt="lukisan4" />
                 </div>
             </div>
-            <div id="color3">
+            <div data-aos="fade-bottom" data-aos-easing="ease-out-sine" data-aos-offset="70" id="color3">
                 <div id="recWork3"></div>
                 <div id="recWork4"></div>
                 <div id="recWork5"></div>
@@ -43,5 +45,7 @@ function Work ()
         
     );
 }
+
+AOS.init();
 
 export default Work;
