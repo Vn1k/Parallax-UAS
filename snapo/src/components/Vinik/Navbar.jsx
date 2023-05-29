@@ -23,26 +23,26 @@ function Navbar() {
     };
   }, [prevScrollPos]);
 
-  const jamBerjalan = async () => {
-    try {
-      const response = await fetch(
-        'https://worldtimeapi.org/api/timezone/Asia/jakarta'
-      );
-      const jsonData = await response.json();
-      if(digitalTime){
-        setDigitalTime(null);
-      } else {
-        const dateTime = jsonData.utc_datetime;
-        const transformedTime = new Date(dateTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-        setDigitalTime(transformedTime);
-        console.log(jsonData.utc_datetime);
-      }
-    } catch (error) {
-      console.log('An error occurred:', error);
-    }
-  };
+  // const jamBerjalan = async () => {
+  //   try {
+  //     const response = await fetch(
+  //       'https://worldtimeapi.org/api/timezone/Asia/jakarta'
+  //     );
+  //     const jsonData = await response.json();
+  //     if(digitalTime){
+  //       setDigitalTime(null);
+  //     } else {
+  //       const dateTime = jsonData.utc_datetime;
+  //       const transformedTime = new Date(dateTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  //       setDigitalTime(transformedTime);
+  //       console.log(jsonData.utc_datetime);
+  //     }
+  //   } catch (error) {
+  //     console.log('An error occurred:', error);
+  //   }
+  // };
 
-  setInterval(jamBerjalan, 1000);
+  // setInterval(jamBerjalan, 1000);
 
   return (
     <nav className={`fixed z-10 w-full px-8 md:px-auto ${isNavbarVisible ? "fade-in" : "fade-out"}`}>
