@@ -7,6 +7,10 @@ import conCredit from "./conCredit";
 function Credita(props) {
   const [backgroundImage, setBackgroundImage] = useState("");
   // const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [digitalTime, setDigitalTime] = useState(null);
+  // const [informasiMuseumMacan, setInformasiMuseumMacan] = useState(null);
+  // const [informasiMuseumSarinah, setInformasiMuseumSarinah] = useState(null);
+  // const [informasiMuseumKatedral, setInformasiMuseumKatedral] = useState(null);
   const [lokasiMuseumMacan, setLokasiMuseumMacan] = useState(null);
   const [lokasiMuseumSarinah, setLokasiMuseumSarinah] = useState(null);
   const [lokasiMuseumKatedral, setLokasiMuseumkatedral] = useState(null);
@@ -26,8 +30,77 @@ function Credita(props) {
     return conCredit[0][imageKey];
   };
 
-  var defaultBackground = true;
-  var defaultBackgroundColor = "";
+  const jamBerjalan = async () => {
+    try {
+      const response = await fetch(
+        'https://worldtimeapi.org/api/timezone/Asia/jakarta'
+      );
+      const jsonData = await response.json();
+      if(digitalTime){
+        setDigitalTime(null);
+      } else {
+        const dateTime = jsonData.utc_datetime;
+        const transformedTime = new Date(dateTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        setDigitalTime(transformedTime);
+        console.log(jsonData.utc_datetime);
+      }
+    } catch (error) {
+      alert("API Error");
+      console.log('An error occurred:', error);
+    }
+  };
+
+  // const infoMuseumMacan = async () => {
+  //   try {
+  //     const response = await fetch(
+  //       'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Museum+Macan&format=json'
+  //     );
+  //     const jsonData = await response.json();
+  //     if(informasiMuseumMacan){
+  //       setInformasiMuseumMacan(null);
+  //     } else {
+  //       setInformasiMuseumMacan(jsonData.query.search);
+  //       console.log(jsonData.data.results);
+  //     }
+  //   } catch (error) {
+  //     alert("API Error");
+  //     console.log('An error occurred:', error);
+  //   }
+  // };
+
+  // const infoMuseumSarinah = async () => {
+  //   try {
+  //     const response = await fetch(
+  //       'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Museum+Sarinah&format=json'
+  //     );
+  //     const jsonData = await response.json();
+  //     if(informasiMuseumSarinah){
+  //       setInformasiMuseumSarinah(null);
+  //     } else {
+  //       setInformasiMuseumSarinah(jsonData.data.results);
+  //     }
+  //   } catch (error) {
+  //     alert("API Error");
+  //     console.log('An error occurred:', error);
+  //   }
+  // };
+
+  // const infoMuseumKatedral = async () => {
+  //   try {
+  //     const response = await fetch(
+  //       'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Museum+Katedral&format=json'
+  //     );
+  //     const jsonData = await response.json();
+  //     if(informasiMuseumKatedral){
+  //       setInformasiMuseumKatedral(null);
+  //     } else {
+  //       setInformasiMuseumKatedral(jsonData.data.results);
+  //     }
+  //   } catch (error) {
+  //     alert("API Error");
+  //     console.log('An error occurred:', error);
+  //   }
+  // };
 
   const InfoLokasiMuseumMacan = async () => {
     try {
@@ -39,6 +112,8 @@ function Credita(props) {
         setLokasiMuseumMacan(null);
       } else {
         setLokasiMuseumMacan(jsonData.data.results);
+        console.log(jsonData.data.results);
+
       }
     } catch (error) {
       alert("API Error");
@@ -80,6 +155,9 @@ function Credita(props) {
     }
   };
 
+  var defaultBackground = true;
+  var defaultBackgroundColor = "";
+
   function changeBackground(content) {
     if (content === "Museum4") {
       setBackgroundImage(require("../../ASET/Images/Macan.JPG"));
@@ -98,6 +176,15 @@ function Credita(props) {
 
     return (
         <div id="cardCredita" >
+          <div onClick={jamBerjalan} id="JamBerjalan">Digital Time
+          {digitalTime ? (
+            <div id="DIGITALTIME">
+              <div key={digitalTime}>{digitalTime}</div>
+            </div>
+          ) : (
+            <div></div>
+          )}
+          </div>
           <section id="c381">
           <button onClick={buttonLeftClick} id="buttonLeft">&lt;</button>
           <button onClick={buttonRightClick} id="buttonRight">&gt;</button>
@@ -145,12 +232,47 @@ function Credita(props) {
                       </div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum6" onClick={() => changeBackground(defaultBackground ? "Museum6" : "Default")}>{props.title6}</div>
                 </div> 
-
                 <div id="TextMuseum">
-                    <div data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="230" id="textMuseum1">{props.text1}</div>
-                    <div data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="100" id="textMuseum2">{props.text2}</div>
-                    <div data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="80" id="textMuseum3">{props.text3}</div> 
-                </div>
+                    <div 
+                    // onClick={infoMuseumMacan} id="InfoMuseumMacan" 
+                    data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="230" class="textMuseum1">{props.text1}
+                      {/* {informasiMuseumMacan ? (
+                          <div id="APIINFOMUSEUMMACAN">
+                            {informasiMuseumMacan.map((item) => (
+                              <div key={item.pageid}>{item.title}</div>
+                            ))}
+                          </div>
+                        ) : (
+                          <div></div>
+                        )}    */}
+                    </div>
+                    <div 
+                    // onClick={infoMuseumSarinah} id="InfoMuseumSarinah" 
+                    data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="100" class="textMuseum2">{props.text2}
+                    {/* {informasiMuseumSarinah ? (
+                          <div id="APIINFOMUSEUMSARINAH">
+                            {informasiMuseumSarinah.map((item) => (
+                              <div key={item.id}>{item.displayName}</div>
+                            ))}
+                          </div>
+                        ) : (
+                          <div></div>
+                        )}                      */}
+                        </div>
+                    <div 
+                    // onClick={infoMuseumKatedral} id="InfoMuseumKatedral" 
+                    data-aos="flip-down" data-aos-easing="ease-out-sine" data-aos-offset="80" class="textMuseum3">{props.text3}
+                    {/* {informasiMuseumKatedral ? (
+                          <div id="APIINFOMUSEUMKATEDRAL">
+                            {informasiMuseumKatedral.map((item) => (
+                              <div key={item.id}>{item.displayName}</div>
+                            ))}
+                          </div>
+                        ) : (
+                          <div></div>
+                        )}                      */}
+                        </div>
+                    </div> 
                 {/* <div id="lineMuseum123"> */}
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="100" class="lineMuseum1"></div>
                     <div data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="-10" class="lineMuseum2"></div>

@@ -171,6 +171,12 @@
     font-family: hanuman;
 }
 
+#JamBerjalan {
+    position: fixed;
+    margin: auto;
+    left: 5vw;
+}
+
 #backgroundImageCredita {
     opacity: 30%;
 }
@@ -204,6 +210,13 @@
     height: 60vh;
 }
 
+#InfoLokasiUMN {
+    width: 50vw;
+    height: 8vh;
+    cursor: pointer;
+    background-color: red;
+}
+
 #InfoLokasiMuseumMacan {
     width: 10vw;
     height: 8vh;
@@ -222,8 +235,37 @@
     cursor: pointer;
 }
 
+#InfoMuseumMacan {
+    background-color: red;
+    width: 37vw;
+    cursor: pointer;
+}
+
+#InfoMuseumSarinah {
+    background-color: red;
+    width: 37vw;
+    cursor: pointer;
+}
+
+#InfoMuseumKatedral {
+    background-color: red;
+    width: 37vw;
+    cursor: pointer;
+}
+
+#APIUMN {
+    width: 32vw;
+    height: 3vh;
+    font-size: 1.8rem;
+    color: #CAA930;
+    position: absolute;
+    top: 6vw;
+    left: 13w;
+    background-color: blue;
+}
+
 #APIMUSEUMMACAN {
-    width: 52vw;
+    width: 42vw;
     height: 3vh;
     font-size: 1.4rem;
     color: #CAA930;
@@ -233,7 +275,7 @@
 }
 
 #APIMUSEUMSARINAH {
-    width: 52vw;
+    width: 42vw;
     height: 3vh;
     font-size: 1.4rem;
     color: #CAA930;
@@ -244,6 +286,36 @@
 
 #APIMUSEUMKATEDRAL {
     width: 52vw;
+    height: 3vh;
+    font-size: 1.4rem;
+    color: #CAA930;
+    position: absolute;
+    top: 2.8vw;
+    left: 13w;
+}
+
+#APIINFOMUSEUMMACAN {
+    width: 42vw;
+    height: 3vh;
+    font-size: 1.4rem;
+    color: #CAA930;
+    position: absolute;
+    top: 2.8vw;
+    left: 13w;
+}
+
+#APIINFOMUSEUMSARINAH {
+    width: 42vw;
+    height: 3vh;
+    font-size: 1.4rem;
+    color: #CAA930;
+    position: absolute;
+    top: 2.8vw;
+    left: 13w;
+}
+
+#APIINFOMUSEUMKATEDRAL {
+    width: 42vw;
     height: 3vh;
     font-size: 1.4rem;
     color: #CAA930;
@@ -313,19 +385,19 @@
     z-index: 9999;
 }
 
-#textMuseum1 {
+.textMuseum1 {
     position: absolute;
     top: 16vw;
     z-index: 9999;
 }
 
-#textMuseum2 {
+.textMuseum2 {
     position: absolute;
     top: 26vw;
     z-index: 9999;
 }
 
-#textMuseum3 {
+.textMuseum3 {
     position: absolute;
     top: 35vw;
     z-index: 9999;

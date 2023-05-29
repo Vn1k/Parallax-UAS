@@ -1,10 +1,11 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { NameContext } from "../../NAS/AboutUs";
 import BackButton from "../../NAS/BackButton";
 import './Vinprofile.css';
 import FollowKEN from "./FollowKEN";
 
 function Vinprof() {
+  const [lokasiUMN, setLokasiUMN] = useState(null);
   const { name, setName, aboutIndividualRef } = useContext(NameContext);
   const KMe1 = require("../../../ASET/Individuals/KEN1.jpg");
   const KMe2 = require("../../../ASET/Individuals/KEN2.jpg");
@@ -21,13 +22,42 @@ function Vinprof() {
 
   }
 
+  const InfoLokasiUMN = async () => {
+    try {
+      const response = await fetch(
+        'https://api.goapi.id/v1/places?search=Universitas+Multimedia+Nusantara&api_key=EWQM9E7G3f8p8frUlOR1hUB5qXr2Ei'
+      );
+      const jsonData = await response.json();
+      if(lokasiUMN){
+        setLokasiUMN(null);
+      } else {
+        setLokasiUMN(jsonData.data.results);
+        console.log(jsonData.data.results);
+
+      }
+    } catch (error) {
+      alert("API Error");
+      console.log('An error occurred:', error);
+    }
+  };
+
   return (
     <>
       <div id="containerProf">
         
         <img src={KMe4} alt="" id="bgProf"/>
         <BackButton onClick={handleResetClick} id="buttonBack"/>
-        <div id="name">Kevin Ken</div>
+        <div onClick={InfoLokasiUMN} id="InfoLokasiUMN" class="name">Kevin Ken
+        {lokasiUMN ? (
+          <div id="APIUMN">
+            {lokasiUMN.map((item) => (
+              <div key={item.id}>{item.displayName}</div>
+              ))}
+              </div>
+              ) : (
+                <div></div>
+                )}
+        </div>  
         <div id="nim">00000067060</div>
         <div id="conimg">
             <div id="Ime1">

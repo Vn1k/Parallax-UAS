@@ -7,9 +7,11 @@ import {
 } from "./navbarFunction";
 
 function Navbar() {
+  const [digitalTime, setDigitalTime] = useState(null);
   const [isNavbarVisible, setIsNavbarVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const LogoSnap = require("../../ASET/SVG/logoposter.png")
+  
 
   useEffect(() => {
     const scrollHandler = handleScroll(setIsNavbarVisible, setPrevScrollPos, prevScrollPos);
@@ -21,6 +23,27 @@ function Navbar() {
     };
   }, [prevScrollPos]);
 
+  const jamBerjalan = async () => {
+    try {
+      const response = await fetch(
+        'https://worldtimeapi.org/api/timezone/Asia/jakarta'
+      );
+      const jsonData = await response.json();
+      if(digitalTime){
+        setDigitalTime(null);
+      } else {
+        const dateTime = jsonData.utc_datetime;
+        const transformedTime = new Date(dateTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        setDigitalTime(transformedTime);
+        console.log(jsonData.utc_datetime);
+      }
+    } catch (error) {
+      console.log('An error occurred:', error);
+    }
+  };
+
+  setInterval(jamBerjalan, 1000);
+
   return (
     <nav className={`fixed z-10 w-full px-8 md:px-auto ${isNavbarVisible ? "fade-in" : "fade-out"}`}>
       <div className="md:h-20 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
@@ -28,6 +51,15 @@ function Navbar() {
           <Link to="snapo" smooth={true} duration={5000}>
             <img src={LogoSnap} className="w-40 ot" alt="Logo" />
           </Link>
+        </div>
+        <div id="JamBerjalan">
+          {digitalTime ? (
+            <div id="DIGITALTIME">
+              <div key={digitalTime}>{digitalTime}</div>
+            </div>
+          ) : (
+            <div></div>
+          )}
         </div>
         <div className="text-gray-500 order-2 w-full md:w-auto md:order-2">
           <ul className="flex justify-between text-2xl">
