@@ -6,7 +6,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 import './followNAS.css';
 
-function FollowACD()
+function FollowNAS()
 {
     return (
         <div id="containerFollow">
@@ -17,17 +17,16 @@ function FollowACD()
                 <div class="line"></div>
                 <ul class="nav-list">
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faSteam} className="fa-steam"/></a>
+                    <a href="https://steamcommunity.com/profiles/76561198271453258/" class="nav-link"><FontAwesomeIcon icon={faSteam} className="fa-steam"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faInstagram} className="fa-instagram"/></a>
+                    <a href="https://instagam.com/nas27ig" class="nav-link"><FontAwesomeIcon icon={faInstagram} className="fa-instagram"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link"><FontAwesomeIcon icon={faDiscord} className="fa-discord"/></a>
+                    <a href="https://discordapp.com/users/313326176657604620" class="nav-link"><FontAwesomeIcon icon={faDiscord} className="fa-discord"/></a>
                     </li>
                     <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/nathan-angelo-stenlie-0879b0278/
-discordapp.com/users/313326176657604620" target="_blank" rel="noopener noreferrer"  class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
+                    <a href="https://www.linkedin.com/in/nathan-angelo-stenlie-0879b0278/" target="_blank" rel="noopener noreferrer"  class="nav-link"><FontAwesomeIcon icon={faLinkedin} className="fa-linkedin-in"/></a>
                     </li>
                 </ul>
             </nav>
@@ -35,4 +34,4 @@ discordapp.com/users/313326176657604620" target="_blank" rel="noopener noreferre
     ); 
 }
 
-export default FollowACD;
+export default FollowNAS;
