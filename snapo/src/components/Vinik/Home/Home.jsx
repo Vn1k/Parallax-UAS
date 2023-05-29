@@ -1,12 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import './home.css';
 import { ReactComponent as SvgImage } from '../../../ASET/SVG/SNAPVER.svg'; //cara memanggil gambar svg
-import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 import anime from "animejs";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faCircleArrowDown} from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-scroll';
 
 
 function Home () {
@@ -92,7 +89,7 @@ function Home () {
                 </div>
                 <div>
                     <SvgImage id='logovertical'/>
-                    <object id="background-logo"></object>
+                    <object id="background-logo" alt="background-logo"></object>
                 </div>
                 <div id="logoo">
                     <img src={Logom} alt="" id="logoje" />
