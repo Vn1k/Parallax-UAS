@@ -214,6 +214,7 @@
     width: 50vw;
     height: 8vh;
     cursor: pointer;
+    background-color: red;
 }
 
 #InfoLokasiMuseumMacan {
