@@ -171,6 +171,12 @@
     font-family: hanuman;
 }
 
+#JamBerjalan {
+    position: fixed;
+    margin: auto;
+
+}
+
 #backgroundImageCredita {
     opacity: 30%;
 }
@@ -222,8 +228,26 @@
     cursor: pointer;
 }
 
+#InfoMuseumMacan {
+    background-color: red;
+    width: 37vw;
+    cursor: pointer;
+}
+
+#InfoMuseumSarinah {
+    background-color: red;
+    width: 37vw;
+    cursor: pointer;
+}
+
+#InfoMuseumKatedral {
+    background-color: red;
+    width: 37vw;
+    cursor: pointer;
+}
+
 #APIMUSEUMMACAN {
-    width: 52vw;
+    width: 42vw;
     height: 3vh;
     font-size: 1.4rem;
     color: #CAA930;
@@ -233,7 +257,7 @@
 }
 
 #APIMUSEUMSARINAH {
-    width: 52vw;
+    width: 42vw;
     height: 3vh;
     font-size: 1.4rem;
     color: #CAA930;
@@ -244,6 +268,36 @@
 
 #APIMUSEUMKATEDRAL {
     width: 52vw;
+    height: 3vh;
+    font-size: 1.4rem;
+    color: #CAA930;
+    position: absolute;
+    top: 2.8vw;
+    left: 13w;
+}
+
+#APIINFOMUSEUMMACAN {
+    width: 42vw;
+    height: 3vh;
+    font-size: 1.4rem;
+    color: #CAA930;
+    position: absolute;
+    top: 2.8vw;
+    left: 13w;
+}
+
+#APIINFOMUSEUMSARINAH {
+    width: 42vw;
+    height: 3vh;
+    font-size: 1.4rem;
+    color: #CAA930;
+    position: absolute;
+    top: 2.8vw;
+    left: 13w;
+}
+
+#APIINFOMUSEUMKATEDRAL {
+    width: 42vw;
     height: 3vh;
     font-size: 1.4rem;
     color: #CAA930;
@@ -313,19 +367,19 @@
     z-index: 9999;
 }
 
-#textMuseum1 {
+.textMuseum1 {
     position: absolute;
     top: 16vw;
     z-index: 9999;
 }
 
-#textMuseum2 {
+.textMuseum2 {
     position: absolute;
     top: 26vw;
     z-index: 9999;
 }
 
-#textMuseum3 {
+.textMuseum3 {
     position: absolute;
     top: 35vw;
     z-index: 9999;
