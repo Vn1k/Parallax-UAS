@@ -174,7 +174,7 @@
 #JamBerjalan {
     position: fixed;
     margin: auto;
-
+    left: 5vw;
 }
 
 #backgroundImageCredita {
@@ -208,6 +208,12 @@
 #img3Credita {
     width: 22vw;
     height: 60vh;
+}
+
+#InfoLokasiUMN {
+    width: 50vw;
+    height: 8vh;
+    cursor: pointer;
 }
 
 #InfoLokasiMuseumMacan {
@@ -244,6 +250,16 @@
     background-color: red;
     width: 37vw;
     cursor: pointer;
+}
+
+#APIUMN {
+    width: 42vw;
+    height: 3vh;
+    font-size: 1.4rem;
+    color: #CAA930;
+    position: absolute;
+    top: 2.8vw;
+    left: 13w;
 }
 
 #APIMUSEUMMACAN {
