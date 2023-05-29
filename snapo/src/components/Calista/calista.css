@@ -214,7 +214,6 @@
     width: 50vw;
     height: 8vh;
     cursor: pointer;
-    background-color: red;
 }
 
 #InfoLokasiMuseumMacan {
@@ -261,7 +260,6 @@
     position: absolute;
     top: 6vw;
     left: 13w;
-    background-color: blue;
 }
 
 #APIMUSEUMMACAN {
