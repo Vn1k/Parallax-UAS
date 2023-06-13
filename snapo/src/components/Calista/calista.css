@@ -7,7 +7,7 @@
 
 /*tulisantipoc awal */
 
-/* #tulisantipoc {
+#tulisantipoc {
     position: absolute;
     top: 25vw;
     left: 33vw;
@@ -51,11 +51,11 @@
     top: 15vw;
     left: -14vw;
     z-index: 999;
-} */
+} 
 
 /*tulisantipoc akhir */
 
-/* #caltipocimage1 {
+#caltipocimage1 {
     position: absolute;
     top: 3vw;
     left: 65vw;
@@ -163,7 +163,7 @@
     border-radius: 50%;
     position: absolute;
     top: 4vw;
-} */
+} 
 
 @media screen and (max-width: 768px){
     #cardTipoc {
