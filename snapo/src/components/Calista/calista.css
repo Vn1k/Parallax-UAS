@@ -1,13 +1,13 @@
-/* Calista Awal */
 #cardTipoc {
     position: relative;
-    /* background-color: rgb(122, 117, 7); */
     font-family: hanuman;
 }
 
+/* TIPOC */
+
 /*tulisantipoc awal */
 
-#tulisantipoc {
+/* #tulisantipoc {
     position: absolute;
     top: 25vw;
     left: 33vw;
@@ -51,11 +51,11 @@
     top: 15vw;
     left: -14vw;
     z-index: 999;
-}
+} */
 
 /*tulisantipoc akhir */
 
-#caltipocimage1 {
+/* #caltipocimage1 {
     position: absolute;
     top: 3vw;
     left: 65vw;
@@ -163,19 +163,147 @@
     border-radius: 50%;
     position: absolute;
     top: 4vw;
+} */
+
+@media screen and (max-width: 768px){
+    #cardTipoc {
+        position: relative;
+        font-family: hanuman;
+    }
+
+    #tulisantipoc {
+        position: absolute;
+        top: 85vw;
+        left: 52vw;
+    }
+
+    #headingTipoc {
+        font-size: 42px;
+        position: absolute;
+        width: 60vw;
+        top: -19vw;
+        left: -40vw;
+        color: white;
+        z-index: 9999;
+        animation: 3s slideRightHeadingTipoc;
+        animation-delay: 2s;
+    }
+
+    @keyframes slideRightHeadingTipoc {
+        from {
+            left: -100%;
+        }
+        to {
+            left: 100%;
+        }
+    }
+
+    #textTipoc {
+        font-size: 24px;
+        position: absolute;
+        color: white;
+        width: 41vw;
+        z-index: 9999;
+    }
+
+    #linecaltipoc {
+        position: absolute;
+        background-color: #D9D9D9;
+        width: 85vw;
+        height: 10vh;
+        opacity: 50%;
+        top: -75vw;
+        left: -58vw;
+        z-index: 999;
+    }  
+
+    #caltipocimage1 {
+        position: absolute;
+        top: 5vw;
+        left: 55vw;
+        width: fit-content; 
+    }
+
+    #caltipocimg1 {
+        width: 40vw;
+        height: 40vh;
+    }
+
+    #caltipocimage2{
+        position: absolute;
+        top: 74vw;
+        left: 12vw;
+        width: fit-content; 
+    }
+
+    #caltipocimg2{
+        width: 30vw;
+        height: 45vh;
+    }
+
+    #line45 {
+        position: absolute;
+        top: 92vw;
+        left: 40vw;
+    }
+
+    .line4 {
+        background: #CAA930;
+        position: absolute;
+        height: 0.6vh;
+        width: 20vw;
+    }
+
+    .line5 {
+        background: #CAA930;
+        position: absolute;
+        height: 48vw;
+        width: 0.9vw;
+        left: 20vw;
+    }
+
+    #allDot {
+        position: absolute;
+        width: 10vw;
+        height: 15vh;
+        top: 27vw;
+        left: 51vw;
+    }
+
+    .dot1 {
+        width: 2vw;
+        height: 2vh;
+        background-color: #CAA930;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .dot2 {
+        width: 2vw;
+        height: 2vh;
+        background-color: #CAA930;
+        border-radius: 50%;
+        position: absolute;
+        top: 5vw;
+    }
+
+    .dot3 {
+        width: 2vw;
+        height: 2vh;
+        background-color: #CAA930;
+        border-radius: 50%;
+        position: absolute;
+        top: 10vw;
+    } 
+    
 }
 
-#cardCredita {
+/* CREDITA */
+
+ #cardCredita {
     position: relative;
-    /* background-color: rgb(122, 117, 7); */
     font-family: hanuman;
-}
-
-#JamBerjalan {
-    position: fixed;
-    margin: auto;
-    left: 5vw;
-}
+} 
 
 #backgroundImageCredita {
     opacity: 0;
@@ -271,36 +399,6 @@
     left: 13w;
 }
 
-#APIINFOMUSEUMMACAN {
-    width: 42vw;
-    height: 3vh;
-    font-size: 1.4rem;
-    color: #CAA930;
-    position: absolute;
-    top: 2.8vw;
-    left: 13w;
-}
-
-#APIINFOMUSEUMSARINAH {
-    width: 42vw;
-    height: 3vh;
-    font-size: 1.4rem;
-    color: #CAA930;
-    position: absolute;
-    top: 2.8vw;
-    left: 13w;
-}
-
-#APIINFOMUSEUMKATEDRAL {
-    width: 42vw;
-    height: 3vh;
-    font-size: 1.4rem;
-    color: #CAA930;
-    position: absolute;
-    top: 2.8vw;
-    left: 13w;
-}
-
 #Museum {
     position: absolute;
     font-size: 4.3em;
@@ -380,14 +478,6 @@
     z-index: 9999;
 }
 
-/* #lineMuseum123 {
-    width: 80vw;
-    height: 40vh;
-    position: absolute;
-    left: 45vw;
-    top: 21.8vw;
-} */
-
 .lineMuseum1 {
     background: white;
     height: 0.3vh;
@@ -429,7 +519,7 @@
     width: 0.2vw;
     height: 57.7vh;
     position: absolute;
-}
+} 
 /*ini garis vertikal kanan*/
 .lineMuseum5 {
     background: white;
@@ -437,14 +527,14 @@
     width: 0.2vw;
     height: 57.7vh;
     left: 22vw;
-}
+} 
 /*ini garis horizontal atas*/
 .lineMuseum6 {
     background: white;
     position: absolute;
     width: 22vw;
     height: 0.3vh;
-}
+} 
 /*ini garis horizontal bawah*/
 .lineMuseum7 {
     background: white;
@@ -462,10 +552,8 @@
     top: 12vw;
     left: 10vw;
     display: flex;
-    /* overflow: hidden; */
     transition: transform 0.5s ease;
-    /* display: none; */
-}
+} 
 
 #buttonLeft {
     position: absolute;
@@ -499,38 +587,285 @@
     33.33% {left: 0%}
     37.33% {left: -100%}
     100% {left: -100%}
-}
+} 
 
-#imgkatedral1 {
-    position: absolute;
-    /* animation: 16s autoplay infinite linear; */
-    animation-delay: 0s;
-    width: 100%;
-    height: 100%;
+@media screen and (max-width: 768px){
+    #cardCredita {
+        position: relative;
+        /* background-color: rgb(122, 117, 7); */
+        font-family: hanuman;
+    }
+    
+    #backgroundImageCredita {
+        opacity: 0;
+        transition: opacity 3s;
+    }
+    
+    #backgroundImageCredita.show {
+        opacity: 30%;
+    }
+    
+    #slideShowImageCredita {
+        top: 12vw;
+        left: 10vw;  
+        width: 38vw;
+        height: 40vh;
+    }
+    
+    #image3Credita {
+        position: absolute;
+        width: fit-content; 
+        top: 5vw;
+        left: 33vw;
+        overflow: hidden;
+        display: flex;
+    }
+    
+    #img3Credita {
+        width: 22vw;
+        height: 60vh;
+    }
+    
+    #InfoLokasiUMN {
+        width: 50vw;
+        height: 8vh;
+        cursor: pointer;
+    }
+    
+    #InfoLokasiMuseumMacan {
+        width: 10vw;
+        height: 8vh;
+        cursor: pointer;
+    }
+    
+    #InfoLokasiMuseumSarinah {
+        width: 10vw;
+        height: 8vh;
+        cursor: pointer;
+    }
+    
+    #InfoLokasiMuseumKatedral {
+        width: 10vw;
+        height: 8vh;
+        cursor: pointer;
+    }
+    
+    #APIUMN {
+        width: 35vw;
+        height: 3vh;
+        font-size: 1.8rem;
+        color: #CAA930;
+        position: absolute;
+        top: 6vw;
+        left: 13w;
+    }
+    
+    #APIMUSEUMMACAN {
+        width: 52vw;
+        height: 3vh;
+        font-size: 1rem;
+        color: #CAA930;
+        position: absolute;
+        top: 5vw;
+        left: 13w;
+    }
+    
+    #APIMUSEUMSARINAH {
+        width: 52vw;
+        height: 3vh;
+        font-size: 1rem;
+        color: #CAA930;
+        position: absolute;
+        top: 5vw;
+        left: 13w;
+    }
+    
+    #APIMUSEUMKATEDRAL {
+        width: 56vw;
+        height: 3vh;
+        font-size: 1rem;
+        color: #CAA930;
+        position: absolute;
+        top: 5vw;
+        left: 13w;
+    }
+    
+    #Museum {
+        position: absolute;
+        font-size: 4vw;
+        width: 50vw;
+        height: 70vh;
+        left: 28vw;
+        top: 62vw;
+    }
+    
+    .museum1 {
+        position: absolute;
+        top: 7vw;
+        color: white;
+    }
+    
+    .museum2 {
+        position: absolute;
+        top: 25vw;
+        color: white;
+    }
+    
+    .museum3 {
+        position: absolute;
+        top: 42vw;
+        color: white;
+    }
+    
+    #museum4 {
+        position: absolute;
+        top: 7vw;
+        left: 18vw;
+        color: #CAA930;
+        cursor: pointer;
+    }
+    
+    #museum5 {
+        position: absolute;
+        top: 25vw;
+        left: 18vw;
+        color: #CAA930;
+        cursor: pointer;
+    }
+    
+    #museum6 {
+        position: absolute;
+        top: 42vw;
+        left: 18vw;
+        color: #CAA930;
+        cursor: pointer;
+    }
+    
+    #TextMuseum {
+        position: absolute;
+        font-size: 1.3vw;
+        color: white;
+        width: 50vw;
+        left: 28vw;
+        top: 62vw;
+        z-index: 9999;
+    }
+    
+    .textMuseum1 {
+        position: absolute;
+        top: 16vw;
+        z-index: 9999;
+    }
+    
+    .textMuseum2 {
+        position: absolute;
+        top: 34vw;
+        z-index: 9999;
+    }
+    
+    .textMuseum3 {
+        position: absolute;
+        top: 53vw;
+        z-index: 9999;
+    }
+    
+    .lineMuseum1 {
+        background: white;
+        height: 0.3vh;
+        width: 50vw;
+        position: absolute;
+        top: 85vw;
+        left: 28vw;
+    }
+    
+    .lineMuseum2 {
+        background: white;
+        height: 0.3vh;
+        width: 50vw;
+        position: absolute;
+        top: 101vw;
+        left: 28vw;
+    }
+    
+    .lineMuseum3 {
+        background: white;
+        height: 0.3vh;
+        width: 50vw;
+        position: absolute;
+        top: 122vw;
+        left: 28vw;
+    }
+    
+    #lineMuseum4567 {
+        width: 50vw;
+        height: 60vh;
+        position: absolute;
+        left: 36vw;
+        top: 8vw;
+    } 
+    
+    /*ini garis vertikal kiri*/
+    .lineMuseum4 {
+        background: white;
+        width: 0.2vw;
+        height: 40vh;
+        position: absolute;
+    }
+    /*ini garis vertikal kanan*/
+    .lineMuseum5 {
+        background: white;
+        position: absolute;
+        width: 0.2vw;
+        height: 40vh;
+        left: 38vw;
+    }
+    /*ini garis horizontal atas*/
+    .lineMuseum6 {
+        background: white;
+        position: absolute;
+        width: 38vw;
+        height: 0.2vh;
+    }
+    /*ini garis horizontal bawah*/
+    .lineMuseum7 {
+        background: white;
+        position: absolute;
+        width: 38vw;
+        height: 0.2vh;
+        top: 56vw;
+    } 
+    
+    #buttonLeft {
+        position: absolute;
+        top: 55vw;
+        left: 48vw;
+        font-weight: 800;
+        background-color: #ccc;
+        border-radius: 50%;
+        width: 3vw;
+        height: 3vh;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    
+    #buttonRight {
+        position: absolute;
+        top: 55vw;
+        left: 53vw;
+        font-weight: 800;
+        background-color: #ccc;
+        border-radius: 50%;
+        width: 3vw;
+        height: 3vh;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    
+    @keyframes autoplay {
+        0% {left: 100%}
+        4% {left: 0%}
+        33.33% {left: 0%}
+        37.33% {left: -100%}
+        100% {left: -100%}
+    }
 }
-
-#imgkatedral2 {
-    position: absolute;
-    /* animation: 16s autoplay infinite linear; */
-    animation-delay: 4s;
-    width: 100%;
-    height: 100%;
-}
-
-#imgkatedral3 {
-    position: absolute;
-    /* animation: 16s autoplay infinite linear; */
-    animation-delay: 8s;
-    width: 100%;
-    height: 100%;
-}
-
-#imgkatedral4 {
-    position: absolute;
-    /* animation: 16s autoplay infinite linear; */
-    animation-delay: 12s;
-    width: 100%;
-    height: 100%;
-}
-
-/* Calista Akhir */
