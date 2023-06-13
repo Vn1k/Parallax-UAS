@@ -102,3 +102,70 @@ a {
 .nav-link:hover .fa-linkedin-in {
   color: #0077b5;
 }
+
+@media screen and (max-width: 600px)
+{
+  /* General styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #1a1d24;
+  color: #fff;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  place-items: center;
+}
+
+#containerFollow
+{
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    scale: 80%;
+    transform: translate(5%, -50%);
+}
+
+a {
+  color: inherit;
+}
+/* General styles end*/
+.nav {
+  max-width: 80rem;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+.nav:hover {
+  pointer-events: auto;
+}
+.sm-header {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  pointer-events: auto;
+  font-weight: 700;
+  font-family: 'Hanuman', serif;
+}
+.line {
+  width: 15rem;
+  height: 3px;
+  background-color: #fff;
+  margin-left: 2rem;
+  margin-right: auto;
+  transform: scaleX(0.2);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+}
