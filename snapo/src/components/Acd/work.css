@@ -122,26 +122,6 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes autoplay {
     0% {left: 100%}
     4% {left: 0%}
@@ -181,4 +161,176 @@
     transform: translate(-10%, -40%);
     width: 100%;
     max-width: 16vw;
+}
+
+@media screen and (max-width: 768px) {
+    #containerWork
+{
+    color: #fff;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+#textWork
+{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    font-weight: 100;
+    font-family: 'Hanuman', serif;
+}
+
+#logoWork
+{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 10vh;
+}
+
+#SNAPje
+{
+    position: relative;
+    top: 20%;
+    left: 45%;
+    width: 70vw;
+}
+
+#creditWork
+{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 70%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+    font-family: 'Hanuman', serif;
+    width: max-content;
+}
+
+#recWork1
+{
+    background-color: #fff;
+    width: 70vw;
+    height: 8vh;
+    opacity: 40%;
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    transform: translate(0, 0);
+}
+
+#recWork2
+{
+    background-color: #fff; 
+    position: absolute;
+    width: 60vw;
+    height: 35vh;
+    opacity: 40%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+}
+
+#recWorkfoto
+{
+    width: 60vw;
+    height: 35vh;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    overflow: hidden;
+}
+
+#color3
+{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+#recWork3
+{
+    background-color: #000;
+    width: 6vw;
+    height: 3vh;
+}
+
+#recWork4
+{
+    background-color: #151109;
+    width: 6vw;
+    height: 3vh;
+
+}
+
+#recWork5
+{
+    background-color: #352D0F;
+    width: 6vw;
+    height: 3vh;
+
+}
+
+#recWork6
+{
+    background-color: #473C13;
+    width: 6vw;
+    height: 3vh;
+
+}
+
+@keyframes autoplay {
+    0% {left: 100%}
+    4% {left: 0%}
+    33.33% {left: 0%}
+    37.33% {left: -100%}
+    100% {left: -100%}
+}
+
+#imgWork1{
+    position: absolute;
+    animation: 9s autoplay infinite linear;
+    animation-delay: 0s;
+    width: 100%;
+    height: 100%;
+}
+
+#imgWork2{
+    position: absolute;
+    animation: 9s autoplay infinite linear;
+    animation-delay: 3s;
+    width: 100%;
+    height: 100%;
+}
+
+#imgWork3{
+    position: absolute;
+    animation: 9s autoplay infinite linear;
+    animation-delay: 6s;
+    width: 100%;
+    height: 100%;
+}
+
+#snapWok {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    scale: 3;
+}
+
 }
