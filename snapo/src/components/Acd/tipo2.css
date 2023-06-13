@@ -65,7 +65,7 @@
     left: 60%;
   }
   
-  @media only screen and (max-width: 769px) {
+  @media screen and (max-width: 600px) {
     #container2 {
       box-sizing: border-box;
       padding-top: 2rem !important;
@@ -80,17 +80,17 @@
     #image2 {
       position: absolute;
       top: 47%;
-      left: 37%;
+      left: 60%;
       transform: translate(-80%, -80%);
-      width: 80vw;
+      width: 70vw;
       max-width: 90%;
       height: auto;
     }
   
     #title2 {
       position: absolute;
-      top: 20%;
-      left: 50%;
+      top: 36%;
+      left: 85%;
       transform: translate(-50%, -50%);
       font-size: 3rem;
       font-family: 'Hanuman', serif;
@@ -99,10 +99,10 @@
   
     #text2 {
       position: absolute;
-      top: 60%;
-      left: 50%;
+      top: 75%;
+      left: 45%;
       transform: translate(-50%, -50%);
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       font-weight: 200;
       width: 80%;
       max-width: 90%;
@@ -111,8 +111,8 @@
   
     #year2 {
       position: absolute;
-      top: 45%;
-      left: 90%;
+      top: 64%;
+      left: 10%;
       transform: translate(-50%, -50%);
       font-size: 2rem;
       font-weight: 600;
@@ -123,10 +123,10 @@
       background-color: #fff;
       width: 80vw;
       max-width: 90%;
-      height: 0.4vh;
+      height: 0.6vh;
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 87%;
+      left: 60%;
       transform: translate(-50%, -50%);
     }
   
@@ -139,6 +139,7 @@
       top: 35%;
       left: 50%;
       transform: translate(-50%, -50%);
+      display: none;
     }
   }
   
