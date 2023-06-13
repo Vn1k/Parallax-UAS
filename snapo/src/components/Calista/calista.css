@@ -613,12 +613,7 @@
     }
     
     #backgroundImageCredita {
-        opacity: 0;
-        transition: opacity 3s;
-    }
-    
-    #backgroundImageCredita.show {
-        opacity: 30%;
+        display: none;
     }
     
     #slideShowImageCredita {
@@ -853,7 +848,7 @@
     
     #buttonLeft {
         position: absolute;
-        top: 65vw;
+        top: 73vw;
         left: 48vw;
         font-weight: 800;
         background-color: #ccc;
@@ -866,7 +861,7 @@
     
     #buttonRight {
         position: absolute;
-        top: 65vw;
+        top: 73vw;
         left: 53vw;
         font-weight: 800;
         background-color: #ccc;
