@@ -242,6 +242,20 @@ body::-webkit-scrollbar{
     }
 }
 
+@media screen and (max-width: 600px){
+    #judul{
+        position: relative;
+        font-size: 50px;
+        font-family: 'Dancing Script', cursive;
+    }
+    #lingkaran{
+        opacity: 0;
+    }
+    #garisatas{
+        opacity: 0;
+    }
+}
+
 /* ravin */
 #ravin{
     width: 100vw;
@@ -347,85 +361,6 @@ body::-webkit-scrollbar{
     #group {
       grid-template-columns: repeat(3, 1fr);
     }
-    /* #judul{
-        position: relative;
-        font-family: 'Dancing Script', cursive;
-        font-size: 50px;
-        top: 16%;
-        left: 30%;
-    }
-    #awaw{
-        position: relative;
-        top: 18%; 
-        left: 7.5%;
-        font-size: 65px;
-        font-family: 'Dancing Script', cursive;
-    }
-    #tulisan{
-        position: relative;
-        font-family: 'Hanuman', cursive;
-        font-size: 25px;
-        z-index: 1;
-        top: 13%;
-        left: 8%;
-        width: 45vw;
-        align-items: end;
-    }
-    #tahun{
-        position: relative;
-        font-family: 'Hanuman' , cursive;
-        font-size: 20px;
-        top: 37%;
-        left: 22.5%;
-    }
-    #hands{
-        position: relative;
-        scale: 50%;
-        top: -209%;
-        left: 35%;
-    }
-    #gariskotak{
-        background-color: rgba(255, 255, 255, 0.4);
-        border: 2px, solid white;
-        width: 200px;
-        height: 850px;
-        position: relative;
-        top: -59%;
-        left: 58%;
-    }
-    #lingkaran{
-        position: relative;
-        background-color: rgba(255, 255, 255, 0.4);
-        width: px;
-        height: 0px;
-        border-radius: 50%;
-        top: -95%;
-        left: 53%;
-    }
-    #garisatas{
-        background-color: white;
-        width: 700px;
-        height: 5px;
-        position: relative;
-        top: 25%;
-        left: 0%;
-    }
-    #gariskecil{
-        background-color: white;
-        width: 475px;
-        height: 5px;
-        position: relative;
-        top: -125%;
-        left: 27%;
-    }
-    #kotak1{
-        background-color: rgba(255, 255, 255, 0.4);
-        width: 68px;
-        height: 180px;
-        position: relative;
-        top: 31%;
-        left: 25%;
-    } */
   }
   
 
