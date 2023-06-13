@@ -300,12 +300,12 @@
 
 /* CREDITA */
 
-/* #cardCredita {
+ #cardCredita {
     position: relative;
     font-family: hanuman;
-} */
+} 
 
-/* #backgroundImageCredita {
+#backgroundImageCredita {
     opacity: 0;
     transition: opacity 3s;
 }
@@ -511,32 +511,32 @@
     position: absolute;
     left: 12vw;
     top: 14vw;
-} */
+}
 
 /*ini garis vertikal kiri*/
-/* .lineMuseum4 {
+.lineMuseum4 {
     background: white;
     width: 0.2vw;
     height: 57.7vh;
     position: absolute;
-} */
+} 
 /*ini garis vertikal kanan*/
-/* .lineMuseum5 {
+.lineMuseum5 {
     background: white;
     position: absolute;
     width: 0.2vw;
     height: 57.7vh;
     left: 22vw;
-} */
+} 
 /*ini garis horizontal atas*/
-/* .lineMuseum6 {
+.lineMuseum6 {
     background: white;
     position: absolute;
     width: 22vw;
     height: 0.3vh;
-} */
+} 
 /*ini garis horizontal bawah*/
-/* .lineMuseum7 {
+.lineMuseum7 {
     background: white;
     position: absolute;
     width: 22.2vw;
@@ -553,9 +553,9 @@
     left: 10vw;
     display: flex;
     transition: transform 0.5s ease;
-} */
+} 
 
-/* #buttonLeft {
+#buttonLeft {
     position: absolute;
     top: 40vw;
     left: 19vw;
@@ -587,7 +587,7 @@
     33.33% {left: 0%}
     37.33% {left: -100%}
     100% {left: -100%}
-} */
+} 
 
 @media screen and (max-width: 768px){
     #cardCredita {
