@@ -20,7 +20,7 @@ pembagian penugasan secara detail
 11. navbar = kevin dengan animasi ketika di click lalu ke scroll ke page yang dituju
 12. page 2 (typography 1) = amanda, dibantu oleh nathan untuk ide animasi 3d nya, responsive amanda
 13. page 3 (typography 2) = robertus dengan animasinya
-14. page 4 (typography 3) = calista dengan animasinya, nathan ikut serta mengarahkan 
+14. page 4 (typography 3) = calista dengan animasinya
 15. page 5 (typography 4) = amanda, dibantu dengan calista untuk animasinya, responsive amanda
 16. page 6 (credit museum) = calista dengan animasinya dan fitur2 yang lainnya, kevin & nathan ikut serta mengarahkan dan membantu
 17. page 7 (gallery)= robertus, dibantu dengan amanda penambahan title dan nathan untuk animasi 3D serta responsive oleh amanda dibantu diubah menjadi vertikal oleh kevin
