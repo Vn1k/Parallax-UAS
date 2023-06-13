@@ -155,7 +155,7 @@ body::-webkit-scrollbar{
     display: none !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     #bg-image-about-us{
         position: absolute;
         width: 100vw;
@@ -165,7 +165,7 @@ body::-webkit-scrollbar{
     }
     
     #bg-image-about-us img{
-        scale: 8;
+        scale: 12;
     }
     
     #image-container {
@@ -470,7 +470,7 @@ body::-webkit-scrollbar{
 #desc{
     height: 30vh;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     #gm{
         width: 100vw;
         height: 20vh;
