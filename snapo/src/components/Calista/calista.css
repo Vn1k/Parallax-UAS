@@ -169,16 +169,17 @@
     #cardTipoc {
         position: relative;
         font-family: hanuman;
+
     }
 
     #tulisantipoc {
         position: absolute;
-        top: 85vw;
+        top: 100vw;
         left: 52vw;
     }
 
     #headingTipoc {
-        font-size: 42px;
+        font-size: 44px;
         position: absolute;
         width: 60vw;
         top: -19vw;
@@ -199,7 +200,7 @@
     }
 
     #textTipoc {
-        font-size: 24px;
+        font-size: 25px;
         position: absolute;
         color: white;
         width: 41vw;
@@ -210,28 +211,28 @@
         position: absolute;
         background-color: #D9D9D9;
         width: 85vw;
-        height: 10vh;
+        height: 9vh;
         opacity: 50%;
-        top: -75vw;
+        top: -85vw;
         left: -58vw;
         z-index: 999;
     }  
 
-    #caltipocimage1 {
+    #caltipocimage1 {   
         position: absolute;
-        top: 5vw;
+        top: 7vw;
         left: 55vw;
         width: fit-content; 
     }
 
     #caltipocimg1 {
         width: 40vw;
-        height: 40vh;
+        height: 37vh;
     }
 
     #caltipocimage2{
         position: absolute;
-        top: 74vw;
+        top: 90vw;
         left: 12vw;
         width: fit-content; 
     }
@@ -241,9 +242,25 @@
         height: 45vh;
     }
 
+    #line123 {
+        display: none;
+    }
+    
+    .line1 {
+        display: none;
+    }
+    
+    .line2 {
+        display: none;
+    }
+    
+    .line3 {
+        display: none;
+    }
+
     #line45 {
         position: absolute;
-        top: 92vw;
+        top: 114vw;
         left: 40vw;
     }
 
@@ -257,7 +274,7 @@
     .line5 {
         background: #CAA930;
         position: absolute;
-        height: 48vw;
+        height: 59vw;
         width: 0.9vw;
         left: 20vw;
     }
@@ -266,12 +283,12 @@
         position: absolute;
         width: 10vw;
         height: 15vh;
-        top: 27vw;
-        left: 51vw;
+        top: 33vw;
+        left: 50vw;
     }
 
     .dot1 {
-        width: 2vw;
+        width: 2.2vw;
         height: 2vh;
         background-color: #CAA930;
         border-radius: 50%;
@@ -279,7 +296,7 @@
     }
 
     .dot2 {
-        width: 2vw;
+        width: 2.2vw;
         height: 2vh;
         background-color: #CAA930;
         border-radius: 50%;
@@ -288,7 +305,7 @@
     }
 
     .dot3 {
-        width: 2vw;
+        width: 2.2vw;
         height: 2vh;
         background-color: #CAA930;
         border-radius: 50%;
@@ -592,7 +609,6 @@
 @media screen and (max-width: 768px){
     #cardCredita {
         position: relative;
-        /* background-color: rgb(122, 117, 7); */
         font-family: hanuman;
     }
     
@@ -615,7 +631,7 @@
     #image3Credita {
         position: absolute;
         width: fit-content; 
-        top: 5vw;
+        top: 12vw;
         left: 33vw;
         overflow: hidden;
         display: flex;
@@ -696,7 +712,7 @@
         width: 50vw;
         height: 70vh;
         left: 28vw;
-        top: 62vw;
+        top: 85vw;
     }
     
     .museum1 {
@@ -707,13 +723,13 @@
     
     .museum2 {
         position: absolute;
-        top: 25vw;
+        top: 29vw;
         color: white;
     }
     
     .museum3 {
         position: absolute;
-        top: 42vw;
+        top: 49vw;
         color: white;
     }
     
@@ -727,7 +743,7 @@
     
     #museum5 {
         position: absolute;
-        top: 25vw;
+        top: 29vw;
         left: 18vw;
         color: #CAA930;
         cursor: pointer;
@@ -735,7 +751,7 @@
     
     #museum6 {
         position: absolute;
-        top: 42vw;
+        top: 49vw;
         left: 18vw;
         color: #CAA930;
         cursor: pointer;
@@ -743,11 +759,11 @@
     
     #TextMuseum {
         position: absolute;
-        font-size: 1.3vw;
+        font-size: 1.6vw;
         color: white;
-        width: 50vw;
+        width: 57vw;
         left: 28vw;
-        top: 62vw;
+        top: 85vw;
         z-index: 9999;
     }
     
@@ -759,40 +775,40 @@
     
     .textMuseum2 {
         position: absolute;
-        top: 34vw;
+        top: 39vw;
         z-index: 9999;
     }
     
     .textMuseum3 {
         position: absolute;
-        top: 53vw;
+        top: 60vw;
         z-index: 9999;
     }
     
     .lineMuseum1 {
         background: white;
         height: 0.3vh;
-        width: 50vw;
+        width: 55vw;
         position: absolute;
-        top: 85vw;
+        top: 112vw;
         left: 28vw;
     }
     
     .lineMuseum2 {
         background: white;
         height: 0.3vh;
-        width: 50vw;
+        width: 55vw;
         position: absolute;
-        top: 101vw;
+        top: 133vw;
         left: 28vw;
     }
     
     .lineMuseum3 {
         background: white;
         height: 0.3vh;
-        width: 50vw;
+        width: 55vw;
         position: absolute;
-        top: 122vw;
+        top: 153vw;
         left: 28vw;
     }
     
@@ -801,7 +817,7 @@
         height: 60vh;
         position: absolute;
         left: 36vw;
-        top: 8vw;
+        top: 15vw;
     } 
     
     /*ini garis vertikal kiri*/
@@ -832,12 +848,12 @@
         position: absolute;
         width: 38vw;
         height: 0.2vh;
-        top: 56vw;
+        top: 68vw;
     } 
     
     #buttonLeft {
         position: absolute;
-        top: 55vw;
+        top: 65vw;
         left: 48vw;
         font-weight: 800;
         background-color: #ccc;
@@ -850,7 +866,7 @@
     
     #buttonRight {
         position: absolute;
-        top: 55vw;
+        top: 65vw;
         left: 53vw;
         font-weight: 800;
         background-color: #ccc;
