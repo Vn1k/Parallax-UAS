@@ -26,9 +26,9 @@ pembagian penugasan secara detail
 17. page 7 (gallery)= robertus, dibantu dengan amanda penambahan title dan nathan untuk animasi 3D serta responsive oleh kevin
 18. isi gallery = awal dikerjakan oleh robertus, lalu diubah oleh amanda dengan responsivenya + efek hover oleh robertus
 19. rooting page gallery ke isi gallery = robertus
-20. page 8 (about snapo) = amanda dengan animasinya, dibantu oleh calista untuk picture yang bergeraknya
+20. page 8 (about snapo) = amanda dengan animasinya, dibantu oleh calista & nathan untuk picture yang bergeraknya
 21. page 9 (about us) = full hasil kerja nathan dengan segala animasi or 3D nya
-22. isi about us (all) = amanda, button back dibuat oleh nathan, dibantu oleh calista untuk picture yang bergeraknya
+22. isi about us (all) = amanda, button back dibuat oleh nathan, dibantu oleh calista & nathan untuk picture yang bergeraknya
 23. page 10 (footer) = robertus dengan animasinya
 24. background yang bergerak = nathan
 25. API = calista
