@@ -20,13 +20,6 @@ body::-webkit-scrollbar{
     height: 100vh;
     overflow: hidden;
 }
-@media only screen and (max-width: 600px) {
-    /* Perubahan tata letak untuk lebar layar 600px atau lebih kecil */
-    #root > div {
-      width: 100%;
-      height: 100%;
-    }
-  }
 /*Changing Bg*/
 #changing-bg{
     position:fixed;
@@ -162,6 +155,92 @@ body::-webkit-scrollbar{
     display: none !important;
 }
 
+@media screen and (max-width: 600px) {
+    #bg-image-about-us{
+        position: absolute;
+        width: 100vw;
+        height: 100vh !important;
+        overflow: hidden;
+        opacity: 30%;
+    }
+    
+    #bg-image-about-us img{
+        scale: 8;
+    }
+    
+    #image-container {
+        width: 54vw;
+        height: 48vh;
+        overflow: hidden;
+      }
+      
+    #image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: right;
+        transition: filter 0.5s ease-in-out;
+    }  
+    
+    #image-container h1 {
+        font-family: 'Segoe UI';
+        font-weight: 200;
+        color: white;
+        position: relative;
+        top: -50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        padding: 0;
+        pointer-events: none;
+        text-align: center;
+        padding: 1em;
+        font-size: 35px;
+    }
+    
+    #image-container #fade-in{
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+    }
+    
+    #image-container #fade-out{
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+    
+    #image-container img:hover{
+        filter: sepia(75%) brightness(0.5) blur(2px);
+    }
+    
+    #image-track {
+        display: flex;
+        position: relative;
+        gap :10vmin;
+        left: 50%;
+        top: 50%;
+        transform: translate(0%, -50%);
+        width: fit-content;
+    }
+    
+    .selectDisable {
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+    
+    #about-individual{
+        position: fixed;
+        left: 100%;
+        background-color: #100C08;
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        z-index: 9999;
+        transition: left 1500ms ease-in-out;
+    }
+}
 
 /* ravin */
 #ravin{
@@ -376,4 +455,44 @@ body::-webkit-scrollbar{
 }
 #desc{
     height: 30vh;
+}
+@media screen and (max-width: 600px) {
+    #gm{
+        width: 100vw;
+        height: 20vh;
+     }
+     #jfoot{
+         margin-top: 5%;
+         position: relative;
+         font-size: 3rem;
+         text-align: center;
+     }
+     #dfoot{
+         margin-left: 1em;
+         margin-right: 1em;
+         position: relative;
+         font-size: 2rem;
+         text-align: center;
+     }
+     #footer1{
+         margin-top: 1em;
+         display: flex;
+         flex-direction: column;
+         gap: 0.5em;
+         justify-content: center;
+         font-size: 1.5rem;
+         text-align: center;
+     }
+     #footer2{
+        margin-top: 0.5em;
+         display: flex;
+         flex-direction: column;
+         gap: 0.5em;
+         justify-content: center;
+         font-size: 1.5rem;
+         text-align: center;
+     }
+     #desc{
+         height: fit-content;
+     }
 }
