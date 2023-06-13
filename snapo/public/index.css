@@ -476,7 +476,7 @@ body::-webkit-scrollbar{
         height: 20vh;
      }
      #jfoot{
-         margin-top: 5%;
+         margin-top: 10%;
          position: relative;
          font-size: 3rem;
          text-align: center;
@@ -489,12 +489,12 @@ body::-webkit-scrollbar{
          text-align: center;
      }
      #footer1{
-         margin-top: 1em;
+         margin-top: 2em;
          display: flex;
          flex-direction: column;
          gap: 0.5em;
          justify-content: center;
-         font-size: 1.5rem;
+         font-size: 1.8rem;
          text-align: center;
      }
      #footer2{
@@ -503,7 +503,7 @@ body::-webkit-scrollbar{
          flex-direction: column;
          gap: 0.5em;
          justify-content: center;
-         font-size: 1.5rem;
+         font-size: 1.8rem;
          text-align: center;
      }
      #desc{

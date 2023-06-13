@@ -124,6 +124,10 @@
     top: 8.99%;
     left: 9%;
 }
+#logokecil1 {
+  position: absolute;
+  display: none;
+}
 
 /* Media Queries untuk Responsif */
 
@@ -131,38 +135,67 @@
 @media (max-width: 767px) {
     #credit {
         font-size: 1rem;
+        rotate: 0deg;
+        position: absolute;
+        top: 90%;
+        left: 0%;
     }
     
     #logovertical {
-        width: 20%;
-        height: 20%;
+        display: none;
     }
     
     #background-logo {
-        width: 3%;
-        height: 50%;
+      width: 65%;
+      height: 10%;
+      position: absolute;
+      top: 65%;
+      left: 35%;
+      object-fit: cover;
+    }
+    #logoo {
+      display: none;
+    }
+    #logokecil1 {
+      position: absolute;
+      display: block;
+      top: 58%;
+      left: 23%;
+      width: 75vw;
     }
 }
 
 /* Contoh pengaturan untuk lebar layar antara 768px dan 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
     #credit {
-        font-size: 1.25rem;
+      font-size: 1rem;
+      rotate: 0deg;
+      position: absolute;
+      top: 90%;
+      left: 0%;
     }
     
     #logovertical {
-        width: 25%;
-        height: 25%;
+        display: none;
     }
     
-    #logocam {
-        z-index: 3;
-        position: absolute;
+    #logoo {
+        display: none;
     }
 
     #background-logo {
-        width: 4%;
-        height: 60%;
+      width: 65%;
+      height: 10%;
+      position: absolute;
+      top: 65%;
+      left: 35%;
+    }
+    #logokecil1 {
+      position: absolute;
+      display: block;
+      top: 58%;
+      left: 23%;
+      width: 75vw;
     }
 }
 

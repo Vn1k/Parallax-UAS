@@ -108,7 +108,7 @@ function Credita(props) {
 
     setTimeout(() => {
       smoothBG.classList.remove("show");
-    }, 4000);
+    }, 3000);
   };
 
     return (
@@ -133,9 +133,7 @@ function Credita(props) {
                       )}
                     </div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="280" id="museum4" 
-                    // className={isClicked ? "smoothBG" : ""}
                     onClick={() => changeBackground(defaultBackground ? "Museum4" : "Default")}
-                    // onClick={handleClick}
                     >{defaultBackground ? props.title4 : "Default"}</div>
                     <div onClick={InfoLokasiMuseumSarinah} id="InfoLokasiMuseumSarinah" data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="120" class="museum2">{props.title2}
                       {lokasiMuseumSarinah ? (
@@ -149,9 +147,7 @@ function Credita(props) {
                       )}                      
                       </div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="180" id="museum5" 
-                    // className={isClicked ? "smoothBG" : ""}
                     onClick={() => changeBackground(defaultBackground ? "Museum5" : "Default")}
-                    // onClick={handleClick}
                     >{defaultBackground ? props.title5 : "Default"}</div>
                     <div onClick={InfoLokasiMuseumKatedral} id="InfoLokasiMuseumKatedral" data-aos="fade-right" data-aos-easing="ease-out-sine" data-aos-offset="50" class="museum3">{props.title3}
                       {lokasiMuseumKatedral ? (
@@ -165,9 +161,7 @@ function Credita(props) {
                       )}                    
                       </div>
                     <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-offset="120" id="museum6" 
-                    // className={isClicked ? "smoothBG" : ""}
                     onClick={() => changeBackground(defaultBackground ? "Museum6" : "Default")}
-                    // onClick={handleClick}
                     >{defaultBackground ? props.title6 : "Default"}</div>
                 </div> 
                 <div id="TextMuseum">
