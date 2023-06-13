@@ -5,10 +5,10 @@ import { ReactComponent as SvgImage } from '../../../ASET/SVG/SNAPVER.svg'; //ca
 import 'aos/dist/aos.css';
 import anime from "animejs";
 
-
 function Home () {
     //const IMGURL = require("../../../ASET/Home/home.jpg");
     const Logom = require('../../../ASET/SVG/SNAPy.png');
+    const logo768 = require('../../../ASET/SVG/logoposter.png');
     const Pic1 = require('../../../ASET/Images/home.jpg');
     const Pic2 = require('../../../ASET/Images/biarawati.JPG');
     const Pic3 = require('../../../ASET/Images/words1.jpg');
@@ -90,6 +90,7 @@ function Home () {
                 <div>
                     <SvgImage id='logovertical'/>
                     <object id="background-logo" alt="background-logo"></object>
+                    <img src={logo768} alt="" id="logokecil1"/>
                 </div>
                 <div id="logoo">
                     <img src={Logom} alt="" id="logoje" />
