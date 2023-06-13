@@ -108,7 +108,7 @@ function Credita(props) {
 
     setTimeout(() => {
       smoothBG.classList.remove("show");
-    }, 4000);
+    }, 3000);
   };
 
     return (
