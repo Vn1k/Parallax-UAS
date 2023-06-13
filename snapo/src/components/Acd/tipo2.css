@@ -1,4 +1,4 @@
-#container2{
+#container2 {
     box-sizing: border-box;
     padding-top: 2rem !important;
     overflow: hidden;
@@ -7,73 +7,138 @@
     width: 100vw;
     height: 100vh;
     z-index: 2;
-}
-
-#image2
-{
+  }
+  
+  #image2 {
     position: absolute;
     top: 47%;
     left: 37%;
     transform: translate(-80%, -80%);
     width: 32vw;
     height: 32vh;
-
-}
-
-#title2
-{
+  }
+  
+  #title2 {
     position: absolute;
     top: 27%;
     left: 45.5%;
-    /* top: 55%;
-    left: 45%; */
-    /* transform: translate( 40%, -50%); */
     font-size: 4rem;
     font-family: 'Hanuman', serif;
     font-weight: 600;
-}
-
-#text2
-{
+  }
+  
+  #text2 {
     position: absolute;
     top: 67%;
     left: 52%;
     font-size: 2.5rem;
     font-weight: 200;
     width: 35vw;
-    /* transform: translate(5%, 68%); */
     font-family: 'Hanuman', serif;
-}
-
-#year2
-{
+  }
+  
+  #year2 {
     position: absolute;
     top: 45%;
     left: 93%;
-    /* transform: translate(70%, -10%); */
     font-size: 3rem;
     font-weight: 600;
     font-family: 'Hanuman', serif;
-}
-
-#rectangle22
-{
+  }
+  
+  #rectangle22 {
     background-color: #fff;
     width: 40vw;
     height: 0.6vh;
     position: absolute;
     top: 50%;
     left: 60%;
-}
-
-#rectangle32
-{
+  }
+  
+  #rectangle32 {
     background-color: rgba(255, 255, 255, 0.3);
     width: 50vw;
     height: 12vh;
-    /* opacity: 30%; */
     position: absolute;
     transform: translate(-50%, -50%);
     top: 35%;
     left: 60%;
-}
+  }
+  
+  @media only screen and (max-width: 769px) {
+    #container2 {
+      box-sizing: border-box;
+      padding-top: 2rem !important;
+      overflow: hidden;
+      color: white;
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      z-index: 2;
+    }
+  
+    #image2 {
+      position: absolute;
+      top: 47%;
+      left: 37%;
+      transform: translate(-80%, -80%);
+      width: 80vw;
+      max-width: 90%;
+      height: auto;
+    }
+  
+    #title2 {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3rem;
+      font-family: 'Hanuman', serif;
+      font-weight: 600;
+    }
+  
+    #text2 {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.5rem;
+      font-weight: 200;
+      width: 80%;
+      max-width: 90%;
+      font-family: 'Hanuman', serif;
+    }
+  
+    #year2 {
+      position: absolute;
+      top: 45%;
+      left: 90%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      font-weight: 600;
+      font-family: 'Hanuman', serif;
+    }
+  
+    #rectangle22 {
+      background-color: #fff;
+      width: 80vw;
+      max-width: 90%;
+      height: 0.4vh;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    #rectangle32 {
+      background-color: rgba(255, 255, 255, 0.3);
+      width: 80vw;
+      max-width: 90%;
+      height: 8vh;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  

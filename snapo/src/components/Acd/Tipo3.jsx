@@ -11,7 +11,7 @@ function Tipo3()
     return (
     
         <div id="container3">
-            <Atropos
+            <Atropos id="atropos"
             activeOffset={50}
             rotateYMax={5}
             rotateXMax={5}
