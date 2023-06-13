@@ -16,7 +16,7 @@ import LoadingScreen from './LoadingScreen';
 function App() {
   return (
     <>
-      <LoadingScreen/>
+      {/* <LoadingScreen/> */}
       <ScrollProvider>
         <Navbar />
         <Home />
