@@ -178,16 +178,13 @@
 }
 
 #backgroundImageCredita {
-    opacity: 30%;
+    opacity: 0;
+    transition: opacity 3s;
 }
 
-/* #slideImageCredita {
-    z-index: 9999 !important;
-    top: 10vw !important;
-    left: 10vw !important;
-    width: 100% !important;
-    height: 100% !important;
-} */
+#backgroundImageCredita.show {
+    opacity: 30%;
+}
 
 #slideShowImageCredita {
     top: 12vw;
@@ -231,24 +228,6 @@
 #InfoLokasiMuseumKatedral {
     width: 10vw;
     height: 8vh;
-    cursor: pointer;
-}
-
-#InfoMuseumMacan {
-    background-color: red;
-    width: 37vw;
-    cursor: pointer;
-}
-
-#InfoMuseumSarinah {
-    background-color: red;
-    width: 37vw;
-    cursor: pointer;
-}
-
-#InfoMuseumKatedral {
-    background-color: red;
-    width: 37vw;
     cursor: pointer;
 }
 
@@ -449,16 +428,12 @@
     background: white;
     width: 0.2vw;
     height: 57.7vh;
-    /* top: 14vw;
-    left: 12vw; */
     position: absolute;
 }
 /*ini garis vertikal kanan*/
 .lineMuseum5 {
     background: white;
     position: absolute;
-    /* top: 14vw;
-    left: 100vw; */
     width: 0.2vw;
     height: 57.7vh;
     left: 22vw;
@@ -467,8 +442,6 @@
 .lineMuseum6 {
     background: white;
     position: absolute;
-    /* top: 14vw;
-    left: 12vw; */
     width: 22vw;
     height: 0.3vh;
 }
@@ -476,11 +449,9 @@
 .lineMuseum7 {
     background: white;
     position: absolute;
-    /* top: 55vw;
-    left: 12vw; */
     width: 22.2vw;
     height: 0.3vh;
-    top: 30.2vw;
+    top: 29vw;
 } 
 
 #katedral {
